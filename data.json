@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fecha_generacion": "2026-03-13 16:34:38",
+    "fecha_generacion": "2026-03-13 16:41:03",
     "fecha_corte": "2026-03-11"
   },
   "resumen_general": [
@@ -121,2565 +121,3705 @@
       "producto": "TIRAS REACTIVAS P/ GLUCOSA EN SANGRE",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 100.0,
       "stock": 0.0,
+      "stock_seguridad": 1230.8957446889767,
       "cobertura": 0.0,
-      "sugerido": 2630.8957446889767
+      "sugerido": 2630.8957446889767,
+      "prob_quiebre": 0.9693155854302989,
+      "prioridad": 100128.57142857143
     },
     {
       "codigo": 11000355,
       "producto": "TIRAS REACTIVAS P/ GLUCOSA EN SANGRE",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 11001082,
       "producto": "MASCARILLA P/ OXÍGENO",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 261.1124184009723,
       "cobertura": null,
-      "sugerido": 261.1124184009723
+      "sugerido": 261.1124184009723,
+      "prob_quiebre": 0.5,
+      "prioridad": 1e-06
     },
     {
       "codigo": 11001083,
       "producto": "MASCARILLA P/NEBULIZAR C/TUBULAD ADULTOS",
       "tipo": "INSUMO",
       "estado": "Stock bajo",
+      "demanda_diaria": 50.0,
       "stock": 160.0,
+      "stock_seguridad": 177.66449738513643,
       "cobertura": 3.2,
-      "sugerido": 717.6644973851364
+      "sugerido": 717.6644973851364,
+      "prob_quiebre": 0.9999997124976107,
+      "prioridad": 15.9375
     },
     {
       "codigo": 11001211,
       "producto": "ALGODÓN HIDRÓFILO",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 7400.333333333333,
       "stock": 0.0,
+      "stock_seguridad": 32151.483463110788,
       "cobertura": 0.0,
-      "sugerido": 135756.15012977744
+      "sugerido": 135756.15012977744,
+      "prob_quiebre": 0.9999999422134562,
+      "prioridad": 7402285.100338108
     },
     {
       "codigo": 11001212,
       "producto": "ALGODÓN HIDRÓFILO CORTADO 12 CM X 6 MT",
       "tipo": "INSUMO",
       "estado": "Stock bajo",
+      "demanda_diaria": 2000.0,
       "stock": 7686.0,
+      "stock_seguridad": 7630.229958468852,
       "cobertura": 3.843,
-      "sugerido": 27944.22995846885
+      "sugerido": 27944.22995846885,
+      "prob_quiebre": 0.9999940415372545,
+      "prioridad": 520.6869633099141
     },
     {
       "codigo": 11001213,
       "producto": "ALGODÓN HIDRÓFILO CORTADO 32 CM X 6 MT",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 1002.5,
       "stock": 8260.0,
+      "stock_seguridad": 7088.813445666945,
       "cobertura": 8.239401496259351,
-      "sugerido": 12863.813445666943
+      "sugerido": 12863.813445666943,
+      "prob_quiebre": 0.9098777787853612,
+      "prioridad": 121.79282687651332
     },
     {
       "codigo": 11001214,
       "producto": "ALGODÓN HIDRÓFILO CORTADO 8 CM X 6 MT",
       "tipo": "INSUMO",
       "estado": "Stock bajo",
+      "demanda_diaria": 1501.25,
       "stock": 8801.0,
+      "stock_seguridad": 6139.092526636273,
       "cobertura": 5.862447960033306,
-      "sugerido": 18355.592526636272
+      "sugerido": 18355.592526636272,
+      "prob_quiebre": 0.9994682761796259,
+      "prioridad": 256.24960941938417
     },
     {
       "codigo": 11001216,
       "producto": "ALGODÓN LAMINADO 15 CM",
       "tipo": "INSUMO",
       "estado": "Stock crítico",
+      "demanda_diaria": 45.0,
       "stock": 10.0,
+      "stock_seguridad": 151.58852992047377,
       "cobertura": 0.2222222222222222,
-      "sugerido": 771.5885299204738
+      "sugerido": 771.5885299204738,
+      "prob_quiebre": 0.9999999999913688,
+      "prioridad": 207.0
     },
     {
       "codigo": 11001217,
       "producto": "ALGODÓN LAMINADO DE 20 CM",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 15.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 210.0
+      "sugerido": 210.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 15100.535714285714
     },
     {
       "codigo": 11001217,
       "producto": "ALGODÓN LAMINADO DE 20 CM",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 32.75,
       "stock": 10141.0,
+      "stock_seguridad": 103.31239476738347,
       "cobertura": 309.64885496183206,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.10899442855734148
     },
     {
       "codigo": 11001298,
       "producto": "CÁNULA NASAL ADULTO PARA OXÍGENO",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 11001300,
       "producto": "CÁNULA NASAL PEDIATRICA P/OXIGENOTERPIA",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 42.5,
       "stock": 0.0,
+      "stock_seguridad": 197.16757351065348,
       "cobertura": 0.0,
-      "sugerido": 792.1675735106535
+      "sugerido": 792.1675735106535,
+      "prob_quiebre": 0.9999996542515132,
+      "prioridad": 42550.39935064936
     },
     {
       "codigo": 11001337,
       "producto": "CATÉTER INTRAVENOSO PERIFÉRICO N°18",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 191.66666666666666,
       "stock": 41250.0,
+      "stock_seguridad": 903.3491299822349,
       "cobertura": 215.21739130434784,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.8952188552188551
     },
     {
       "codigo": 11001337,
       "producto": "CATÉTER INTRAVENOSO PERIFÉRICO N°18",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 10.0,
       "stock": 958.0,
+      "stock_seguridad": 18.463436170334656,
       "cobertura": 95.8,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.11482254697286012
     },
     {
       "codigo": 11001338,
       "producto": "CATÉTER INTRAVENOSO PERIFÉR N°20 D/POLIU",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 307.14285714285717,
       "stock": 7500.0,
+      "stock_seguridad": 1243.9791427012017,
       "cobertura": 24.418604651162788,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 1.162210029781452e-05,
+      "prioridad": 12.61918367346939
     },
     {
       "codigo": 11001338,
       "producto": "CATÉTER INTRAVENOSO PERIFÉR N°20 D/POLIU",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 11.666666666666666,
       "stock": 680.0,
+      "stock_seguridad": 31.43592037519531,
       "cobertura": 58.28571428571429,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.21732026143790847
     },
     {
       "codigo": 11001339,
       "producto": "CATÉTER INTRAVENOSO PERIFÉRICO N°22",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 190.0,
       "stock": 13500.0,
+      "stock_seguridad": 883.4757454535231,
       "cobertura": 71.05263157894737,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 2.688148148148148
     },
     {
       "codigo": 11001339,
       "producto": "CATÉTER INTRAVENOSO PERIFÉRICO N°22",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 8.0,
       "stock": 208.0,
+      "stock_seguridad": 27.628089613089134,
       "cobertura": 26.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 5.471888497865507e-09,
+      "prioridad": 0.34615384615384615
     },
     {
       "codigo": 11001340,
       "producto": "CATÉTER INTRAVENO PERIFÉR N°24 D 19A20MM",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 225.0,
       "stock": 15920.0,
+      "stock_seguridad": 910.9182951366727,
       "cobertura": 70.75555555555556,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 3.1940954773869343
     },
     {
       "codigo": 11001340,
       "producto": "CATÉTER INTRAVENO PERIFÉR N°24 D 19A20MM",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 7.0,
       "stock": 324.0,
+      "stock_seguridad": 32.566440302946866,
       "cobertura": 46.285714285714285,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.1728395061728395
     },
     {
       "codigo": 11001369,
       "producto": "CINTA ADHESIVA QUIRÚRGICA DE 10 CM",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 50.2,
       "stock": 787.0,
+      "stock_seguridad": 182.3311156839194,
       "cobertura": 15.677290836653386,
-      "sugerido": 98.13111568391946
+      "sugerido": 98.13111568391946,
+      "prob_quiebre": 0.22375020465345663,
+      "prioridad": 3.2658703939008897
     },
     {
       "codigo": 11001369,
       "producto": "CINTA ADHESIVA QUIRÚRGICA DE 10 CM",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 9.142857142857142,
       "stock": 321.0,
+      "stock_seguridad": 27.44259422737227,
       "cobertura": 35.109375,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.2888931273443957
     },
     {
       "codigo": 11001369,
       "producto": "CINTA ADHESIVA QUIRÚRGICA DE 10 CM",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 10.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 140.0
+      "sugerido": 140.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 10100.357142857143
     },
     {
       "codigo": 11001370,
       "producto": "CINTA ADHESIVA QX 10CM ANTIALÉRGICA",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 23.4,
       "stock": 1731.0,
+      "stock_seguridad": 147.73105702417257,
       "cobertura": 73.97435897435898,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.329844020797227
     },
     {
       "codigo": 11001370,
       "producto": "CINTA ADHESIVA QX 10CM ANTIALÉRGICA",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 5.8,
       "stock": 0.0,
+      "stock_seguridad": 18.923941712124932,
       "cobertura": 0.0,
-      "sugerido": 100.12394171212493
+      "sugerido": 100.12394171212493,
+      "prob_quiebre": 0.9999999999991545,
+      "prioridad": 5878.4047619047615
     },
     {
       "codigo": 11001372,
       "producto": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 12.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 168.0
+      "sugerido": 168.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 12100.42857142857
     },
     {
       "codigo": 11001372,
       "producto": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 43.857142857142854,
       "stock": 667.0,
+      "stock_seguridad": 265.14662922924947,
       "cobertura": 15.208469055374595,
-      "sugerido": 212.14662922924947
+      "sugerido": 212.14662922924947,
+      "prob_quiebre": 0.3711576643311928,
+      "prioridad": 2.949484441452743
     },
     {
       "codigo": 11001372,
       "producto": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 5.666666666666667,
       "stock": 350.0,
+      "stock_seguridad": 12.811569103032946,
       "cobertura": 61.764705882352935,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.10793650793650796
     },
     {
       "codigo": 11001372,
       "producto": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 10.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 140.0
+      "sugerido": 140.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 10100.357142857143
     },
     {
       "codigo": 11001375,
       "producto": "CINTA ADHESIVA QX ANTIALÉRGICA 5CM",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 151.28571428571428,
       "stock": 3447.0,
+      "stock_seguridad": 325.4036110006378,
       "cobertura": 22.784702549575073,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 9.221734487141475e-12,
+      "prioridad": 6.683682350224685
     },
     {
       "codigo": 11001375,
       "producto": "CINTA ADHESIVA QX ANTIALÉRGICA 5CM",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 11.333333333333334,
       "stock": 0.0,
+      "stock_seguridad": 49.11679255069626,
       "cobertura": 0.0,
-      "sugerido": 207.78345921736295
+      "sugerido": 207.78345921736295,
+      "prob_quiebre": 0.9999999462384851,
+      "prioridad": 11436.440476190477
     },
     {
       "codigo": 11001375,
       "producto": "CINTA ADHESIVA QX ANTIALÉRGICA 5CM",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 10.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 140.0
+      "sugerido": 140.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 10100.357142857143
     },
     {
       "codigo": 11001415,
       "producto": "EQ PARA SUERO DE INFUSION IV MACROGOTERO",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 50.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 700.0
+      "sugerido": 700.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 50101.78571428572
     },
     {
       "codigo": 11001415,
       "producto": "EQ PARA SUERO DE INFUSION IV MACROGOTERO",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 432.14285714285717,
       "stock": 40700.0,
+      "stock_seguridad": 1720.036422512792,
       "cobertura": 94.18181818181817,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 4.599007170435743
     },
     {
       "codigo": 11001415,
       "producto": "EQ PARA SUERO DE INFUSION IV MACROGOTERO",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 27.0,
       "stock": 1584.0,
+      "stock_seguridad": 69.79756390335218,
       "cobertura": 58.666666666666664,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.47727272727272735
     },
     {
       "codigo": 11001420,
       "producto": "EQ VOLUMÉTRICO DE INFUSIÓN IV MICROGOTER",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 450.8333333333333,
       "stock": 3160.0,
+      "stock_seguridad": 1980.8536848801089,
       "cobertura": 7.009242144177449,
-      "sugerido": 5132.520351546775
+      "sugerido": 5132.520351546775,
+      "prob_quiebre": 0.9955655766409949,
+      "prioridad": 64.462508790436
     },
     {
       "codigo": 11001420,
       "producto": "EQ VOLUMÉTRICO DE INFUSIÓN IV MICROGOTER",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 14.6,
       "stock": 3861.0,
+      "stock_seguridad": 91.80287500676224,
       "cobertura": 264.45205479452056,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.05898989898989898
     },
     {
       "codigo": 11001421,
       "producto": "EQ VOLUMÉTRICO DE INFUSIÓN IV MACROGOTER",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 212.5,
       "stock": 0.0,
+      "stock_seguridad": 838.7075512529857,
       "cobertura": 0.0,
-      "sugerido": 3813.7075512529855
+      "sugerido": 3813.7075512529855,
+      "prob_quiebre": 0.999999997302401,
+      "prioridad": 212737.5
     },
     {
       "codigo": 11001421,
       "producto": "EQ VOLUMÉTRICO DE INFUSIÓN IV MACROGOTER",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 6.5,
       "stock": 0.0,
+      "stock_seguridad": 30.166766835429513,
       "cobertura": 0.0,
-      "sugerido": 121.16676683542951
+      "sugerido": 121.16676683542951,
+      "prob_quiebre": 0.9999996507984381,
+      "prioridad": 6602.892857142857
     },
     {
       "codigo": 11001422,
       "producto": "EQ.VOLUM/CÁM/RÌG/GRAD/MICROG P/SOL/FOTOS",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 75.0,
       "stock": 0.0,
+      "stock_seguridad": 177.66449738513643,
       "cobertura": 0.0,
-      "sugerido": 1227.6644973851364
+      "sugerido": 1227.6644973851364,
+      "prob_quiebre": 1.0,
+      "prioridad": 75110.71428571429
     },
     {
       "codigo": 11001425,
       "producto": "EQ PARA SUERO DE INFUSION IV MICROGOTERO",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 183.33333333333334,
       "stock": 0.0,
+      "stock_seguridad": 336.0125139435642,
       "cobertura": 0.0,
-      "sugerido": 2902.679180610231
+      "sugerido": 2902.679180610231,
+      "prob_quiebre": 1.0,
+      "prioridad": 183497.61904761905
     },
     {
       "codigo": 11001449,
       "producto": "GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1/2",
       "tipo": "INSUMO",
       "estado": "Stock crítico",
+      "demanda_diaria": 475.25,
       "stock": 950.0,
+      "stock_seguridad": 1833.055902644928,
       "cobertura": 1.9989479221462387,
-      "sugerido": 7536.555902644928
+      "sugerido": 7536.555902644928,
+      "prob_quiebre": 0.9999998455333864,
+      "prioridad": 238.25032894736842
     },
     {
       "codigo": 11001449,
       "producto": "GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1/2",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 10.0,
       "stock": 846.0,
+      "stock_seguridad": 0.0,
       "cobertura": 84.6,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.13002364066193856
     },
     {
       "codigo": 11001455,
       "producto": "GUANTE QUIRÚRGICO ESTÉRIL Nº 6 1/2",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 137.5,
       "stock": 1750.0,
+      "stock_seguridad": 519.9119030313833,
       "cobertura": 12.727272727272727,
-      "sugerido": 694.9119030313832
+      "sugerido": 694.9119030313832,
+      "prob_quiebre": 0.710090904973973,
+      "prioridad": 10.882142857142856
     },
     {
       "codigo": 11001456,
       "producto": "GUANTE QUIRÚRGICO N°7 1/2 ESTÉRIL",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 985.7142857142857,
       "stock": 16500.0,
+      "stock_seguridad": 2845.022227940782,
       "cobertura": 16.73913043478261,
-      "sugerido": 145.0222279407826
+      "sugerido": 145.0222279407826,
+      "prob_quiebre": 0.059260834841993515,
+      "prioridad": 58.94656771799629
     },
     {
       "codigo": 11001456,
       "producto": "GUANTE QUIRÚRGICO N°7 1/2 ESTÉRIL",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 135.14285714285714,
       "stock": 0.0,
+      "stock_seguridad": 286.18805916247805,
       "cobertura": 0.0,
-      "sugerido": 2178.188059162478
+      "sugerido": 2178.188059162478,
+      "prob_quiebre": 1.0,
+      "prioridad": 135252.6145941637
     },
     {
       "codigo": 11001457,
       "producto": "GUANTE QUIRÚRGICO N°7 ESTÉRIL",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 383.3333333333333,
       "stock": 39600.0,
+      "stock_seguridad": 1572.1680418568897,
       "cobertura": 103.30434782608697,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 3.7203984287317615
     },
     {
       "codigo": 11001457,
       "producto": "GUANTE QUIRÚRGICO N°7 ESTÉRIL",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 100.57142857142857,
       "stock": 11358.0,
+      "stock_seguridad": 279.71496803473246,
       "cobertura": 112.9346590909091,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.899382256864711
     },
     {
       "codigo": 11001458,
       "producto": "GUANTE QUIRÚRGICO N°8 ESTÉRIL",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 100.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 1400.0
+      "sugerido": 1400.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 100103.57142857143
     },
     {
       "codigo": 11001458,
       "producto": "GUANTE QUIRÚRGICO N°8 ESTÉRIL",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 216.66666666666666,
       "stock": 16950.0,
+      "stock_seguridad": 814.0079554043385,
       "cobertura": 78.23076923076924,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 2.7823664372336934
     },
     {
       "codigo": 11001458,
       "producto": "GUANTE QUIRÚRGICO N°8 ESTÉRIL",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 57.857142857142854,
       "stock": 3302.0,
+      "stock_seguridad": 137.13970384088555,
       "cobertura": 57.071604938271605,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1.0312859244242822
     },
     {
       "codigo": 11001458,
       "producto": "GUANTE QUIRÚRGICO N°8 ESTÉRIL",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 10.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 140.0
+      "sugerido": 140.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 10100.357142857143
     },
     {
       "codigo": 11001496,
       "producto": "JERINGA DESECHABLE 5 CC C/AGUJA",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 1291.0,
       "stock": 0.0,
+      "stock_seguridad": 2992.9237184513377,
       "cobertura": 0.0,
-      "sugerido": 21066.923718451337
+      "sugerido": 21066.923718451337,
+      "prob_quiebre": 1.0,
+      "prioridad": 1291448.5185161263
     },
     {
       "codigo": 11001496,
       "producto": "JERINGA DESECHABLE 5 CC C/AGUJA",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 165.71428571428572,
       "stock": 29860.0,
+      "stock_seguridad": 321.95869979019403,
       "cobertura": 180.18965517241378,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.9252156321336305
     },
     {
       "codigo": 11001496,
       "producto": "JERINGA DESECHABLE 5 CC C/AGUJA",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 11001496,
       "producto": "JERINGA DESECHABLE 5 CC C/AGUJA",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 100.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 1400.0
+      "sugerido": 1400.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 100103.57142857143
     },
     {
       "codigo": 11001498,
       "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 316.6666666666667,
       "stock": 0.0,
+      "stock_seguridad": 1955.7210481075886,
       "cobertura": 0.0,
-      "sugerido": 6389.054381440923
+      "sugerido": 6389.054381440923,
+      "prob_quiebre": 0.9999037429420535,
+      "prioridad": 317173.4523809524
     },
     {
       "codigo": 11001498,
       "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 122.57142857142857,
       "stock": 0.0,
+      "stock_seguridad": 269.1651212089332,
       "cobertura": 0.0,
-      "sugerido": 1985.1651212089332
+      "sugerido": 1985.1651212089332,
+      "prob_quiebre": 1.0,
+      "prioridad": 122648.27598249206
     },
     {
       "codigo": 11001498,
       "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 100.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 1400.0
+      "sugerido": 1400.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 100107.14285714286
     },
     {
       "codigo": 11001498,
       "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 11001499,
       "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/PRE",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 1240.0,
       "stock": 140840.0,
+      "stock_seguridad": 4223.024592482298,
       "cobertura": 113.58064516129032,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 10.9261573416643
     },
     {
       "codigo": 11001499,
       "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/PRE",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 143.71428571428572,
       "stock": 38280.0,
+      "stock_seguridad": 342.4608090440953,
       "cobertura": 266.36182902584494,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.5432996396050583
     },
     {
       "codigo": 11001499,
       "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/PRE",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 11001502,
       "producto": "LLAVE DE 3 VÍAS DESECHABLE",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 244.28571428571428,
       "stock": 19000.0,
+      "stock_seguridad": 1801.8451642558243,
       "cobertura": 77.77777777777779,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 3.1536734693877544
     },
     {
       "codigo": 11001502,
       "producto": "LLAVE DE 3 VÍAS DESECHABLE",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 18.142857142857142,
       "stock": 10432.0,
+      "stock_seguridad": 73.81465828289764,
       "cobertura": 574.992125984252,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.0332923813697258
     },
     {
       "codigo": 11003454,
       "producto": "EQ SUERO DE INFUSION IV MACRO 20G. FBC",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 187.5,
       "stock": 0.0,
+      "stock_seguridad": 570.8811218119262,
       "cobertura": 0.0,
-      "sugerido": 3195.8811218119263
+      "sugerido": 3195.8811218119263,
+      "prob_quiebre": 0.9999999999999803,
+      "prioridad": 187633.0357142857
     },
     {
       "codigo": 11003454,
       "producto": "EQ SUERO DE INFUSION IV MACRO 20G. FBC",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 4.75,
       "stock": 0.0,
+      "stock_seguridad": 6.741893653032724,
       "cobertura": 0.0,
-      "sugerido": 73.24189365303272
+      "sugerido": 73.24189365303272,
+      "prob_quiebre": 1.0,
+      "prioridad": 4850.857142857143
     },
     {
       "codigo": 11003454,
       "producto": "EQ SUERO DE INFUSION IV MACRO 20G. FBC",
       "tipo": "INSUMO",
       "estado": "Sin existencia",
+      "demanda_diaria": 50.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 700.0
+      "sugerido": 700.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 50101.78571428572
     },
     {
       "codigo": 11003833,
       "producto": "ALGODÓN ZIG ZAG",
       "tipo": "INSUMO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000018,
       "producto": "ADRENALINA 1MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 13.333333333333334,
       "stock": 366.0,
+      "stock_seguridad": 26.649674607770468,
       "cobertura": 27.45,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.5221615057680632
     },
     {
       "codigo": 10000018,
       "producto": "ADRENALINA 1MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 7.5,
       "stock": 89.0,
+      "stock_seguridad": 24.437750000780778,
       "cobertura": 11.866666666666667,
-      "sugerido": 40.43775000078077
+      "sugerido": 40.43775000078077,
+      "prob_quiebre": 0.8592434251724091,
+      "prioridad": 0.7162921348314607
     },
     {
       "codigo": 10000018,
       "producto": "ADRENALINA 1MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 15.0,
       "stock": 310.0,
+      "stock_seguridad": 110.65538074297298,
       "cobertura": 20.666666666666668,
-      "sugerido": 10.655380742972966
+      "sugerido": 10.655380742972966,
+      "prob_quiebre": 0.0685780694540743,
+      "prioridad": 0.7741935483870968
     },
     {
       "codigo": 10000018,
       "producto": "ADRENALINA 1MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 8.0,
       "stock": 186.0,
+      "stock_seguridad": 45.434894689817426,
       "cobertura": 23.25,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.00369234163101384,
+      "prioridad": 0.38709677419354843
     },
     {
       "codigo": 10000018,
       "producto": "ADRENALINA 1MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.0,
       "stock": 168.0,
+      "stock_seguridad": 3.553289947702729,
       "cobertura": 84.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.03571428571428571
     },
     {
       "codigo": 10000036,
       "producto": "AMOXICILINA 500MG/5ML POL P/REC",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 9.428571428571429,
       "stock": 464.0,
+      "stock_seguridad": 27.668147760287496,
       "cobertura": 49.21212121212121,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.2119106263194933
     },
     {
       "codigo": 10000037,
       "producto": "AMOXICILINA 500MG CAP/COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 138.0,
       "stock": 5610.0,
+      "stock_seguridad": 456.2453131560998,
       "cobertura": 40.65217391304348,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 3.419251336898396
     },
     {
       "codigo": 10000037,
       "producto": "AMOXICILINA 500MG CAP/COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 77.5,
       "stock": 6025.0,
+      "stock_seguridad": 178.605243693347,
       "cobertura": 77.74193548387096,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1.0097510373443985
     },
     {
       "codigo": 10000037,
       "producto": "AMOXICILINA 500MG CAP/COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 6.0,
       "stock": 288.0,
+      "stock_seguridad": 0.0,
       "cobertura": 48.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.14583333333333331
     },
     {
       "codigo": 10000037,
       "producto": "AMOXICILINA 500MG CAP/COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 140.0,
       "stock": 29712.0,
+      "stock_seguridad": 896.0576854613269,
       "cobertura": 212.22857142857143,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.66437802907916
     },
     {
       "codigo": 10000038,
       "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 118.85714285714286,
       "stock": 27389.0,
+      "stock_seguridad": 262.09085573362796,
       "cobertura": 230.43629807692307,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.5201313502143345
     },
     {
       "codigo": 10000038,
       "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 21.0,
+      "stock_seguridad": 8.70374728003241,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 3.6143969413093835e-05,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000038,
       "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 27.142857142857142,
       "stock": 3553.0,
+      "stock_seguridad": 71.47532392829251,
       "cobertura": 130.9,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.21499508894466876
     },
     {
       "codigo": 10000038,
       "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 10.428571428571429,
       "stock": 704.0,
+      "stock_seguridad": 23.88773137655197,
       "cobertura": 67.5068493150685,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.16929499072356216
     },
     {
       "codigo": 10000038,
       "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 3.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 42.0
+      "sugerido": 42.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 3100.1071428571427
     },
     {
       "codigo": 10000038,
       "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 35.6,
       "stock": 2324.0,
+      "stock_seguridad": 55.731175165265746,
       "cobertura": 65.28089887640449,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.5606540447504303
     },
     {
       "codigo": 10000038,
       "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 28.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000040,
       "producto": "AMOXICILINA + SULBACTAM 875MG+125MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 204.28571428571428,
       "stock": 3496.0,
+      "stock_seguridad": 591.7313771823497,
       "cobertura": 17.113286713286715,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.03853810427612281,
+      "prioridad": 11.995691869425114
     },
     {
       "codigo": 10000040,
       "producto": "AMOXICILINA + SULBACTAM 875MG+125MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000040,
       "producto": "AMOXICILINA + SULBACTAM 875MG+125MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3.3333333333333335,
       "stock": 92.0,
+      "stock_seguridad": 7.744215899567559,
       "cobertura": 27.599999999999998,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.15700483091787443
     },
     {
       "codigo": 10000040,
       "producto": "AMOXICILINA + SULBACTAM 875MG+125MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 247.0,
       "stock": 3610.0,
+      "stock_seguridad": 1493.0246158614116,
       "cobertura": 14.615384615384615,
-      "sugerido": 1341.0246158614118
+      "sugerido": 1341.0246158614118,
+      "prob_quiebre": 0.43350515290275493,
+      "prioridad": 16.96842105263158
     },
     {
       "codigo": 10000052,
       "producto": "ATROPINA 1MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 13.333333333333334,
       "stock": 35.0,
+      "stock_seguridad": 35.53289947702729,
       "cobertura": 2.625,
-      "sugerido": 187.19956614369397
+      "sugerido": 187.19956614369397,
+      "prob_quiebre": 0.999999999998897,
+      "prioridad": 5.4603174603174605
     },
     {
       "codigo": 10000052,
       "producto": "ATROPINA 1MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 34.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000052,
       "producto": "ATROPINA 1MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 22.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000093,
       "producto": "CEFTRIAXONA 1G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 34.857142857142854,
       "stock": 1920.0,
+      "stock_seguridad": 87.66070555815288,
       "cobertura": 55.08196721311476,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.6509778911564624
     },
     {
       "codigo": 10000093,
       "producto": "CEFTRIAXONA 1G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 8.0,
       "stock": 153.0,
+      "stock_seguridad": 34.353428572362596,
       "cobertura": 19.125,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.02481764457332636,
+      "prioridad": 0.47058823529411764
     },
     {
       "codigo": 10000093,
       "producto": "CEFTRIAXONA 1G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 26.285714285714285,
       "stock": 2120.0,
+      "stock_seguridad": 43.48481247420606,
       "cobertura": 80.65217391304348,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.33831343858298035
     },
     {
       "codigo": 10000093,
       "producto": "CEFTRIAXONA 1G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.0,
       "stock": 474.0,
+      "stock_seguridad": 11.082205357368027,
       "cobertura": 237.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.012658227848101264
     },
     {
       "codigo": 10000093,
       "producto": "CEFTRIAXONA 1G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 14.0,
       "stock": 274.0,
+      "stock_seguridad": 103.39053238634074,
       "cobertura": 19.571428571428573,
-      "sugerido": 25.390532386340738
+      "sugerido": 25.390532386340738,
+      "prob_quiebre": 0.10731907499735305,
+      "prioridad": 0.7664233576642334
     },
     {
       "codigo": 10000093,
       "producto": "CEFTRIAXONA 1G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 66.28571428571429,
       "stock": 6191.0,
+      "stock_seguridad": 95.90378493719626,
       "cobertura": 93.39870689655172,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.7204137671867328
     },
     {
       "codigo": 10000138,
       "producto": "DICLOFENAC 50MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 205.28571428571428,
       "stock": 27269.0,
+      "stock_seguridad": 636.8364922100542,
       "cobertura": 132.83437717466944,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1.552954277900973
     },
     {
       "codigo": 10000138,
       "producto": "DICLOFENAC 50MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 138.33333333333334,
       "stock": 12180.0,
+      "stock_seguridad": 515.1045006046222,
       "cobertura": 88.04819277108433,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1.5824667031563586
     },
     {
       "codigo": 10000138,
       "producto": "DICLOFENAC 50MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1658.6666666666667,
       "stock": 1316100.0,
+      "stock_seguridad": 4879.513224607669,
       "cobertura": 793.4686495176849,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 2.0916600393418268
     },
     {
       "codigo": 10000138,
       "producto": "DICLOFENAC 50MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 129.5,
       "stock": 2198.0,
+      "stock_seguridad": 363.37493410205457,
       "cobertura": 16.972972972972972,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.04068937300843367,
+      "prioridad": 7.688694267515924
     },
     {
       "codigo": 10000138,
       "producto": "DICLOFENAC 50MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 895.8571428571429,
       "stock": 1449729.0,
+      "stock_seguridad": 1755.7049218887303,
       "cobertura": 1618.2591293254663,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.5542110818994588
     },
     {
       "codigo": 10000139,
       "producto": "DICLOFENAC 75MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 44.857142857142854,
       "stock": 10720.0,
+      "stock_seguridad": 105.16310097348186,
       "cobertura": 238.98089171974524,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.19188623210478217
     },
     {
       "codigo": 10000139,
       "producto": "DICLOFENAC 75MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 11.142857142857142,
       "stock": 906.0,
+      "stock_seguridad": 29.71333856902169,
       "cobertura": 81.3076923076923,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.14934450601432628
     },
     {
       "codigo": 10000139,
       "producto": "DICLOFENAC 75MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.4,
       "stock": 232.0,
+      "stock_seguridad": 5.427740050491144,
       "cobertura": 96.66666666666667,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.035172413793103444
     },
     {
       "codigo": 10000139,
       "producto": "DICLOFENAC 75MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3.0,
       "stock": 64.0,
+      "stock_seguridad": 7.106579895405456,
       "cobertura": 21.333333333333332,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 1.7714319355821573e-07,
+      "prioridad": 0.1875
     },
     {
       "codigo": 10000139,
       "producto": "DICLOFENAC 75MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 18.0,
       "stock": 2176.0,
+      "stock_seguridad": 37.47235050908228,
       "cobertura": 120.88888888888889,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.15716911764705882
     },
     {
       "codigo": 10000139,
       "producto": "DICLOFENAC 75MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 72.42857142857143,
       "stock": 17091.0,
+      "stock_seguridad": 163.8803894994496,
       "cobertura": 235.97041420118342,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.31117702478569104
     },
     {
       "codigo": 10000140,
       "producto": "DICLOFENAC SODICO 0,10% COL",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 1.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 14.0
+      "sugerido": 14.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 1000.0
     },
     {
       "codigo": 10000159,
       "producto": "DOPAMINA 200MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 10.0,
       "stock": 23.0,
+      "stock_seguridad": 0.0,
       "cobertura": 2.3,
-      "sugerido": 117.0
+      "sugerido": 117.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 4.782608695652175
     },
     {
       "codigo": 10000159,
       "producto": "DOPAMINA 200MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 11.0,
       "stock": 24.0,
+      "stock_seguridad": 33.38688220075827,
       "cobertura": 2.1818181818181817,
-      "sugerido": 163.38688220075827
+      "sugerido": 163.38688220075827,
+      "prob_quiebre": 0.9999999999246378,
+      "prioridad": 5.5
     },
     {
       "codigo": 10000159,
       "producto": "DOPAMINA 200MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 39.0,
+      "stock_seguridad": 14.333782828712735,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 3.8135691940999195e-06,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000165,
       "producto": "ENALAPRIL 20MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 13.428571428571429,
       "stock": 4473.0,
+      "stock_seguridad": 107.95030140662226,
       "cobertura": 333.09574468085106,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.04331658887565757
     },
     {
       "codigo": 10000165,
       "producto": "ENALAPRIL 20MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 140.0,
       "stock": 6800.0,
+      "stock_seguridad": 347.27453040253766,
       "cobertura": 48.57142857142857,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 2.902941176470588
     },
     {
       "codigo": 10000165,
       "producto": "ENALAPRIL 20MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3.75,
       "stock": 228.0,
+      "stock_seguridad": 17.59301483966052,
       "cobertura": 60.8,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.078125
     },
     {
       "codigo": 10000165,
       "producto": "ENALAPRIL 20MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.0,
       "stock": 26.0,
+      "stock_seguridad": 0.0,
       "cobertura": 13.0,
-      "sugerido": 2.0
+      "sugerido": 2.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 0.23076923076923078
     },
     {
       "codigo": 10000165,
       "producto": "ENALAPRIL 20MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1875.0,
       "stock": 311310.0,
+      "stock_seguridad": 5300.427325399786,
       "cobertura": 166.032,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 11.299026693649417
     },
     {
       "codigo": 10000165,
       "producto": "ENALAPRIL 20MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 45.0,
       "stock": 0.0,
+      "stock_seguridad": 130.55620920048614,
       "cobertura": 0.0,
-      "sugerido": 760.5562092004861
+      "sugerido": 760.5562092004861,
+      "prob_quiebre": 0.999999999999999,
+      "prioridad": 45103.21428571428
     },
     {
       "codigo": 10000165,
       "producto": "ENALAPRIL 20MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 4.6,
       "stock": 1820.0,
+      "stock_seguridad": 4.652348614706694,
       "cobertura": 395.6521739130435,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.014153846153846152
     },
     {
       "codigo": 10000165,
       "producto": "ENALAPRIL 20MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 31.666666666666668,
       "stock": 9930.0,
+      "stock_seguridad": 198.11213249254604,
       "cobertura": 313.57894736842104,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.10417366006489875
     },
     {
       "codigo": 10000166,
       "producto": "ENALAPRIL 2,5MG/2ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 38.42857142857143,
       "stock": 23895.0,
+      "stock_seguridad": 70.71711336951549,
       "cobertura": 621.8029739776952,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.06341007212677915
     },
     {
       "codigo": 10000166,
       "producto": "ENALAPRIL 2,5MG/2ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 15.428571428571429,
       "stock": 6090.0,
+      "stock_seguridad": 21.126587129976,
       "cobertura": 394.72222222222223,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.04162058912234845
     },
     {
       "codigo": 10000166,
       "producto": "ENALAPRIL 2,5MG/2ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.5,
       "stock": 350.0,
+      "stock_seguridad": 14.453399223790786,
       "cobertura": 140.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.024999999999999998
     },
     {
       "codigo": 10000166,
       "producto": "ENALAPRIL 2,5MG/2ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.2,
       "stock": 249.0,
+      "stock_seguridad": 6.370490704131919,
       "cobertura": 113.18181818181817,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.028273092369477917
     },
     {
       "codigo": 10000166,
       "producto": "ENALAPRIL 2,5MG/2ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 5.571428571428571,
       "stock": 690.0,
+      "stock_seguridad": 23.45304208059425,
       "cobertura": 123.84615384615385,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.053061224489795916
     },
     {
       "codigo": 10000169,
       "producto": "ERGOT+CAFEINA+PARACETAMOL(1+50+500)MGCOM",
       "tipo": "MEDICAMENTO",
       "estado": "Stock crítico",
+      "demanda_diaria": 30.0,
       "stock": 30.0,
+      "stock_seguridad": 87.0374728003241,
       "cobertura": 1.0,
-      "sugerido": 477.0374728003241
+      "sugerido": 477.0374728003241,
+      "prob_quiebre": 0.9999999999999148,
+      "prioridad": 31.0
     },
     {
       "codigo": 10000169,
       "producto": "ERGOT+CAFEINA+PARACETAMOL(1+50+500)MGCOM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 120.0,
       "stock": 12150.0,
+      "stock_seguridad": 295.0361865880688,
       "cobertura": 101.25,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1.1950617283950618
     },
     {
       "codigo": 10000169,
       "producto": "ERGOT+CAFEINA+PARACETAMOL(1+50+500)MGCOM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 131.57142857142858,
       "stock": 48639.0,
+      "stock_seguridad": 404.63085163753203,
       "cobertura": 369.6775244299674,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.35861371008651416
     },
     {
       "codigo": 10000209,
       "producto": "FUROSEMIDA 10MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 35.42857142857143,
       "stock": 0.0,
+      "stock_seguridad": 106.0977177834416,
       "cobertura": 0.0,
-      "sugerido": 602.0977177834416
+      "sugerido": 602.0977177834416,
+      "prob_quiebre": 0.9999999999999927,
+      "prioridad": 35549.28571428571
     },
     {
       "codigo": 10000209,
       "producto": "FUROSEMIDA 10MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 45.142857142857146,
       "stock": 0.0,
+      "stock_seguridad": 84.58795329387145,
       "cobertura": 0.0,
-      "sugerido": 716.5879532938715
+      "sugerido": 716.5879532938715,
+      "prob_quiebre": 1.0,
+      "prioridad": 45261.28571428572
     },
     {
       "codigo": 10000209,
       "producto": "FUROSEMIDA 10MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 97.42857142857143,
       "stock": 0.0,
+      "stock_seguridad": 213.76867211339922,
       "cobertura": 0.0,
-      "sugerido": 1577.7686721133991
+      "sugerido": 1577.7686721133991,
+      "prob_quiebre": 1.0,
+      "prioridad": 97568.5
     },
     {
       "codigo": 10000209,
       "producto": "FUROSEMIDA 10MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000209,
       "producto": "FUROSEMIDA 10MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 5.8,
       "stock": 0.0,
+      "stock_seguridad": 13.563810485202453,
       "cobertura": 0.0,
-      "sugerido": 94.76381048520246
+      "sugerido": 94.76381048520246,
+      "prob_quiebre": 1.0,
+      "prioridad": 5901.571428571428
     },
     {
       "codigo": 10000210,
       "producto": "FUROSEMIDA 40MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 7.0,
       "stock": 518.0,
+      "stock_seguridad": 91.22934162586239,
       "cobertura": 74.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 1.8318679906315083e-14,
+      "prioridad": 0.10810810810810811
     },
     {
       "codigo": 10000210,
       "producto": "FUROSEMIDA 40MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 30.0,
       "stock": 340.0,
+      "stock_seguridad": 209.35568766180126,
       "cobertura": 11.333333333333334,
-      "sugerido": 289.3556876618013
+      "sugerido": 289.3556876618013,
+      "prob_quiebre": 0.7351746649733288,
+      "prioridad": 2.7352941176470584
     },
     {
       "codigo": 10000210,
       "producto": "FUROSEMIDA 40MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1.0,
       "stock": 16.0,
+      "stock_seguridad": 5.8540769626994615,
       "cobertura": 16.0,
-      "sugerido": 3.8540769626994624
+      "sugerido": 3.8540769626994624,
+      "prob_quiebre": 0.28707453639858094,
+      "prioridad": 0.125
     },
     {
       "codigo": 10000210,
       "producto": "FUROSEMIDA 40MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 198.0,
       "stock": 57875.0,
+      "stock_seguridad": 547.9300988651131,
       "cobertura": 292.2979797979798,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.6808120950323974
     },
     {
       "codigo": 10000210,
       "producto": "FUROSEMIDA 40MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 30.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 420.0
+      "sugerido": 420.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 30101.071428571428
     },
     {
       "codigo": 10000210,
       "producto": "FUROSEMIDA 40MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3.8,
       "stock": 334.0,
+      "stock_seguridad": 17.074024340464693,
       "cobertura": 87.89473684210526,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.054610778443113774
     },
     {
       "codigo": 10000210,
       "producto": "FUROSEMIDA 40MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 35.0,
       "stock": 566.0,
+      "stock_seguridad": 148.65461791460302,
       "cobertura": 16.17142857142857,
-      "sugerido": 72.65461791460302
+      "sugerido": 72.65461791460302,
+      "prob_quiebre": 0.20019216620301838,
+      "prioridad": 2.226148409893993
     },
     {
       "codigo": 10000221,
       "producto": "GLUCOSAM+CONDROI+SULF1500+1200+250MG POL",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000221,
       "producto": "GLUCOSAM+CONDROI+SULF1500+1200+250MG POL",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3192.8571428571427,
       "stock": 2089400.0,
+      "stock_seguridad": 10145.142844808568,
       "cobertura": 654.3982102908278,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 4.880601891373951
     },
     {
       "codigo": 10000221,
       "producto": "GLUCOSAM+CONDROI+SULF1500+1200+250MG POL",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 30.0,
       "stock": 53790.0,
+      "stock_seguridad": 0.0,
       "cobertura": 1793.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.01728945900725042
     },
     {
       "codigo": 10000221,
       "producto": "GLUCOSAM+CONDROI+SULF1500+1200+250MG POL",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 40.0,
       "stock": 0.0,
+      "stock_seguridad": 106.59869843108187,
       "cobertura": 0.0,
-      "sugerido": 666.5986984310819
+      "sugerido": 666.5986984310819,
+      "prob_quiebre": 1.0,
+      "prioridad": 40104.28571428572
     },
     {
       "codigo": 10000222,
       "producto": "HALOPERIDOL 2 MG/ML SOL",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 2.0,
       "stock": 0.0,
+      "stock_seguridad": 3.553289947702728,
       "cobertura": 0.0,
-      "sugerido": 31.55328994770273
+      "sugerido": 31.55328994770273,
+      "prob_quiebre": 1.0,
+      "prioridad": 2100.3571428571427
     },
     {
       "codigo": 10000222,
       "producto": "HALOPERIDOL 2 MG/ML SOL",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 4.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 56.0
+      "sugerido": 56.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 4100.142857142857
     },
     {
       "codigo": 10000223,
       "producto": "HALOPERIDOL 5 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1.8571428571428572,
       "stock": 271.0,
+      "stock_seguridad": 9.850828656525408,
       "cobertura": 145.9230769230769,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.019579787634611042
     },
     {
       "codigo": 10000223,
       "producto": "HALOPERIDOL 5 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.6666666666666665,
       "stock": 231.0,
+      "stock_seguridad": 3.698381435188782,
       "cobertura": 86.625,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.042328042328042326
     },
     {
       "codigo": 10000223,
       "producto": "HALOPERIDOL 5 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 12.857142857142858,
       "stock": 1638.0,
+      "stock_seguridad": 31.534270225073822,
       "cobertura": 127.39999999999999,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.10876878223817
     },
     {
       "codigo": 10000224,
       "producto": "HALOPERIDOL 5 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 3.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 42.0
+      "sugerido": 42.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 3100.1071428571427
     },
     {
       "codigo": 10000226,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 44.857142857142854,
       "stock": 5408.0,
+      "stock_seguridad": 94.76905863792061,
       "cobertura": 120.56050955414014,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.38036619973433156
     },
     {
       "codigo": 10000226,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 7.857142857142857,
       "stock": 2890.0,
+      "stock_seguridad": 26.104961324831365,
       "cobertura": 367.8181818181818,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.02408022032342349
     },
     {
       "codigo": 10000226,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 9.0,
       "stock": 1557.0,
+      "stock_seguridad": 17.084225132595332,
       "cobertura": 173.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.057803468208092484
     },
     {
       "codigo": 10000226,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 54.4,
       "stock": 12915.0,
+      "stock_seguridad": 56.789152109198916,
       "cobertura": 237.40808823529412,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.23335346496322104
     },
     {
       "codigo": 10000226,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Stock crítico",
+      "demanda_diaria": 8.5,
       "stock": 14.0,
+      "stock_seguridad": 55.73495086224276,
       "cobertura": 1.6470588235294117,
-      "sugerido": 160.73495086224275
+      "sugerido": 160.73495086224275,
+      "prob_quiebre": 0.9990283613480274,
+      "prioridad": 5.767857142857143
     },
     {
       "codigo": 10000228,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 26.714285714285715,
       "stock": 17612.0,
+      "stock_seguridad": 148.36101160303494,
       "cobertura": 659.2727272727273,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.04203766448664408
     },
     {
       "codigo": 10000228,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 5.714285714285714,
       "stock": 1488.0,
+      "stock_seguridad": 17.936379582890392,
       "cobertura": 260.4,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.025784507351327632
     },
     {
       "codigo": 10000228,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 12.285714285714286,
       "stock": 1518.0,
+      "stock_seguridad": 12.401856556865205,
       "cobertura": 123.55813953488371,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.10752601435831251
     },
     {
       "codigo": 10000228,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 1.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 14.0
+      "sugerido": 14.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 1100.0357142857142
     },
     {
       "codigo": 10000228,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 26.2,
       "stock": 7600.0,
+      "stock_seguridad": 50.32284444497654,
       "cobertura": 290.0763358778626,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.09376842105263157
     },
     {
       "codigo": 10000228,
       "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 21.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000229,
       "producto": "HEPARINA SODICA 5000 UI/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 6.285714285714286,
       "stock": 1313.0,
+      "stock_seguridad": 29.1147078945968,
       "cobertura": 208.88636363636365,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.03487884110232059
     },
     {
       "codigo": 10000229,
       "producto": "HEPARINA SODICA 5000 UI/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.25,
       "stock": 60.0,
+      "stock_seguridad": 221.87896172493083,
       "cobertura": 26.666666666666668,
-      "sugerido": 193.37896172493083
+      "sugerido": 193.37896172493083,
+      "prob_quiebre": 0.4163348489977037,
+      "prioridad": 0.121875
     },
     {
       "codigo": 10000229,
       "producto": "HEPARINA SODICA 5000 UI/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 5.5,
       "stock": 390.0,
+      "stock_seguridad": 14.93106763153466,
       "cobertura": 70.9090909090909,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.09166666666666667
     },
     {
       "codigo": 10000229,
       "producto": "HEPARINA SODICA 5000 UI/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1.0,
       "stock": 14.0,
+      "stock_seguridad": 0.0,
       "cobertura": 14.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.14285714285714285
     },
     {
       "codigo": 10000270,
       "producto": "KETOROLAC 60 MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 138.14285714285714,
       "stock": 40796.0,
+      "stock_seguridad": 416.9842905642905,
       "cobertura": 295.3174767321613,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.47116363949246726
     },
     {
       "codigo": 10000270,
       "producto": "KETOROLAC 60 MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.0,
       "stock": 56.0,
+      "stock_seguridad": 0.0,
       "cobertura": 28.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.10714285714285714
     },
     {
       "codigo": 10000270,
       "producto": "KETOROLAC 60 MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 24.714285714285715,
       "stock": 1955.0,
+      "stock_seguridad": 68.60621790491781,
       "cobertura": 79.10404624277456,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.32506915809802184
     },
     {
       "codigo": 10000270,
       "producto": "KETOROLAC 60 MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 6.285714285714286,
       "stock": 1392.0,
+      "stock_seguridad": 20.770527646571917,
       "cobertura": 221.45454545454547,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.032899366643209006
     },
     {
       "codigo": 10000270,
       "producto": "KETOROLAC 60 MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 127.0,
       "stock": 0.0,
+      "stock_seguridad": 150.14189308625024,
       "cobertura": 0.0,
-      "sugerido": 1928.1418930862503
+      "sugerido": 1928.1418930862503,
+      "prob_quiebre": 1.0,
+      "prioridad": 127103.68421052632
     },
     {
       "codigo": 10000270,
       "producto": "KETOROLAC 60 MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Stock crítico",
+      "demanda_diaria": 71.6,
       "stock": 34.0,
+      "stock_seguridad": 276.5546361844842,
       "cobertura": 0.4748603351955308,
-      "sugerido": 1244.9546361844841
+      "sugerido": 1244.9546361844841,
+      "prob_quiebre": 0.9999999957872292,
+      "prioridad": 152.88705882352937
     },
     {
       "codigo": 10000297,
       "producto": "LIDOCAINA CON EPINEFRINA 2%/20 ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000297,
       "producto": "LIDOCAINA CON EPINEFRINA 2%/20 ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000299,
       "producto": "LIDOCAINA SIN EPINEFRINA 2%/20 ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 26.142857142857142,
       "stock": 8720.0,
+      "stock_seguridad": 161.99536508124524,
       "cobertura": 333.551912568306,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.08137521063471259
     },
     {
       "codigo": 10000299,
       "producto": "LIDOCAINA SIN EPINEFRINA 2%/20 ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 6.0,
       "stock": 0.0,
+      "stock_seguridad": 14.213159790810913,
       "cobertura": 0.0,
-      "sugerido": 98.21315979081092
+      "sugerido": 98.21315979081092,
+      "prob_quiebre": 1.0,
+      "prioridad": 6100.785714285715
     },
     {
       "codigo": 10000299,
       "producto": "LIDOCAINA SIN EPINEFRINA 2%/20 ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.3333333333333335,
       "stock": 720.0,
+      "stock_seguridad": 7.106579895405456,
       "cobertura": 308.57142857142856,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.01080246913580247
     },
     {
       "codigo": 10000299,
       "producto": "LIDOCAINA SIN EPINEFRINA 2%/20 ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1.8,
       "stock": 1740.0,
+      "stock_seguridad": 5.378170609904285,
       "cobertura": 966.6666666666666,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.002896551724137931
     },
     {
       "codigo": 10000332,
       "producto": "MORFINA SULFATO 1 MG/ ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 6.0,
       "stock": 0.0,
+      "stock_seguridad": 3.1781591467319883,
       "cobertura": 0.0,
-      "sugerido": 87.17815914673199
+      "sugerido": 87.17815914673199,
+      "prob_quiebre": 1.0,
+      "prioridad": 6101.142857142857
     },
     {
       "codigo": 10000332,
       "producto": "MORFINA SULFATO 1 MG/ ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 1.5,
       "stock": 0.0,
+      "stock_seguridad": 5.504733116679557,
       "cobertura": 0.0,
-      "sugerido": 26.504733116679557
+      "sugerido": 26.504733116679557,
+      "prob_quiebre": 0.9999999998251269,
+      "prioridad": 1600.2857142857142
     },
     {
       "codigo": 10000332,
       "producto": "MORFINA SULFATO 1 MG/ ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 6.0,
       "stock": 0.0,
+      "stock_seguridad": 16.366086946959733,
       "cobertura": 0.0,
-      "sugerido": 100.36608694695974
+      "sugerido": 100.36608694695974,
+      "prob_quiebre": 1.0,
+      "prioridad": 6101.785714285715
     },
     {
       "codigo": 10000333,
       "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 25.142857142857142,
       "stock": 3875.0,
+      "stock_seguridad": 65.21339099584445,
       "cobertura": 154.1193181818182,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.16962738643844633
     },
     {
       "codigo": 10000333,
       "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 10.2,
       "stock": 2000.0,
+      "stock_seguridad": 95.6687907453854,
       "cobertura": 196.07843137254903,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.05711999999999999
     },
     {
       "codigo": 10000333,
       "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 40.285714285714285,
       "stock": 252.0,
+      "stock_seguridad": 109.38618342482249,
       "cobertura": 6.25531914893617,
-      "sugerido": 421.38618342482255
+      "sugerido": 421.38618342482255,
+      "prob_quiebre": 0.9999986445021228,
+      "prioridad": 6.6000971817298355
     },
     {
       "codigo": 10000333,
       "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 30.0,
       "stock": 7515.0,
+      "stock_seguridad": 33.50821590967797,
       "cobertura": 250.5,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.12375249500998003
     },
     {
       "codigo": 10000333,
       "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3.0,
       "stock": 168.0,
+      "stock_seguridad": 9.780860985641837,
       "cobertura": 56.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.07142857142857142
     },
     {
       "codigo": 10000340,
       "producto": "NITROGLICERINA 5 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 11.0,
       "stock": 262.0,
+      "stock_seguridad": 55.390308511003965,
       "cobertura": 23.818181818181817,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0006703205586147121,
+      "prioridad": 0.5038167938931297
     },
     {
       "codigo": 10000340,
       "producto": "NITROGLICERINA 5 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.0,
       "stock": 58.0,
+      "stock_seguridad": 21.31973968621637,
       "cobertura": 29.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.010318779121986088,
+      "prioridad": 0.10344827586206896
     },
     {
       "codigo": 10000340,
       "producto": "NITROGLICERINA 5 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 6.4,
       "stock": 452.0,
+      "stock_seguridad": 15.391790772370427,
       "cobertura": 70.625,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.1047787610619469
     },
     {
       "codigo": 10000342,
       "producto": "NORADRENALINA 1 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 18.6,
       "stock": 74.0,
+      "stock_seguridad": 84.6897556008063,
       "cobertura": 3.9784946236559136,
-      "sugerido": 271.0897556008063
+      "sugerido": 271.0897556008063,
+      "prob_quiebre": 0.9998528583983033,
+      "prioridad": 4.926486486486487
     },
     {
       "codigo": 10000342,
       "producto": "NORADRENALINA 1 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 57.285714285714285,
       "stock": 6870.0,
+      "stock_seguridad": 122.56793612771867,
       "cobertura": 119.92518703241896,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.48601728901167446
     },
     {
       "codigo": 10000342,
       "producto": "NORADRENALINA 1 MG/ML INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 109.42857142857143,
       "stock": 5280.0,
+      "stock_seguridad": 199.1991971856716,
       "cobertura": 48.25065274151436,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 2.288644094001237
     },
     {
       "codigo": 10000363,
       "producto": "PARACETAMOL 200 MG/ML SUSP/SOL",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 26.0,
       "stock": 5536.0,
+      "stock_seguridad": 69.48441038762512,
       "cobertura": 212.92307692307693,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.12680635838150286
     },
     {
       "codigo": 10000363,
       "producto": "PARACETAMOL 200 MG/ML SUSP/SOL",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.0,
       "stock": 79.0,
+      "stock_seguridad": 0.0,
       "cobertura": 39.5,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.0759493670886076
     },
     {
       "codigo": 10000364,
       "producto": "PARACETAMOL 500 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 136.85714285714286,
       "stock": 8052.0,
+      "stock_seguridad": 946.9137404604156,
       "cobertura": 58.83507306889353,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 2.3431116112614943
     },
     {
       "codigo": 10000364,
       "producto": "PARACETAMOL 500 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 138.57142857142858,
       "stock": 24570.0,
+      "stock_seguridad": 358.83042313237456,
       "cobertura": 177.30927835051546,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.7871637055310526
     },
     {
       "codigo": 10000364,
       "producto": "PARACETAMOL 500 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 4.8,
       "stock": 57.0,
+      "stock_seguridad": 20.870852788263385,
       "cobertura": 11.875,
-      "sugerido": 31.07085278826338
+      "sugerido": 31.07085278826338,
+      "prob_quiebre": 0.7892647262624202,
+      "prioridad": 0.4884210526315789
     },
     {
       "codigo": 10000364,
       "producto": "PARACETAMOL 500 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 18.428571428571427,
       "stock": 2265.0,
+      "stock_seguridad": 42.97369396308989,
       "cobertura": 122.90697674418605,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.15807541559670224
     },
     {
       "codigo": 10000364,
       "producto": "PARACETAMOL 500 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1879.8333333333333,
       "stock": 197820.0,
+      "stock_seguridad": 3874.2776101588647,
       "cobertura": 105.23273339835092,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 17.873082572259854
     },
     {
       "codigo": 10000364,
       "producto": "PARACETAMOL 500 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 288.5,
       "stock": 43909.0,
+      "stock_seguridad": 966.2139582842173,
       "cobertura": 152.19757365684575,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1.9021328201507666
     },
     {
       "codigo": 10000364,
       "producto": "PARACETAMOL 500 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1388.857142857143,
       "stock": 847308.0,
+      "stock_seguridad": 2447.03487728249,
       "cobertura": 610.0757045875334,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 2.278171598058986
     },
     {
       "codigo": 10000365,
       "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 35.57142857142857,
       "stock": 2015.0,
+      "stock_seguridad": 381.5738133358326,
       "cobertura": 56.64658634538153,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 3.0894398150849156e-11,
+      "prioridad": 0.6456069276345774
     },
     {
       "codigo": 10000365,
       "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 50.0,
       "stock": 300.0,
+      "stock_seguridad": 90.09234352755088,
       "cobertura": 6.0,
-      "sugerido": 490.09234352755084
+      "sugerido": 490.09234352755084,
+      "prob_quiebre": 0.9999999999998592,
+      "prioridad": 8.5
     },
     {
       "codigo": 10000365,
       "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 5.571428571428571,
       "stock": 24.0,
+      "stock_seguridad": 17.188523647690605,
       "cobertura": 4.3076923076923075,
-      "sugerido": 71.1885236476906
+      "sugerido": 71.1885236476906,
+      "prob_quiebre": 0.9999998813917773,
+      "prioridad": 1.5255102040816326
     },
     {
       "codigo": 10000365,
       "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 2.5,
       "stock": 105.0,
+      "stock_seguridad": 12.45208966942066,
       "cobertura": 42.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.08333333333333333
     },
     {
       "codigo": 10000365,
       "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 1105.0,
       "stock": 0.0,
+      "stock_seguridad": 5568.397782820696,
       "cobertura": 0.0,
-      "sugerido": 21038.397782820695
+      "sugerido": 21038.397782820695,
+      "prob_quiebre": 0.9999975578401774,
+      "prioridad": 1105133.5452115496
     },
     {
       "codigo": 10000365,
       "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 30.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 420.0
+      "sugerido": 420.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 30101.071428571428
     },
     {
       "codigo": 10000365,
       "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 65.66666666666667,
       "stock": 1362.0,
+      "stock_seguridad": 288.3142679154597,
       "cobertura": 20.741116751269033,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0057775907429875595,
+      "prioridad": 3.214227443302334
     },
     {
       "codigo": 10000365,
       "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 337.14285714285717,
       "stock": 0.0,
+      "stock_seguridad": 3241.396528208673,
       "cobertura": 0.0,
-      "sugerido": 7961.396528208673
+      "sugerido": 7961.396528208673,
+      "prob_quiebre": 0.991693763195664,
+      "prioridad": 337161.00000000006
     },
     {
       "codigo": 10000366,
       "producto": "PARACETAMOL 1 G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 38.0,
       "stock": 1643.0,
+      "stock_seguridad": 88.23532083868092,
       "cobertura": 43.23684210526316,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.9020085209981741
     },
     {
       "codigo": 10000366,
       "producto": "PARACETAMOL 1 G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 4.833333333333333,
       "stock": 396.0,
+      "stock_seguridad": 15.910257830033514,
       "cobertura": 81.93103448275862,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.07119809203142537
     },
     {
       "codigo": 10000366,
       "producto": "PARACETAMOL 1 G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 11.25,
       "stock": 80.0,
+      "stock_seguridad": 42.93946672202729,
       "cobertura": 7.111111111111111,
-      "sugerido": 120.4394667220273
+      "sugerido": 120.4394667220273,
+      "prob_quiebre": 0.9985048874993276,
+      "prioridad": 1.72265625
     },
     {
       "codigo": 10000366,
       "producto": "PARACETAMOL 1 G INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 11.8,
       "stock": 186.0,
+      "stock_seguridad": 25.785408739128954,
       "cobertura": 15.762711864406779,
-      "sugerido": 4.985408739128957
+      "sugerido": 4.985408739128957,
+      "prob_quiebre": 0.09228181048428341,
+      "prioridad": 0.8120430107526883
     },
     {
       "codigo": 10000458,
       "producto": "VANCOMICINA 500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 129.85714285714286,
       "stock": 11184.0,
+      "stock_seguridad": 179.77037746666883,
       "cobertura": 86.12541254125412,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1.5193789962336866
     },
     {
       "codigo": 10000458,
       "producto": "VANCOMICINA 500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 29.714285714285715,
       "stock": 2475.0,
+      "stock_seguridad": 56.677155377312396,
       "cobertura": 83.29326923076923,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.3687487116058545
     },
     {
       "codigo": 10000458,
       "producto": "VANCOMICINA 500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 34.285714285714285,
       "stock": 3072.0,
+      "stock_seguridad": 51.60339764155158,
       "cobertura": 89.60000000000001,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.393813775510204
     },
     {
       "codigo": 10000458,
       "producto": "VANCOMICINA 500MG INY",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 94.8,
       "stock": 3312.0,
+      "stock_seguridad": 99.99844301956229,
       "cobertura": 34.936708860759495,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 2.742101449275362
     },
     {
       "codigo": 10000527,
       "producto": "SOL GLUCOSADA HIPERTÓNICA AL 50%-1000CC",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 4.0,
       "stock": 0.0,
+      "stock_seguridad": 5.025110835085185,
       "cobertura": 0.0,
-      "sugerido": 61.02511083508519
+      "sugerido": 61.02511083508519,
+      "prob_quiebre": 1.0,
+      "prioridad": 4100.428571428572
     },
     {
       "codigo": 10000527,
       "producto": "SOL GLUCOSADA HIPERTÓNICA AL 50%-1000CC",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3.0,
       "stock": 24.0,
+      "stock_seguridad": 9.05914739039465,
       "cobertura": 8.0,
-      "sugerido": 27.05914739039465
+      "sugerido": 27.05914739039465,
+      "prob_quiebre": 0.9994588855678708,
+      "prioridad": 0.5
     },
     {
       "codigo": 10000529,
       "producto": "SOL GLUCOSADA HIPERTÓNICA 10% SC",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 437.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000530,
       "producto": "SOLUCIÓN GLUCOSADA HIPERTÓNICA 33%",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 4.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 56.0
+      "sugerido": 56.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 4100.142857142857
     },
     {
       "codigo": 10000531,
       "producto": "SOL GLUCOSADA ISOTÓNICA 5% SA 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000531,
       "producto": "SOL GLUCOSADA ISOTÓNICA 5% SA 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 5.5,
       "stock": 0.0,
+      "stock_seguridad": 3.553289947702728,
       "cobertura": 0.0,
-      "sugerido": 80.55328994770272
+      "sugerido": 80.55328994770272,
+      "prob_quiebre": 1.0,
+      "prioridad": 5600.785714285715
     },
     {
       "codigo": 10000532,
       "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 50.0,
       "stock": 110.0,
+      "stock_seguridad": 61.544787234448854,
       "cobertura": 2.2,
-      "sugerido": 651.5447872344489
+      "sugerido": 651.5447872344489,
+      "prob_quiebre": 1.0,
+      "prioridad": 23.18181818181818
     },
     {
       "codigo": 10000532,
       "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 5.25,
       "stock": 84.0,
+      "stock_seguridad": 49.67349021495285,
       "cobertura": 16.0,
-      "sugerido": 39.17349021495285
+      "sugerido": 39.17349021495285,
+      "prob_quiebre": 0.3640365999953853,
+      "prioridad": 0.390625
     },
     {
       "codigo": 10000533,
       "producto": "SOL GLUCOSADA ISOTÓNICA 5% SA 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000533,
       "producto": "SOL GLUCOSADA ISOTÓNICA 5% SA 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 10.659869843108185,
       "cobertura": null,
-      "sugerido": 10.659869843108185
+      "sugerido": 10.659869843108185,
+      "prob_quiebre": 0.5,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000534,
       "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Stock crítico",
+      "demanda_diaria": 60.0,
       "stock": 120.0,
+      "stock_seguridad": 244.17075081681367,
       "cobertura": 2.0,
-      "sugerido": 964.1707508168138
+      "sugerido": 964.1707508168138,
+      "prob_quiebre": 0.9999993835392881,
+      "prioridad": 30.5
     },
     {
       "codigo": 10000534,
       "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 5.0,
       "stock": 63.0,
+      "stock_seguridad": 55.34279987501245,
       "cobertura": 12.6,
-      "sugerido": 62.342799875012446
+      "sugerido": 62.342799875012446,
+      "prob_quiebre": 0.5824043724912638,
+      "prioridad": 0.47619047619047616
     },
     {
       "codigo": 10000535,
       "producto": "SOLUCIÓN RINGER CON LACTATO SA SACHET",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 9.285714285714286,
       "stock": 0.0,
+      "stock_seguridad": 34.45445138390934,
       "cobertura": 0.0,
-      "sugerido": 164.45445138390934
+      "sugerido": 164.45445138390934,
+      "prob_quiebre": 0.9999999997285823,
+      "prioridad": 9389.928571428572
     },
     {
       "codigo": 10000535,
       "producto": "SOLUCIÓN RINGER CON LACTATO SA SACHET",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 24.0,
       "stock": 0.0,
+      "stock_seguridad": 246.73243028007096,
       "cobertura": 0.0,
-      "sugerido": 582.732430280071
+      "sugerido": 582.732430280071,
+      "prob_quiebre": 0.9874532459009597,
+      "prioridad": 24114.071428571428
     },
     {
       "codigo": 10000535,
       "producto": "SOLUCIÓN RINGER CON LACTATO SA SACHET",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 2.75,
       "stock": 0.0,
+      "stock_seguridad": 8.70374728003241,
       "cobertura": 0.0,
-      "sugerido": 47.20374728003241
+      "sugerido": 47.20374728003241,
+      "prob_quiebre": 0.9999999999998278,
+      "prioridad": 2850.5714285714284
     },
     {
       "codigo": 10000535,
       "producto": "SOLUCIÓN RINGER CON LACTATO SA SACHET",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 8.0,
       "stock": 0.0,
+      "stock_seguridad": 39.31676682013859,
       "cobertura": 0.0,
-      "sugerido": 151.31676682013858
+      "sugerido": 151.31676682013858,
+      "prob_quiebre": 0.9999986044622029,
+      "prioridad": 8103.392857142857
     },
     {
       "codigo": 10000536,
       "producto": "SOLUCIÓN RINGER CON LACTATO SC SACHET",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 96.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 1344.0
+      "sugerido": 1344.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 96103.42857142857
     },
     {
       "codigo": 10000536,
       "producto": "SOLUCIÓN RINGER CON LACTATO SC SACHET",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 175.2,
       "stock": 2914.0,
+      "stock_seguridad": 644.470271266665,
       "cobertura": 16.632420091324203,
-      "sugerido": 183.27027126666462
+      "sugerido": 183.27027126666462,
+      "prob_quiebre": 0.11957763146076295,
+      "prioridad": 10.5937680164722
     },
     {
       "codigo": 10000536,
       "producto": "SOLUCIÓN RINGER CON LACTATO SC SACHET",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 22.714285714285715,
       "stock": 729.0,
+      "stock_seguridad": 74.45299595459623,
       "cobertura": 32.094339622641506,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.7388930880994374
     },
     {
       "codigo": 10000538,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 16.285714285714285,
       "stock": 0.0,
+      "stock_seguridad": 85.073714262588,
       "cobertura": 0.0,
-      "sugerido": 313.073714262588
+      "sugerido": 313.073714262588,
+      "prob_quiebre": 0.9999947896596226,
+      "prioridad": 16395.214285714283
     },
     {
       "codigo": 10000538,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 304.63115480113436,
       "cobertura": null,
-      "sugerido": 304.63115480113436
+      "sugerido": 304.63115480113436,
+      "prob_quiebre": 0.5,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000538,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 7.428571428571429,
       "stock": 0.0,
+      "stock_seguridad": 24.333059384146893,
       "cobertura": 0.0,
-      "sugerido": 128.3330593841469
+      "sugerido": 128.3330593841469,
+      "prob_quiebre": 0.9999999999989684,
+      "prioridad": 7531.892857142857
     },
     {
       "codigo": 10000538,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 15.0,
       "stock": 0.0,
+      "stock_seguridad": 74.80920153828914,
       "cobertura": 0.0,
-      "sugerido": 284.80920153828913
+      "sugerido": 284.80920153828913,
+      "prob_quiebre": 0.9999980565170675,
+      "prioridad": 15105.464285714286
     },
     {
       "codigo": 10000538,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 50.4,
       "stock": 0.0,
+      "stock_seguridad": 62.412388097507296,
       "cobertura": 0.0,
-      "sugerido": 768.0123880975074
+      "sugerido": 768.0123880975074,
+      "prob_quiebre": 1.0,
+      "prioridad": 50514.75
     },
     {
       "codigo": 10000539,
       "producto": "SOL SALINA ISOTÓNICA 0,90% SC 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 51.0,
       "stock": 0.0,
+      "stock_seguridad": 597.9332906863457,
       "cobertura": 0.0,
-      "sugerido": 1311.9332906863456
+      "sugerido": 1311.9332906863456,
+      "prob_quiebre": 0.9752431478801324,
+      "prioridad": 51178.857142857145
     },
     {
       "codigo": 10000539,
       "producto": "SOL SALINA ISOTÓNICA 0,90% SC 1000ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 55.142857142857146,
       "stock": 0.0,
+      "stock_seguridad": 127.84113395649084,
       "cobertura": 0.0,
-      "sugerido": 899.8411339564908
+      "sugerido": 899.8411339564908,
+      "prob_quiebre": 1.0,
+      "prioridad": 55266.03571428572
     },
     {
       "codigo": 10000540,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 7.666666666666667,
       "stock": 0.0,
+      "stock_seguridad": 52.04488312855155,
       "cobertura": 0.0,
-      "sugerido": 159.3782164618849
+      "sugerido": 159.3782164618849,
+      "prob_quiebre": 0.9996533545275554,
+      "prioridad": 7770.309523809524
     },
     {
       "codigo": 10000540,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000540,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 2.0,
       "stock": 0.0,
+      "stock_seguridad": 8.024458499330084,
       "cobertura": 0.0,
-      "sugerido": 36.02445849933008
+      "sugerido": 36.02445849933008,
+      "prob_quiebre": 0.9999999952505056,
+      "prioridad": 2100.3214285714284
     },
     {
       "codigo": 10000540,
       "producto": "SOL SALINA ISOTÓNICA 0,9% SA 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 6.0,
       "stock": 0.0,
+      "stock_seguridad": 16.91482250189431,
       "cobertura": 0.0,
-      "sugerido": 100.9148225018943
+      "sugerido": 100.9148225018943,
+      "prob_quiebre": 0.9999999999999999,
+      "prioridad": 6102.25
     },
     {
       "codigo": 10000541,
       "producto": "SOL SALINA ISOTÓNICA 0,90% SC 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 225.0,
       "stock": 0.0,
+      "stock_seguridad": 759.1315799795995,
       "cobertura": 0.0,
-      "sugerido": 3909.1315799795993
+      "sugerido": 3909.1315799795993,
+      "prob_quiebre": 0.9999999999956124,
+      "prioridad": 225132.85714285713
     },
     {
       "codigo": 10000541,
       "producto": "SOL SALINA ISOTÓNICA 0,90% SC 500ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 5.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 70.0
+      "sugerido": 70.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 5100.357142857143
     },
     {
       "codigo": 10000543,
       "producto": "SOLUCIÓN GLUCOSADA ISOTÓNICA 5% 250 ML",
       "tipo": "MEDICAMENTO",
       "estado": "Stock bajo",
+      "demanda_diaria": 60.0,
       "stock": 240.0,
+      "stock_seguridad": 61.4072568117603,
       "cobertura": 4.0,
-      "sugerido": 661.4072568117602
+      "sugerido": 661.4072568117602,
+      "prob_quiebre": 1.0,
+      "prioridad": 15.25
     },
     {
       "codigo": 10000543,
       "producto": "SOLUCIÓN GLUCOSADA ISOTÓNICA 5% 250 ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 21.714285714285715,
       "stock": 356.0,
+      "stock_seguridad": 63.841426842780066,
       "cobertura": 16.394736842105264,
-      "sugerido": 11.841426842780038
+      "sugerido": 11.841426842780038,
+      "prob_quiebre": 0.09016118617286994,
+      "prioridad": 1.3854620499885348
     },
     {
       "codigo": 10000546,
       "producto": "SOLUCIÓN SALINA ISOTÓNICA 0,90% 100 ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 67.41893653032724,
       "cobertura": null,
-      "sugerido": 67.41893653032724
+      "sugerido": 67.41893653032724,
+      "prob_quiebre": 0.5,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000546,
       "producto": "SOLUCIÓN SALINA ISOTÓNICA 0,90% 100 ML",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 19.2,
       "stock": 0.0,
+      "stock_seguridad": 53.07184793921346,
       "cobertura": 0.0,
-      "sugerido": 321.87184793921347
+      "sugerido": 321.87184793921347,
+      "prob_quiebre": 1.0,
+      "prioridad": 19304.535714285714
     },
     {
       "codigo": 10000562,
       "producto": "ALCOHOL EN GEL 70%",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 4000.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 56000.0
+      "sugerido": 56000.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 4000242.8571428573
     },
     {
       "codigo": 10000562,
       "producto": "ALCOHOL EN GEL 70%",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 1745.857142857143,
       "stock": 0.0,
+      "stock_seguridad": 20299.755815232504,
       "cobertura": 0.0,
-      "sugerido": 44741.75581523251
+      "sugerido": 44741.75581523251,
+      "prob_quiebre": 0.9761758874076126,
+      "prioridad": 1747474.0028592907
     },
     {
       "codigo": 10000563,
       "producto": "ALCOHOL RECTIFICADO AL 96%",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 8601.4,
       "stock": 0.0,
+      "stock_seguridad": 166969.74371132435,
       "cobertura": 0.0,
-      "sugerido": 287389.3437113243
+      "sugerido": 287389.3437113243,
+      "prob_quiebre": 0.8822438312798639,
+      "prioridad": 8607857.82142857
     },
     {
       "codigo": 10000563,
       "producto": "ALCOHOL RECTIFICADO AL 96%",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000563,
       "producto": "ALCOHOL RECTIFICADO AL 96%",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 4000.0,
       "stock": 0.0,
+      "stock_seguridad": 17394.43893914477,
       "cobertura": 0.0,
-      "sugerido": 73394.43893914478
+      "sugerido": 73394.43893914478,
+      "prob_quiebre": 0.9999999406460319,
+      "prioridad": 4000242.964285714
     },
     {
       "codigo": 10000564,
       "producto": "CLORHEXIDINA GLUCONATO 4%",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 1338.6666666666667,
       "stock": 0.0,
+      "stock_seguridad": 14184.754833677822,
       "cobertura": 0.0,
-      "sugerido": 32926.088167011156
+      "sugerido": 32926.088167011156,
+      "prob_quiebre": 0.9851185352628302,
+      "prioridad": 1338910.0952380954
     },
     {
       "codigo": 10000564,
       "producto": "CLORHEXIDINA GLUCONATO 4%",
       "tipo": "MEDICAMENTO",
       "estado": "Stock crítico",
+      "demanda_diaria": 2611.0,
       "stock": 1813.0,
+      "stock_seguridad": 17995.033861012536,
       "cobertura": 0.6943699731903485,
-      "sugerido": 52736.03386101253
+      "sugerido": 52736.03386101253,
+      "prob_quiebre": 0.999252197608482,
+      "prioridad": 3761.6833976833977
     },
     {
       "codigo": 10000564,
       "producto": "CLORHEXIDINA GLUCONATO 4%",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000567,
       "producto": "IODOPOVIDONA JABÓN LÍQUIDO 7,5 % A 8%",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 9510.0,
       "stock": 0.0,
+      "stock_seguridad": 38404.96474579998,
       "cobertura": 0.0,
-      "sugerido": 171544.96474579998
+      "sugerido": 171544.96474579998,
+      "prob_quiebre": 0.9999999940891827,
+      "prioridad": 9514131.591991572
     },
     {
       "codigo": 10000568,
       "producto": "IODOPOVIDONA SOLUCIÓN 7,5 % A 10%",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000568,
       "producto": "IODOPOVIDONA SOLUCIÓN 7,5 % A 10%",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 10151.0,
       "stock": 307000.0,
+      "stock_seguridad": 49528.85276888481,
       "cobertura": 30.24332578071126,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 2.1768917446429725e-08,
+      "prioridad": 335.6773680781759
     },
     {
       "codigo": 10000585,
       "producto": "GLUCOSAMINA + MELOXICAN 1500+15MG POL",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 17.5,
       "stock": 0.0,
+      "stock_seguridad": 30.46311548011343,
       "cobertura": 0.0,
-      "sugerido": 275.4631154801134
+      "sugerido": 275.4631154801134,
+      "prob_quiebre": 1.0,
+      "prioridad": 17601.25
     },
     {
       "codigo": 10000585,
       "producto": "GLUCOSAMINA + MELOXICAN 1500+15MG POL",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 21.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": 0.0,
-      "sugerido": 294.0
+      "sugerido": 294.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 21101.5
     },
     {
       "codigo": 10000591,
       "producto": "VANCOMICINA INY 1GR",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 2.0,
       "stock": 0.0,
+      "stock_seguridad": 3.370946826516362,
       "cobertura": 0.0,
-      "sugerido": 31.370946826516363
+      "sugerido": 31.370946826516363,
+      "prob_quiebre": 1.0,
+      "prioridad": 2100.285714285714
     },
     {
       "codigo": 10000591,
       "producto": "VANCOMICINA INY 1GR",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 2.8333333333333335,
       "stock": 0.0,
+      "stock_seguridad": 6.848071738646861,
       "cobertura": 0.0,
-      "sugerido": 46.51473840531353
+      "sugerido": 46.51473840531353,
+      "prob_quiebre": 1.0,
+      "prioridad": 2934.011904761905
     },
     {
       "codigo": 10000591,
       "producto": "VANCOMICINA INY 1GR",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000591,
       "producto": "VANCOMICINA INY 1GR",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 3.0,
       "stock": 0.0,
+      "stock_seguridad": 5.504733116679557,
       "cobertura": 0.0,
-      "sugerido": 47.50473311667956
+      "sugerido": 47.50473311667956,
+      "prob_quiebre": 1.0,
+      "prioridad": 3100.4285714285716
     },
     {
       "codigo": 10000640,
       "producto": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 14.0,
       "stock": 756.0,
+      "stock_seguridad": 33.597403523408126,
       "cobertura": 54.0,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.2777777777777778
     },
     {
       "codigo": 10000640,
       "producto": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3.142857142857143,
       "stock": 270.0,
+      "stock_seguridad": 13.709306520675218,
       "cobertura": 85.9090909090909,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.048223733938019646
     },
     {
       "codigo": 10000640,
       "producto": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1.1428571428571428,
       "stock": 46.0,
+      "stock_seguridad": 6.485283554817962,
       "cobertura": 40.25,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 1.3877787807814457e-14,
+      "prioridad": 0.05323868677905944
     },
     {
       "codigo": 10000640,
       "producto": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 7.2,
       "stock": 480.0,
+      "stock_seguridad": 8.346720550189572,
       "cobertura": 66.66666666666667,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.12299999999999998
     },
     {
       "codigo": 10000653,
       "producto": "SOL GLUCOSADA HIPERTÓNICA AL 50%-20CC",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 60.0,
       "stock": 720.0,
+      "stock_seguridad": 0.0,
       "cobertura": 12.0,
-      "sugerido": 120.0
+      "sugerido": 120.0,
+      "prob_quiebre": 1.0,
+      "prioridad": 5.083333333333333
     },
     {
       "codigo": 10000653,
       "producto": "SOL GLUCOSADA HIPERTÓNICA AL 50%-20CC",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 320.0,
+      "stock_seguridad": 492.35829787559084,
       "cobertura": null,
-      "sugerido": 172.35829787559084
+      "sugerido": 172.35829787559084,
+      "prob_quiebre": 0.14252470370130643,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000722,
       "producto": "ALCOHOL AL 70%-SOLUCIÓN",
       "tipo": "MEDICAMENTO",
       "estado": "Sin existencia",
+      "demanda_diaria": 5292.142857142857,
       "stock": 0.0,
+      "stock_seguridad": 33187.91007449025,
       "cobertura": 0.0,
-      "sugerido": 107277.91007449025
+      "sugerido": 107277.91007449025,
+      "prob_quiebre": 0.9998796871784936,
+      "prioridad": 5297714.928571429
     },
     {
       "codigo": 10000740,
       "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 56.0,
       "stock": 16884.0,
+      "stock_seguridad": 315.4350114324289,
       "cobertura": 301.5,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.1890547263681592
     },
     {
       "codigo": 10000740,
       "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 13.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000740,
       "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 0.0,
       "stock": 0.0,
+      "stock_seguridad": 0.0,
       "cobertura": null,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 1e-06
     },
     {
       "codigo": 10000740,
       "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 3271.6666666666665,
       "stock": 2381711.0,
+      "stock_seguridad": 5596.330460786337,
       "cobertura": 727.9809475292919,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 4.495538898062965
     },
     {
       "codigo": 10000740,
       "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 44.5,
       "stock": 5121.0,
+      "stock_seguridad": 246.1996630121561,
       "cobertura": 115.07865168539325,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.3953817613747315
     },
     {
       "codigo": 10000740,
       "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
+      "demanda_diaria": 1361.857142857143,
       "stock": 4657394.0,
+      "stock_seguridad": 2470.9930392414662,
       "cobertura": 3419.884401552502,
-      "sugerido": 0.0
+      "sugerido": 0.0,
+      "prob_quiebre": 0.0,
+      "prioridad": 0.39850971051490974
     }
   ],
   "tendencia_general": {

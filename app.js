@@ -227,9 +227,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     <td class="px-4 py-3 text-slate-200">${prod}</td>
                     <td class="px-4 py-3 text-slate-400 text-xs">${item.tipo || ''}</td>
                     <td class="px-4 py-3 ${statusColor} text-xs uppercase tracking-wider">${item.estado || ''}</td>
-                    <td class="px-4 py-3 text-right text-slate-200">${item.stock || 0}</td>
-                    <td class="px-4 py-3 text-right text-slate-400">${item.cobertura !== null ? Number(item.cobertura).toFixed(1) + ' d' : 'N/A'}</td>
-                    <td class="px-4 py-3 text-right text-blue-400">${item.sugerido > 0 ? '+'+Math.round(item.sugerido) : 0}</td>
+                    <td class="px-4 py-3 text-right text-slate-300">${item.demanda_diaria > 0 ? Number(item.demanda_diaria).toFixed(1) : 0}</td>
+                    <td class="px-4 py-3 text-right text-slate-200 font-bold">${item.stock || 0}</td>
+                    <td class="px-4 py-3 text-right text-slate-400">${item.stock_seguridad > 0 ? Math.round(item.stock_seguridad) : 0}</td>
+                    <td class="px-4 py-3 text-right text-slate-300">${item.cobertura !== null ? Number(item.cobertura).toFixed(1) + ' d' : 'N/A'}</td>
+                    <td class="px-4 py-3 text-right text-blue-400 font-bold">${item.sugerido > 0 ? '+'+Math.round(item.sugerido) : 0}</td>
+                    <td class="px-4 py-3 text-right ${item.prob_quiebre > 0.5 ? 'text-red-400' : 'text-slate-400'}">${item.prob_quiebre !== null ? (item.prob_quiebre*100).toFixed(0) + '%' : 'N/A'}</td>
+                    <td class="px-4 py-3 text-right text-slate-400">${item.prioridad !== null ? Number(item.prioridad).toFixed(2) : 'N/A'}</td>
                 </tr>`;
             }).join('');
             document.getElementById('pagination-info').innerText = `Mostrando ${filteredData.length} registros`;

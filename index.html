@@ -115,7 +115,7 @@
                 </div>
             </header>
 
-            <div class="flex-1 overflow-y-auto p-6 scroll-smooth">
+            <div id="dashboard-main" class="flex-1 overflow-y-auto p-6 scroll-smooth">
                 
                 <!-- KPI Cards -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8" id="kpi-container">
@@ -250,9 +250,13 @@
                                     <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortInv('producto')">Descripción del Producto ↕</th>
                                     <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortInv('tipo')">Clase ↕</th>
                                     <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortInv('estado')">Estado / Nivel ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('demanda_diaria')">Demanda/Día ↕</th>
                                     <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('stock')">Stock Físico ↕</th>
-                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('cobertura')">Cobertura Estimada ↕</th>
-                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('sugerido')">Plan de Compra ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('stock_seguridad')">Stock Seguro ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('cobertura')">Cobertura ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('sugerido')">Plan Compra ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('prob_quiebre')">% Quiebre ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('prioridad')">Prioridad ↕</th>
                                 </tr>
                             </thead>
                             <tbody id="table-inventario-completo" class="divide-y divide-slate-700/50">
