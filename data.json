@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fecha_generacion": "2026-03-13 16:24:49",
+    "fecha_generacion": "2026-03-13 16:34:38",
     "fecha_corte": "2026-03-11"
   },
   "resumen_general": [
@@ -131,7 +131,7 @@
       "tipo": "INSUMO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -140,7 +140,7 @@
       "tipo": "INSUMO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 261.1124184009723
     },
     {
@@ -221,7 +221,7 @@
       "tipo": "INSUMO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -617,7 +617,7 @@
       "tipo": "INSUMO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -662,7 +662,7 @@
       "tipo": "INSUMO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -689,7 +689,7 @@
       "tipo": "INSUMO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -743,7 +743,7 @@
       "tipo": "INSUMO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -851,7 +851,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 21.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -896,7 +896,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 28.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -914,7 +914,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -950,7 +950,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 34.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -959,7 +959,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 22.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -1148,7 +1148,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 39.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -1328,7 +1328,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -1409,7 +1409,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -1589,7 +1589,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 21.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -1688,7 +1688,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -1697,7 +1697,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2111,7 +2111,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 437.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2129,7 +2129,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2165,7 +2165,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2174,7 +2174,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 10.659869843108185
     },
     {
@@ -2273,7 +2273,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 304.63115480113436
     },
     {
@@ -2336,7 +2336,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2399,7 +2399,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 67.41893653032724
     },
     {
@@ -2444,7 +2444,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2480,7 +2480,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2498,7 +2498,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2552,7 +2552,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2615,7 +2615,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 320.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 172.35829787559084
     },
     {
@@ -2642,7 +2642,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 13.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
@@ -2651,7 +2651,7 @@
       "tipo": "MEDICAMENTO",
       "estado": "Adecuado",
       "stock": 0.0,
-      "cobertura": Infinity,
+      "cobertura": null,
       "sugerido": 0.0
     },
     {
