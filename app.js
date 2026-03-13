@@ -275,17 +275,39 @@ document.addEventListener('DOMContentLoaded', () => {
         const vadSearchInput = document.getElementById('vademecum-search');
         window.vadSortCol = 'producto';
         window.vadSortAsc = true;
+        
+        // Essential items local memory
+        let esencialesStr = localStorage.getItem('esenciales_hospital') || '[]';
+        window.esencialesMeds = new Set(JSON.parse(esencialesStr));
+
+        window.toggleEsencial = (cod) => {
+            cod = String(cod);
+            if(window.esencialesMeds.has(cod)) {
+                window.esencialesMeds.delete(cod);
+            } else {
+                window.esencialesMeds.add(cod);
+            }
+            localStorage.setItem('esenciales_hospital', JSON.stringify([...window.esencialesMeds]));
+            applyVadFiltersAndSort(); // Re-render table
+        };
 
         const renderVademecum = (filteredData) => {
             if(!vadTable) return;
             vadTable.innerHTML = filteredData.map(item => {
                 const prod = item.producto ? String(item.producto) : 'N/A';
+                const isEsencial = window.esencialesMeds.has(String(item.codigo));
+                const starColor = isEsencial ? 'text-amber-400' : 'text-slate-600';
+                const starIcon = isEsencial ? 
+                    `<svg class="w-5 h-5 mx-auto" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>` : 
+                    `<svg class="w-5 h-5 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>`;
+                
                 return `
-                <tr class="hover:bg-slate-700/30 transition-colors border-b border-slate-700/30 font-medium">
+                <tr class="hover:bg-slate-700/30 transition-colors border-b border-slate-700/30 font-medium ${isEsencial ? 'bg-amber-900/10' : ''}">
                     <td class="px-4 py-3 font-mono text-xs text-slate-400">${item.codigo}</td>
                     <td class="px-4 py-3 text-slate-200">${prod}</td>
                     <td class="px-4 py-3 text-slate-400 text-xs">${item.tipo || ''}</td>
                     <td class="px-4 py-3 text-slate-400 text-xs">${item.estado || ''}</td>
+                    <td class="px-4 py-3 cursor-pointer transition-colors hover:scale-110 ${starColor}" onclick="toggleEsencial('${item.codigo}')" title="Marcar/Desmarcar como Esencial">${starIcon}</td>
                     <td class="px-4 py-3 text-slate-400 text-xs">${item.unidad || 'UND'}</td>
                 </tr>`;
             }).join('');
@@ -295,17 +317,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const applyVadFiltersAndSort = () => {
             let term = vadSearchInput ? vadSearchInput.value.toLowerCase() : '';
+            
+            // Allow searching by "esencial"
             let filtered = fullInventory.filter(i => {
                 const name = i.producto ? String(i.producto).toLowerCase() : '';
                 const code = i.codigo ? String(i.codigo).toLowerCase() : '';
+                const isEsencial = window.esencialesMeds.has(String(i.codigo));
+                
+                if (term === 'esencial' || term === 'esenciales') return isEsencial;
                 return name.includes(term) || code.includes(term);
             });
 
             filtered.sort((a,b) => {
                 let valA = a[window.vadSortCol] ?? '';
                 let valB = b[window.vadSortCol] ?? '';
-                if(typeof valA === 'string') valA = valA.toLowerCase();
-                if(typeof valB === 'string') valB = valB.toLowerCase();
+                
+                if(window.vadSortCol === 'esencial') {
+                    valA = window.esencialesMeds.has(String(a.codigo)) ? 1 : 0;
+                    valB = window.esencialesMeds.has(String(b.codigo)) ? 1 : 0;
+                }
+                else if(typeof valA === 'string' && typeof valB === 'string') {
+                    valA = valA.toLowerCase();
+                    valB = valB.toLowerCase();
+                }
+
                 if(valA < valB) return window.vadSortAsc ? -1 : 1;
                 if(valA > valB) return window.vadSortAsc ? 1 : -1;
                 return 0;
