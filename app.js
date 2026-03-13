@@ -117,85 +117,62 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('table-meds-criticos').innerHTML = (data.alertas_criticas.medicamentos||[]).map(m => renderRow(m, 'M')).join('');
         document.getElementById('table-ins-criticos').innerHTML = (data.alertas_criticas.insumos||[]).map(i => renderRow(i, 'I')).join('');
 
-        // 4. Main Chart
-        const ctx = document.getElementById('mainTrendChart').getContext('2d');
-        
+        // 4. Split Main Charts (Meds and Ins)
         Chart.defaults.color = '#94a3b8';
         Chart.defaults.font.family = "'Inter', sans-serif";
-
-        new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: data.tendencia_general.fechas,
-                datasets: [
-                    {
-                        label: 'Total Recetado',
-                        data: data.tendencia_general.recetado,
-                        borderColor: '#60a5fa', // blue-400
-                        backgroundColor: 'rgba(96, 165, 250, 0.1)',
-                        borderWidth: 3,
-                        tension: 0.4,
-                        fill: true,
-                        pointBackgroundColor: '#1e293b',
-                        pointBorderColor: '#60a5fa',
-                        pointBorderWidth: 2,
-                        pointRadius: 4,
-                        pointHoverRadius: 6
-                    },
-                    {
-                        label: 'Total Dispensado',
-                        data: data.tendencia_general.dispensado,
-                        borderColor: '#f43f5e', // rose-500
-                        borderWidth: 3,
-                        tension: 0.4,
-                        pointBackgroundColor: '#1e293b',
-                        pointBorderColor: '#f43f5e',
-                        pointBorderWidth: 2,
-                        pointRadius: 4,
-                        pointHoverRadius: 6
-                    }
-                ]
+        const commonChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+                legend: { position: 'top', labels: { usePointStyle: true, padding: 10 } },
+                tooltip: { backgroundColor: 'rgba(15, 23, 42, 0.9)', titleColor: '#fff', bodyColor: '#cbd5e1', borderColor: 'rgba(255,255,255,0.1)', borderWidth: 1, padding: 12, displayColors: true, boxPadding: 4 }
             },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                interaction: {
-                    mode: 'index',
-                    intersect: false,
-                },
-                plugins: {
-                    legend: {
-                        position: 'top',
-                        labels: { usePointStyle: true, padding: 20 }
-                    },
-                    tooltip: {
-                        backgroundColor: 'rgba(15, 23, 42, 0.9)',
-                        titleColor: '#fff',
-                        bodyColor: '#cbd5e1',
-                        borderColor: 'rgba(255,255,255,0.1)',
-                        borderWidth: 1,
-                        padding: 12,
-                        displayColors: true,
-                        boxPadding: 4
-                    }
-                },
-                scales: {
-                    x: {
-                        grid: { color: 'rgba(255,255,255,0.05)', drawBorder: false },
-                        ticks: { maxTicksLimit: 12 }
-                    },
-                    y: {
-                        beginAtZero: true,
-                        grid: { color: 'rgba(255,255,255,0.05)', drawBorder: false }
-                    }
-                }
+            scales: {
+                x: { grid: { color: 'rgba(255,255,255,0.05)', drawBorder: false }, ticks: { maxTicksLimit: 12 } },
+                y: { beginAtZero: true, grid: { color: 'rgba(255,255,255,0.05)', drawBorder: false } }
             }
-        });
+        };
+
+        const renderMainTrend = (canvasId, trendData, title) => {
+            if(!document.getElementById(canvasId) || !trendData) return;
+            new Chart(document.getElementById(canvasId).getContext('2d'), {
+                type: 'line',
+                data: {
+                    labels: trendData.fechas,
+                    datasets: [
+                        {
+                            label: `Recetado (${title})`,
+                            data: trendData.recetado,
+                            borderColor: '#60a5fa', backgroundColor: 'rgba(96, 165, 250, 0.1)', borderWidth: 2, tension: 0.4, fill: true, pointBackgroundColor: '#1e293b', pointBorderColor: '#60a5fa', pointBorderWidth: 2, pointRadius: 3
+                        },
+                        {
+                            label: `Dispensado (${title})`,
+                            data: trendData.dispensado,
+                            borderColor: '#f43f5e', borderWidth: 2, tension: 0.4, pointBackgroundColor: '#1e293b', pointBorderColor: '#f43f5e', pointBorderWidth: 2, pointRadius: 3
+                        }
+                    ]
+                },
+                options: commonChartOptions
+            });
+        };
+
+        renderMainTrend('mainTrendChartMeds', data.tendencia_medicamentos, 'Medicamentos');
+        renderMainTrend('mainTrendChartIns', data.tendencia_insumos, 'Insumos');
         
         // 5. Build small Quick Metrics dynamically
-        if (data.tendencia_general.dispensado.length >= 4) {
-            let avgDisp = data.tendencia_general.dispensado.slice(-4).reduce((a,b)=>a+b,0) / 4;
-            let avgRec = data.tendencia_general.recetado.slice(-4).reduce((a,b)=>a+b,0) / 4;
+        if (data.tendencia_medicamentos && data.tendencia_insumos && data.tendencia_medicamentos.dispensado.length >= 4) {
+            let medDisp = data.tendencia_medicamentos.dispensado.slice(-4);
+            let insDisp = data.tendencia_insumos.dispensado.slice(-4);
+            let medRec = data.tendencia_medicamentos.recetado.slice(-4);
+            let insRec = data.tendencia_insumos.recetado.slice(-4);
+            
+            let avgDisp = 0; let avgRec = 0;
+            for(let i=0; i<4; i++) {
+                avgDisp += (medDisp[i]||0) + (insDisp[i]||0);
+                avgRec += (medRec[i]||0) + (insRec[i]||0);
+            }
+            avgDisp /= 4; avgRec /= 4;
             let satisfaccion = avgRec > 0 ? Math.round((avgDisp/avgRec)*100) : 0;
             
             const qSat = document.getElementById('q-satisfaccion');
@@ -422,6 +399,77 @@ document.addEventListener('DOMContentLoaded', () => {
             renderProjectionChart('ins-proy-2', 'ins-proy-2-title', data.top_criticos_chart.insumos[1], '#fb923c', 'rgba(251, 146, 60, 0.2)');
         }
 
+        // 10. Individual Projection Chart Dropdown analyzer
+        const indSelect = document.getElementById('select-individual');
+        const proyObj = data.proyecciones_individuales || {};
+        const codigos = Object.keys(proyObj);
+        
+        if(indSelect && codigos.length > 0) {
+            // Populate select options
+            let opts = `<option value="">-- Seleccione un producto (${codigos.length} disponibles) --</option>`;
+            
+            const sortedItems = codigos.map(k => ({cod:k, nom:proyObj[k].nombre})).sort((a,b)=>a.nom.localeCompare(b.nom));
+            sortedItems.forEach(item => {
+                opts += `<option value="${item.cod}">${item.nom}</option>`;
+            });
+            indSelect.innerHTML = opts;
+            
+            let currentIndChart = null;
+            
+            indSelect.addEventListener('change', (e) => {
+                const cod = e.target.value;
+                const containerEl = document.getElementById('container-individual-chart');
+                const emptyEl = document.getElementById('empty-individual-chart');
+                
+                if(!cod || !proyObj[cod]) {
+                    containerEl.classList.add('hidden');
+                    emptyEl.classList.remove('hidden');
+                    if(currentIndChart) currentIndChart.destroy();
+                    return;
+                }
+                
+                emptyEl.classList.add('hidden');
+                containerEl.classList.remove('hidden');
+                
+                if(currentIndChart) currentIndChart.destroy();
+                const itemData = proyObj[cod];
+                const ctxInd = document.getElementById('individual-chart').getContext('2d');
+                
+                currentIndChart = new Chart(ctxInd, {
+                    type: 'line',
+                    data: {
+                        labels: itemData.fechas.concat(itemData.fechas_proy),
+                        datasets: [
+                            {
+                                label: 'Límite Superior (Incertidumbre)',
+                                data: Array(itemData.fechas.length - 1).fill(null).concat([itemData.dispensado[itemData.dispensado.length-1]]).concat(itemData.incierto_alto),
+                                borderColor: 'transparent', backgroundColor: 'rgba(167, 139, 250, 0.2)', fill: '+1', pointRadius: 0, tension: 0
+                            },
+                            {
+                                label: 'Límite Inferior',
+                                data: Array(itemData.fechas.length - 1).fill(null).concat([itemData.dispensado[itemData.dispensado.length-1]]).concat(itemData.incierto_bajo),
+                                borderColor: 'transparent', backgroundColor: 'transparent', fill: false, pointRadius: 0, tension: 0
+                            },
+                            {
+                                label: 'Proyección (Media Móvil)',
+                                data: Array(itemData.fechas.length - 1).fill(null).concat([itemData.dispensado[itemData.dispensado.length-1]]).concat(itemData.proyectado),
+                                borderColor: '#a78bfa', borderWidth: 2, borderDash: [5, 5], tension: 0.1, pointBackgroundColor: '#1e293b', pointRadius: 3
+                            },
+                            {
+                                label: 'Consumo Histórico',
+                                data: itemData.dispensado.concat(Array(itemData.fechas_proy.length).fill(null)),
+                                borderColor: '#a78bfa', backgroundColor: 'transparent', borderWidth: 2, tension: 0.1, pointBackgroundColor: '#1e293b', pointRadius: 3
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true, maintainAspectRatio: false, interaction: { mode: 'index', intersect: false },
+                        plugins: { legend: { display: false }, tooltip: { mode: 'index', intersect: false } },
+                        scales: { x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { maxTicksLimit: 12 } }, y: { beginAtZero: true, grid: { color: 'rgba(255,255,255,0.05)' } } }
+                    }
+                });
+            });
+        }
     }
 
 });
