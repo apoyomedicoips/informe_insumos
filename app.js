@@ -69,8 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let totalIns = 0; let valIns = 0;
         
         data.resumen_general.forEach(r => {
-            if(r.tipo.toUpperCase() === 'MEDICAMENTO') { totalMeds++; valMeds += r.stock_total || 0; }
-            if(r.tipo.toUpperCase() === 'INSUMO') { totalIns++; valIns += r.stock_total || 0; }
+            if(r.tipo.toUpperCase() === 'MEDICAMENTO') { totalMeds += (r.items || 0); valMeds += r.stock_total || 0; }
+            if(r.tipo.toUpperCase() === 'INSUMO') { totalIns += (r.items || 0); valIns += r.stock_total || 0; }
         });
 
         const medsCriticos = data.alertas_criticas.medicamentos ? data.alertas_criticas.medicamentos.length : 0;
