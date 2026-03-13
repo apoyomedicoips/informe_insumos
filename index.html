@@ -82,13 +82,17 @@
             </div>
             <div class="flex-1 overflow-y-auto py-4">
                 <nav class="px-4 space-y-2">
-                    <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg bg-blue-500/10 text-blue-400 font-medium">
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg bg-blue-500/10 text-blue-400 font-medium tab-link" data-target="dashboard-main">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
                         Vista General
                     </a>
-                    <a href="#alertas" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-slate-800/50 text-slate-300 transition-colors">
+                    <a href="#alertas" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-slate-800/50 text-slate-300 transition-colors tab-link" data-target="dashboard-main">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
                         Alertas Críticas
+                    </a>
+                    <a href="#inventario" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-slate-800/50 text-slate-300 transition-colors tab-link" data-target="dashboard-inventario">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+                        Inventario Detallado
                     </a>
                 </nav>
             </div>
@@ -183,9 +187,9 @@
                     <!-- Tabla Meds -->
                     <div class="glass-panel rounded-xl flex flex-col overflow-hidden">
                         <div class="px-6 py-4 border-b border-slate-700/50 bg-red-900/20">
-                            <h3 class="font-semibold text-red-400 flex items-center gap-2">
+                            <h3 id="meds-title" class="font-semibold text-red-400 flex items-center gap-2">
                                 <span class="pulse-critical w-2 h-2 rounded-full bg-red-500"></span>
-                                Top 20 Medicamentos Críticos
+                                Medicamentos Críticos
                             </h3>
                         </div>
                         <div class="flex-1 overflow-auto max-h-[400px]">
@@ -207,9 +211,9 @@
                     <!-- Tabla Ins -->
                     <div class="glass-panel rounded-xl flex flex-col overflow-hidden">
                         <div class="px-6 py-4 border-b border-slate-700/50 bg-orange-900/20">
-                            <h3 class="font-semibold text-orange-400 flex items-center gap-2">
+                            <h3 id="ins-title" class="font-semibold text-orange-400 flex items-center gap-2">
                                 <span class="w-2 h-2 rounded-full bg-orange-500"></span>
-                                Top 20 Insumos Críticos
+                                Insumos Críticos
                             </h3>
                         </div>
                         <div class="flex-1 overflow-auto max-h-[400px]">
@@ -228,12 +232,44 @@
                         </div>
                     </div>
                 </div>
+            </div> <!-- End Dashboard Main Section -->
+
+            <!-- Dashboard Full Inventory Section -->
+            <div id="dashboard-inventario" class="hidden flex-1 overflow-y-auto p-6 scroll-smooth">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4">
+                    <h2 class="text-2xl font-bold text-white">Directorio Completo de Inventario</h2>
+                    <input type="text" id="str-search" placeholder="Filtrar por nombre o código..." class="w-full md:w-80 bg-slate-800/50 border border-slate-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors">
+                </div>
+                
+                <div class="glass-panel rounded-xl flex flex-col overflow-hidden mb-8">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm text-left text-slate-300">
+                            <thead class="text-xs text-slate-400 uppercase bg-slate-800/80">
+                                <tr>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortInv('codigo')">Código ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortInv('producto')">Descripción del Producto ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortInv('tipo')">Clase ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortInv('estado')">Estado / Nivel ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('stock')">Stock Físico ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('cobertura')">Cobertura Estimada ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white text-right" onclick="sortInv('sugerido')">Plan de Compra ↕</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-inventario-completo" class="divide-y divide-slate-700/50">
+                                <!-- JS fill -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="pagination-info" class="p-4 border-t border-slate-700/50 text-slate-400 text-sm flex justify-between items-center bg-slate-900/50">
+                        <span>Mostrando registros...</span>
+                    </div>
+                </div>
 
                 <!-- Footer -->
-                <footer class="mt-12 py-6 border-t border-slate-700/50 text-center text-slate-500 text-sm">
+                <footer class="mt-8 py-6 border-t border-slate-700/50 text-center text-slate-500 text-sm">
                     &copy; 2026 Apoyo Médico IPS. Tablero interactivo derivado de datos transaccionales SAP.
                 </footer>
-            </div>
+            </div> <!-- End Dashboard Full Inventory Section -->
         </main>
     </div>
 

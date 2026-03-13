@@ -88,7 +88,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const kpiInsCrit = document.getElementById('kpi-insumos-crit');
         if(kpiInsCrit) kpiInsCrit.innerText = ins_criticos;
 
-        // 3. Populate Tables
+        // Dynamic Titles for Critical Tables
+        const medsTitle = document.getElementById('meds-title');
+        if(medsTitle && data.alertas_criticas.medicamentos) {
+            medsTitle.innerHTML = `<span class="pulse-critical w-2 h-2 rounded-full bg-red-500"></span>${data.alertas_criticas.medicamentos.length} Medicamentos Críticos`;
+        }
+        const insTitle = document.getElementById('ins-title');
+        if(insTitle && data.alertas_criticas.insumos) {
+            insTitle.innerHTML = `<span class="w-2 h-2 rounded-full bg-orange-500"></span>${data.alertas_criticas.insumos.length} Insumos Críticos`;
+        }
+
+        // 3. Populate Critical Tables
         const renderRow = (item, type) => {
             const cobClass = item.cobertura < 2 ? 'text-red-400 font-bold' : 'text-orange-300';
             const prodName = item.producto ? String(item.producto) : 'Ítem sin descripción';
@@ -196,6 +206,85 @@ document.addEventListener('DOMContentLoaded', () => {
             const qDisp = document.getElementById('q-dispensado');
             if(qDisp) qDisp.innerText = `${Math.round(avgDisp).toLocaleString()} u`;
         }
+
+        // 6. Inventario Completo Datatable Logic
+        const invTable = document.getElementById('table-inventario-completo');
+        const searchInput = document.getElementById('str-search');
+        let fullInventory = data.inventario_completo || [];
+        window.invSortCol = 'producto';
+        window.invSortAsc = true;
+
+        const renderInventory = (filteredData) => {
+            if(!invTable) return;
+            invTable.innerHTML = filteredData.map(item => {
+                const prod = item.producto ? String(item.producto) : 'N/A';
+                const statusColor = item.estado === 'Sin existencia' ? 'text-red-400' : 
+                                    (item.estado === 'Bajo Nivel' ? 'text-orange-400' : 
+                                    (item.estado === 'Sobre-stock' ? 'text-blue-400' : 'text-emerald-400'));
+                return `
+                <tr class="hover:bg-slate-700/30 transition-colors border-b border-slate-700/30 font-medium">
+                    <td class="px-4 py-3 font-mono text-xs text-slate-400">${item.codigo}</td>
+                    <td class="px-4 py-3 text-slate-200">${prod}</td>
+                    <td class="px-4 py-3 text-slate-400 text-xs">${item.tipo || ''}</td>
+                    <td class="px-4 py-3 ${statusColor} text-xs uppercase tracking-wider">${item.estado || ''}</td>
+                    <td class="px-4 py-3 text-right text-slate-200">${item.stock || 0}</td>
+                    <td class="px-4 py-3 text-right text-slate-400">${item.cobertura !== null ? Number(item.cobertura).toFixed(1) + ' d' : 'N/A'}</td>
+                    <td class="px-4 py-3 text-right text-blue-400">${item.sugerido > 0 ? '+'+Math.round(item.sugerido) : 0}</td>
+                </tr>`;
+            }).join('');
+            document.getElementById('pagination-info').innerText = `Mostrando ${filteredData.length} registros`;
+        };
+
+        const applyFiltersAndSort = () => {
+            let term = searchInput ? searchInput.value.toLowerCase() : '';
+            let filtered = fullInventory.filter(i => {
+                const name = i.producto ? String(i.producto).toLowerCase() : '';
+                const code = i.codigo ? String(i.codigo).toLowerCase() : '';
+                return name.includes(term) || code.includes(term);
+            });
+
+            filtered.sort((a,b) => {
+                let valA = a[window.invSortCol] ?? '';
+                let valB = b[window.invSortCol] ?? '';
+                if(typeof valA === 'string') valA = valA.toLowerCase();
+                if(typeof valB === 'string') valB = valB.toLowerCase();
+                if(valA < valB) return window.invSortAsc ? -1 : 1;
+                if(valA > valB) return window.invSortAsc ? 1 : -1;
+                return 0;
+            });
+            renderInventory(filtered);
+        };
+
+        window.sortInv = (col) => {
+            if(window.invSortCol === col) window.invSortAsc = !window.invSortAsc;
+            else { window.invSortCol = col; window.invSortAsc = true; }
+            applyFiltersAndSort();
+        };
+
+        if(searchInput) searchInput.addEventListener('input', applyFiltersAndSort);
+        applyFiltersAndSort(); // Init rendering
+
+        // 7. Tabs Switching Logic
+        const tabLinks = document.querySelectorAll('.tab-link');
+        tabLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                const targetId = link.getAttribute('data-target');
+                if(!targetId) return;
+                
+                // Highlight active link visually (optional logic, kept simple)
+                tabLinks.forEach(l => {
+                    l.classList.remove('bg-blue-500/10', 'text-blue-400');
+                    l.classList.add('hover:bg-slate-800/50', 'text-slate-300');
+                });
+                link.classList.add('bg-blue-500/10', 'text-blue-400');
+                link.classList.remove('hover:bg-slate-800/50', 'text-slate-300');
+
+                // Toggle views
+                document.getElementById('dashboard-main').classList.add('hidden');
+                document.getElementById('dashboard-inventario').classList.add('hidden');
+                document.getElementById(targetId).classList.remove('hidden');
+            });
+        });
 
     }
 

@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fecha_generacion": "2026-03-13 14:30:34",
+    "fecha_generacion": "2026-03-13 16:24:49",
     "fecha_corte": "2026-03-11"
   },
   "resumen_general": [
@@ -115,6 +115,2573 @@
       }
     ]
   },
+  "inventario_completo": [
+    {
+      "codigo": 11000355,
+      "producto": "TIRAS REACTIVAS P/ GLUCOSA EN SANGRE",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 2630.8957446889767
+    },
+    {
+      "codigo": 11000355,
+      "producto": "TIRAS REACTIVAS P/ GLUCOSA EN SANGRE",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001082,
+      "producto": "MASCARILLA P/ OXÍGENO",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 261.1124184009723
+    },
+    {
+      "codigo": 11001083,
+      "producto": "MASCARILLA P/NEBULIZAR C/TUBULAD ADULTOS",
+      "tipo": "INSUMO",
+      "estado": "Stock bajo",
+      "stock": 160.0,
+      "cobertura": 3.2,
+      "sugerido": 717.6644973851364
+    },
+    {
+      "codigo": 11001211,
+      "producto": "ALGODÓN HIDRÓFILO",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 135756.15012977744
+    },
+    {
+      "codigo": 11001212,
+      "producto": "ALGODÓN HIDRÓFILO CORTADO 12 CM X 6 MT",
+      "tipo": "INSUMO",
+      "estado": "Stock bajo",
+      "stock": 7686.0,
+      "cobertura": 3.843,
+      "sugerido": 27944.22995846885
+    },
+    {
+      "codigo": 11001213,
+      "producto": "ALGODÓN HIDRÓFILO CORTADO 32 CM X 6 MT",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 8260.0,
+      "cobertura": 8.239401496259351,
+      "sugerido": 12863.813445666943
+    },
+    {
+      "codigo": 11001214,
+      "producto": "ALGODÓN HIDRÓFILO CORTADO 8 CM X 6 MT",
+      "tipo": "INSUMO",
+      "estado": "Stock bajo",
+      "stock": 8801.0,
+      "cobertura": 5.862447960033306,
+      "sugerido": 18355.592526636272
+    },
+    {
+      "codigo": 11001216,
+      "producto": "ALGODÓN LAMINADO 15 CM",
+      "tipo": "INSUMO",
+      "estado": "Stock crítico",
+      "stock": 10.0,
+      "cobertura": 0.2222222222222222,
+      "sugerido": 771.5885299204738
+    },
+    {
+      "codigo": 11001217,
+      "producto": "ALGODÓN LAMINADO DE 20 CM",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 210.0
+    },
+    {
+      "codigo": 11001217,
+      "producto": "ALGODÓN LAMINADO DE 20 CM",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 10141.0,
+      "cobertura": 309.64885496183206,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001298,
+      "producto": "CÁNULA NASAL ADULTO PARA OXÍGENO",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001300,
+      "producto": "CÁNULA NASAL PEDIATRICA P/OXIGENOTERPIA",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 792.1675735106535
+    },
+    {
+      "codigo": 11001337,
+      "producto": "CATÉTER INTRAVENOSO PERIFÉRICO N°18",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 41250.0,
+      "cobertura": 215.21739130434784,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001337,
+      "producto": "CATÉTER INTRAVENOSO PERIFÉRICO N°18",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 958.0,
+      "cobertura": 95.8,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001338,
+      "producto": "CATÉTER INTRAVENOSO PERIFÉR N°20 D/POLIU",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 7500.0,
+      "cobertura": 24.418604651162788,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001338,
+      "producto": "CATÉTER INTRAVENOSO PERIFÉR N°20 D/POLIU",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 680.0,
+      "cobertura": 58.28571428571429,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001339,
+      "producto": "CATÉTER INTRAVENOSO PERIFÉRICO N°22",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 13500.0,
+      "cobertura": 71.05263157894737,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001339,
+      "producto": "CATÉTER INTRAVENOSO PERIFÉRICO N°22",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 208.0,
+      "cobertura": 26.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001340,
+      "producto": "CATÉTER INTRAVENO PERIFÉR N°24 D 19A20MM",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 15920.0,
+      "cobertura": 70.75555555555556,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001340,
+      "producto": "CATÉTER INTRAVENO PERIFÉR N°24 D 19A20MM",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 324.0,
+      "cobertura": 46.285714285714285,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001369,
+      "producto": "CINTA ADHESIVA QUIRÚRGICA DE 10 CM",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 787.0,
+      "cobertura": 15.677290836653386,
+      "sugerido": 98.13111568391946
+    },
+    {
+      "codigo": 11001369,
+      "producto": "CINTA ADHESIVA QUIRÚRGICA DE 10 CM",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 321.0,
+      "cobertura": 35.109375,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001369,
+      "producto": "CINTA ADHESIVA QUIRÚRGICA DE 10 CM",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 140.0
+    },
+    {
+      "codigo": 11001370,
+      "producto": "CINTA ADHESIVA QX 10CM ANTIALÉRGICA",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 1731.0,
+      "cobertura": 73.97435897435898,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001370,
+      "producto": "CINTA ADHESIVA QX 10CM ANTIALÉRGICA",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 100.12394171212493
+    },
+    {
+      "codigo": 11001372,
+      "producto": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 168.0
+    },
+    {
+      "codigo": 11001372,
+      "producto": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 667.0,
+      "cobertura": 15.208469055374595,
+      "sugerido": 212.14662922924947
+    },
+    {
+      "codigo": 11001372,
+      "producto": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 350.0,
+      "cobertura": 61.764705882352935,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001372,
+      "producto": "CINTA ADHESIVA QUIRÚRGICA DE 5 CM",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 140.0
+    },
+    {
+      "codigo": 11001375,
+      "producto": "CINTA ADHESIVA QX ANTIALÉRGICA 5CM",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 3447.0,
+      "cobertura": 22.784702549575073,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001375,
+      "producto": "CINTA ADHESIVA QX ANTIALÉRGICA 5CM",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 207.78345921736295
+    },
+    {
+      "codigo": 11001375,
+      "producto": "CINTA ADHESIVA QX ANTIALÉRGICA 5CM",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 140.0
+    },
+    {
+      "codigo": 11001415,
+      "producto": "EQ PARA SUERO DE INFUSION IV MACROGOTERO",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 700.0
+    },
+    {
+      "codigo": 11001415,
+      "producto": "EQ PARA SUERO DE INFUSION IV MACROGOTERO",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 40700.0,
+      "cobertura": 94.18181818181817,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001415,
+      "producto": "EQ PARA SUERO DE INFUSION IV MACROGOTERO",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 1584.0,
+      "cobertura": 58.666666666666664,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001420,
+      "producto": "EQ VOLUMÉTRICO DE INFUSIÓN IV MICROGOTER",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 3160.0,
+      "cobertura": 7.009242144177449,
+      "sugerido": 5132.520351546775
+    },
+    {
+      "codigo": 11001420,
+      "producto": "EQ VOLUMÉTRICO DE INFUSIÓN IV MICROGOTER",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 3861.0,
+      "cobertura": 264.45205479452056,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001421,
+      "producto": "EQ VOLUMÉTRICO DE INFUSIÓN IV MACROGOTER",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 3813.7075512529855
+    },
+    {
+      "codigo": 11001421,
+      "producto": "EQ VOLUMÉTRICO DE INFUSIÓN IV MACROGOTER",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 121.16676683542951
+    },
+    {
+      "codigo": 11001422,
+      "producto": "EQ.VOLUM/CÁM/RÌG/GRAD/MICROG P/SOL/FOTOS",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1227.6644973851364
+    },
+    {
+      "codigo": 11001425,
+      "producto": "EQ PARA SUERO DE INFUSION IV MICROGOTERO",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 2902.679180610231
+    },
+    {
+      "codigo": 11001449,
+      "producto": "GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1/2",
+      "tipo": "INSUMO",
+      "estado": "Stock crítico",
+      "stock": 950.0,
+      "cobertura": 1.9989479221462387,
+      "sugerido": 7536.555902644928
+    },
+    {
+      "codigo": 11001449,
+      "producto": "GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1/2",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 846.0,
+      "cobertura": 84.6,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001455,
+      "producto": "GUANTE QUIRÚRGICO ESTÉRIL Nº 6 1/2",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 1750.0,
+      "cobertura": 12.727272727272727,
+      "sugerido": 694.9119030313832
+    },
+    {
+      "codigo": 11001456,
+      "producto": "GUANTE QUIRÚRGICO N°7 1/2 ESTÉRIL",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 16500.0,
+      "cobertura": 16.73913043478261,
+      "sugerido": 145.0222279407826
+    },
+    {
+      "codigo": 11001456,
+      "producto": "GUANTE QUIRÚRGICO N°7 1/2 ESTÉRIL",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 2178.188059162478
+    },
+    {
+      "codigo": 11001457,
+      "producto": "GUANTE QUIRÚRGICO N°7 ESTÉRIL",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 39600.0,
+      "cobertura": 103.30434782608697,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001457,
+      "producto": "GUANTE QUIRÚRGICO N°7 ESTÉRIL",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 11358.0,
+      "cobertura": 112.9346590909091,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001458,
+      "producto": "GUANTE QUIRÚRGICO N°8 ESTÉRIL",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1400.0
+    },
+    {
+      "codigo": 11001458,
+      "producto": "GUANTE QUIRÚRGICO N°8 ESTÉRIL",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 16950.0,
+      "cobertura": 78.23076923076924,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001458,
+      "producto": "GUANTE QUIRÚRGICO N°8 ESTÉRIL",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 3302.0,
+      "cobertura": 57.071604938271605,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001458,
+      "producto": "GUANTE QUIRÚRGICO N°8 ESTÉRIL",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 140.0
+    },
+    {
+      "codigo": 11001496,
+      "producto": "JERINGA DESECHABLE 5 CC C/AGUJA",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 21066.923718451337
+    },
+    {
+      "codigo": 11001496,
+      "producto": "JERINGA DESECHABLE 5 CC C/AGUJA",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 29860.0,
+      "cobertura": 180.18965517241378,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001496,
+      "producto": "JERINGA DESECHABLE 5 CC C/AGUJA",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001496,
+      "producto": "JERINGA DESECHABLE 5 CC C/AGUJA",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1400.0
+    },
+    {
+      "codigo": 11001498,
+      "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 6389.054381440923
+    },
+    {
+      "codigo": 11001498,
+      "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1985.1651212089332
+    },
+    {
+      "codigo": 11001498,
+      "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1400.0
+    },
+    {
+      "codigo": 11001498,
+      "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/ENR",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001499,
+      "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/PRE",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 140840.0,
+      "cobertura": 113.58064516129032,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001499,
+      "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/PRE",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 38280.0,
+      "cobertura": 266.36182902584494,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001499,
+      "producto": "JERINGA DESE.10CC C/AG 21GX1 1/2 PUN/PRE",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001502,
+      "producto": "LLAVE DE 3 VÍAS DESECHABLE",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 19000.0,
+      "cobertura": 77.77777777777779,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11001502,
+      "producto": "LLAVE DE 3 VÍAS DESECHABLE",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 10432.0,
+      "cobertura": 574.992125984252,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 11003454,
+      "producto": "EQ SUERO DE INFUSION IV MACRO 20G. FBC",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 3195.8811218119263
+    },
+    {
+      "codigo": 11003454,
+      "producto": "EQ SUERO DE INFUSION IV MACRO 20G. FBC",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 73.24189365303272
+    },
+    {
+      "codigo": 11003454,
+      "producto": "EQ SUERO DE INFUSION IV MACRO 20G. FBC",
+      "tipo": "INSUMO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 700.0
+    },
+    {
+      "codigo": 11003833,
+      "producto": "ALGODÓN ZIG ZAG",
+      "tipo": "INSUMO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000018,
+      "producto": "ADRENALINA 1MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 366.0,
+      "cobertura": 27.45,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000018,
+      "producto": "ADRENALINA 1MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 89.0,
+      "cobertura": 11.866666666666667,
+      "sugerido": 40.43775000078077
+    },
+    {
+      "codigo": 10000018,
+      "producto": "ADRENALINA 1MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 310.0,
+      "cobertura": 20.666666666666668,
+      "sugerido": 10.655380742972966
+    },
+    {
+      "codigo": 10000018,
+      "producto": "ADRENALINA 1MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 186.0,
+      "cobertura": 23.25,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000018,
+      "producto": "ADRENALINA 1MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 168.0,
+      "cobertura": 84.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000036,
+      "producto": "AMOXICILINA 500MG/5ML POL P/REC",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 464.0,
+      "cobertura": 49.21212121212121,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000037,
+      "producto": "AMOXICILINA 500MG CAP/COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 5610.0,
+      "cobertura": 40.65217391304348,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000037,
+      "producto": "AMOXICILINA 500MG CAP/COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 6025.0,
+      "cobertura": 77.74193548387096,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000037,
+      "producto": "AMOXICILINA 500MG CAP/COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 288.0,
+      "cobertura": 48.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000037,
+      "producto": "AMOXICILINA 500MG CAP/COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 29712.0,
+      "cobertura": 212.22857142857143,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000038,
+      "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 27389.0,
+      "cobertura": 230.43629807692307,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000038,
+      "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 21.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000038,
+      "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 3553.0,
+      "cobertura": 130.9,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000038,
+      "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 704.0,
+      "cobertura": 67.5068493150685,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000038,
+      "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 42.0
+    },
+    {
+      "codigo": 10000038,
+      "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2324.0,
+      "cobertura": 65.28089887640449,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000038,
+      "producto": "AMOXICILINA+SULBACTAM 1000MG+500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 28.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000040,
+      "producto": "AMOXICILINA + SULBACTAM 875MG+125MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 3496.0,
+      "cobertura": 17.113286713286715,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000040,
+      "producto": "AMOXICILINA + SULBACTAM 875MG+125MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000040,
+      "producto": "AMOXICILINA + SULBACTAM 875MG+125MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 92.0,
+      "cobertura": 27.599999999999998,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000040,
+      "producto": "AMOXICILINA + SULBACTAM 875MG+125MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 3610.0,
+      "cobertura": 14.615384615384615,
+      "sugerido": 1341.0246158614118
+    },
+    {
+      "codigo": 10000052,
+      "producto": "ATROPINA 1MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 35.0,
+      "cobertura": 2.625,
+      "sugerido": 187.19956614369397
+    },
+    {
+      "codigo": 10000052,
+      "producto": "ATROPINA 1MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 34.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000052,
+      "producto": "ATROPINA 1MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 22.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000093,
+      "producto": "CEFTRIAXONA 1G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1920.0,
+      "cobertura": 55.08196721311476,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000093,
+      "producto": "CEFTRIAXONA 1G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 153.0,
+      "cobertura": 19.125,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000093,
+      "producto": "CEFTRIAXONA 1G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2120.0,
+      "cobertura": 80.65217391304348,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000093,
+      "producto": "CEFTRIAXONA 1G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 474.0,
+      "cobertura": 237.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000093,
+      "producto": "CEFTRIAXONA 1G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 274.0,
+      "cobertura": 19.571428571428573,
+      "sugerido": 25.390532386340738
+    },
+    {
+      "codigo": 10000093,
+      "producto": "CEFTRIAXONA 1G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 6191.0,
+      "cobertura": 93.39870689655172,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000138,
+      "producto": "DICLOFENAC 50MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 27269.0,
+      "cobertura": 132.83437717466944,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000138,
+      "producto": "DICLOFENAC 50MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 12180.0,
+      "cobertura": 88.04819277108433,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000138,
+      "producto": "DICLOFENAC 50MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1316100.0,
+      "cobertura": 793.4686495176849,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000138,
+      "producto": "DICLOFENAC 50MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2198.0,
+      "cobertura": 16.972972972972972,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000138,
+      "producto": "DICLOFENAC 50MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1449729.0,
+      "cobertura": 1618.2591293254663,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000139,
+      "producto": "DICLOFENAC 75MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 10720.0,
+      "cobertura": 238.98089171974524,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000139,
+      "producto": "DICLOFENAC 75MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 906.0,
+      "cobertura": 81.3076923076923,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000139,
+      "producto": "DICLOFENAC 75MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 232.0,
+      "cobertura": 96.66666666666667,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000139,
+      "producto": "DICLOFENAC 75MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 64.0,
+      "cobertura": 21.333333333333332,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000139,
+      "producto": "DICLOFENAC 75MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2176.0,
+      "cobertura": 120.88888888888889,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000139,
+      "producto": "DICLOFENAC 75MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 17091.0,
+      "cobertura": 235.97041420118342,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000140,
+      "producto": "DICLOFENAC SODICO 0,10% COL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 14.0
+    },
+    {
+      "codigo": 10000159,
+      "producto": "DOPAMINA 200MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 23.0,
+      "cobertura": 2.3,
+      "sugerido": 117.0
+    },
+    {
+      "codigo": 10000159,
+      "producto": "DOPAMINA 200MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 24.0,
+      "cobertura": 2.1818181818181817,
+      "sugerido": 163.38688220075827
+    },
+    {
+      "codigo": 10000159,
+      "producto": "DOPAMINA 200MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 39.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000165,
+      "producto": "ENALAPRIL 20MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 4473.0,
+      "cobertura": 333.09574468085106,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000165,
+      "producto": "ENALAPRIL 20MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 6800.0,
+      "cobertura": 48.57142857142857,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000165,
+      "producto": "ENALAPRIL 20MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 228.0,
+      "cobertura": 60.8,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000165,
+      "producto": "ENALAPRIL 20MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 26.0,
+      "cobertura": 13.0,
+      "sugerido": 2.0
+    },
+    {
+      "codigo": 10000165,
+      "producto": "ENALAPRIL 20MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 311310.0,
+      "cobertura": 166.032,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000165,
+      "producto": "ENALAPRIL 20MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 760.5562092004861
+    },
+    {
+      "codigo": 10000165,
+      "producto": "ENALAPRIL 20MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1820.0,
+      "cobertura": 395.6521739130435,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000165,
+      "producto": "ENALAPRIL 20MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 9930.0,
+      "cobertura": 313.57894736842104,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000166,
+      "producto": "ENALAPRIL 2,5MG/2ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 23895.0,
+      "cobertura": 621.8029739776952,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000166,
+      "producto": "ENALAPRIL 2,5MG/2ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 6090.0,
+      "cobertura": 394.72222222222223,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000166,
+      "producto": "ENALAPRIL 2,5MG/2ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 350.0,
+      "cobertura": 140.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000166,
+      "producto": "ENALAPRIL 2,5MG/2ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 249.0,
+      "cobertura": 113.18181818181817,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000166,
+      "producto": "ENALAPRIL 2,5MG/2ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 690.0,
+      "cobertura": 123.84615384615385,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000169,
+      "producto": "ERGOT+CAFEINA+PARACETAMOL(1+50+500)MGCOM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock crítico",
+      "stock": 30.0,
+      "cobertura": 1.0,
+      "sugerido": 477.0374728003241
+    },
+    {
+      "codigo": 10000169,
+      "producto": "ERGOT+CAFEINA+PARACETAMOL(1+50+500)MGCOM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 12150.0,
+      "cobertura": 101.25,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000169,
+      "producto": "ERGOT+CAFEINA+PARACETAMOL(1+50+500)MGCOM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 48639.0,
+      "cobertura": 369.6775244299674,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000209,
+      "producto": "FUROSEMIDA 10MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 602.0977177834416
+    },
+    {
+      "codigo": 10000209,
+      "producto": "FUROSEMIDA 10MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 716.5879532938715
+    },
+    {
+      "codigo": 10000209,
+      "producto": "FUROSEMIDA 10MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1577.7686721133991
+    },
+    {
+      "codigo": 10000209,
+      "producto": "FUROSEMIDA 10MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000209,
+      "producto": "FUROSEMIDA 10MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 94.76381048520246
+    },
+    {
+      "codigo": 10000210,
+      "producto": "FUROSEMIDA 40MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 518.0,
+      "cobertura": 74.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000210,
+      "producto": "FUROSEMIDA 40MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 340.0,
+      "cobertura": 11.333333333333334,
+      "sugerido": 289.3556876618013
+    },
+    {
+      "codigo": 10000210,
+      "producto": "FUROSEMIDA 40MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 16.0,
+      "cobertura": 16.0,
+      "sugerido": 3.8540769626994624
+    },
+    {
+      "codigo": 10000210,
+      "producto": "FUROSEMIDA 40MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 57875.0,
+      "cobertura": 292.2979797979798,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000210,
+      "producto": "FUROSEMIDA 40MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 420.0
+    },
+    {
+      "codigo": 10000210,
+      "producto": "FUROSEMIDA 40MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 334.0,
+      "cobertura": 87.89473684210526,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000210,
+      "producto": "FUROSEMIDA 40MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 566.0,
+      "cobertura": 16.17142857142857,
+      "sugerido": 72.65461791460302
+    },
+    {
+      "codigo": 10000221,
+      "producto": "GLUCOSAM+CONDROI+SULF1500+1200+250MG POL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000221,
+      "producto": "GLUCOSAM+CONDROI+SULF1500+1200+250MG POL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2089400.0,
+      "cobertura": 654.3982102908278,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000221,
+      "producto": "GLUCOSAM+CONDROI+SULF1500+1200+250MG POL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 53790.0,
+      "cobertura": 1793.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000221,
+      "producto": "GLUCOSAM+CONDROI+SULF1500+1200+250MG POL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 666.5986984310819
+    },
+    {
+      "codigo": 10000222,
+      "producto": "HALOPERIDOL 2 MG/ML SOL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 31.55328994770273
+    },
+    {
+      "codigo": 10000222,
+      "producto": "HALOPERIDOL 2 MG/ML SOL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 56.0
+    },
+    {
+      "codigo": 10000223,
+      "producto": "HALOPERIDOL 5 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 271.0,
+      "cobertura": 145.9230769230769,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000223,
+      "producto": "HALOPERIDOL 5 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 231.0,
+      "cobertura": 86.625,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000223,
+      "producto": "HALOPERIDOL 5 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1638.0,
+      "cobertura": 127.39999999999999,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000224,
+      "producto": "HALOPERIDOL 5 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 42.0
+    },
+    {
+      "codigo": 10000226,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 5408.0,
+      "cobertura": 120.56050955414014,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000226,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2890.0,
+      "cobertura": 367.8181818181818,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000226,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1557.0,
+      "cobertura": 173.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000226,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 12915.0,
+      "cobertura": 237.40808823529412,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000226,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock crítico",
+      "stock": 14.0,
+      "cobertura": 1.6470588235294117,
+      "sugerido": 160.73495086224275
+    },
+    {
+      "codigo": 10000228,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 17612.0,
+      "cobertura": 659.2727272727273,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000228,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1488.0,
+      "cobertura": 260.4,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000228,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1518.0,
+      "cobertura": 123.55813953488371,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000228,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 14.0
+    },
+    {
+      "codigo": 10000228,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 7600.0,
+      "cobertura": 290.0763358778626,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000228,
+      "producto": "HEPARINA DE BAJO PESO MOLECULAR 40MG JPR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 21.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000229,
+      "producto": "HEPARINA SODICA 5000 UI/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1313.0,
+      "cobertura": 208.88636363636365,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000229,
+      "producto": "HEPARINA SODICA 5000 UI/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 60.0,
+      "cobertura": 26.666666666666668,
+      "sugerido": 193.37896172493083
+    },
+    {
+      "codigo": 10000229,
+      "producto": "HEPARINA SODICA 5000 UI/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 390.0,
+      "cobertura": 70.9090909090909,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000229,
+      "producto": "HEPARINA SODICA 5000 UI/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 14.0,
+      "cobertura": 14.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000270,
+      "producto": "KETOROLAC 60 MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 40796.0,
+      "cobertura": 295.3174767321613,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000270,
+      "producto": "KETOROLAC 60 MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 56.0,
+      "cobertura": 28.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000270,
+      "producto": "KETOROLAC 60 MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1955.0,
+      "cobertura": 79.10404624277456,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000270,
+      "producto": "KETOROLAC 60 MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1392.0,
+      "cobertura": 221.45454545454547,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000270,
+      "producto": "KETOROLAC 60 MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1928.1418930862503
+    },
+    {
+      "codigo": 10000270,
+      "producto": "KETOROLAC 60 MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock crítico",
+      "stock": 34.0,
+      "cobertura": 0.4748603351955308,
+      "sugerido": 1244.9546361844841
+    },
+    {
+      "codigo": 10000297,
+      "producto": "LIDOCAINA CON EPINEFRINA 2%/20 ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000297,
+      "producto": "LIDOCAINA CON EPINEFRINA 2%/20 ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000299,
+      "producto": "LIDOCAINA SIN EPINEFRINA 2%/20 ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 8720.0,
+      "cobertura": 333.551912568306,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000299,
+      "producto": "LIDOCAINA SIN EPINEFRINA 2%/20 ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 98.21315979081092
+    },
+    {
+      "codigo": 10000299,
+      "producto": "LIDOCAINA SIN EPINEFRINA 2%/20 ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 720.0,
+      "cobertura": 308.57142857142856,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000299,
+      "producto": "LIDOCAINA SIN EPINEFRINA 2%/20 ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1740.0,
+      "cobertura": 966.6666666666666,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000332,
+      "producto": "MORFINA SULFATO 1 MG/ ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 87.17815914673199
+    },
+    {
+      "codigo": 10000332,
+      "producto": "MORFINA SULFATO 1 MG/ ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 26.504733116679557
+    },
+    {
+      "codigo": 10000332,
+      "producto": "MORFINA SULFATO 1 MG/ ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 100.36608694695974
+    },
+    {
+      "codigo": 10000333,
+      "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 3875.0,
+      "cobertura": 154.1193181818182,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000333,
+      "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2000.0,
+      "cobertura": 196.07843137254903,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000333,
+      "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 252.0,
+      "cobertura": 6.25531914893617,
+      "sugerido": 421.38618342482255
+    },
+    {
+      "codigo": 10000333,
+      "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 7515.0,
+      "cobertura": 250.5,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000333,
+      "producto": "MORFINA CLORHIDRATO 10 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 168.0,
+      "cobertura": 56.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000340,
+      "producto": "NITROGLICERINA 5 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 262.0,
+      "cobertura": 23.818181818181817,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000340,
+      "producto": "NITROGLICERINA 5 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 58.0,
+      "cobertura": 29.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000340,
+      "producto": "NITROGLICERINA 5 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 452.0,
+      "cobertura": 70.625,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000342,
+      "producto": "NORADRENALINA 1 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 74.0,
+      "cobertura": 3.9784946236559136,
+      "sugerido": 271.0897556008063
+    },
+    {
+      "codigo": 10000342,
+      "producto": "NORADRENALINA 1 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 6870.0,
+      "cobertura": 119.92518703241896,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000342,
+      "producto": "NORADRENALINA 1 MG/ML INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 5280.0,
+      "cobertura": 48.25065274151436,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000363,
+      "producto": "PARACETAMOL 200 MG/ML SUSP/SOL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 5536.0,
+      "cobertura": 212.92307692307693,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000363,
+      "producto": "PARACETAMOL 200 MG/ML SUSP/SOL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 79.0,
+      "cobertura": 39.5,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000364,
+      "producto": "PARACETAMOL 500 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 8052.0,
+      "cobertura": 58.83507306889353,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000364,
+      "producto": "PARACETAMOL 500 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 24570.0,
+      "cobertura": 177.30927835051546,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000364,
+      "producto": "PARACETAMOL 500 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 57.0,
+      "cobertura": 11.875,
+      "sugerido": 31.07085278826338
+    },
+    {
+      "codigo": 10000364,
+      "producto": "PARACETAMOL 500 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2265.0,
+      "cobertura": 122.90697674418605,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000364,
+      "producto": "PARACETAMOL 500 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 197820.0,
+      "cobertura": 105.23273339835092,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000364,
+      "producto": "PARACETAMOL 500 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 43909.0,
+      "cobertura": 152.19757365684575,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000364,
+      "producto": "PARACETAMOL 500 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 847308.0,
+      "cobertura": 610.0757045875334,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000365,
+      "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2015.0,
+      "cobertura": 56.64658634538153,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000365,
+      "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 300.0,
+      "cobertura": 6.0,
+      "sugerido": 490.09234352755084
+    },
+    {
+      "codigo": 10000365,
+      "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 24.0,
+      "cobertura": 4.3076923076923075,
+      "sugerido": 71.1885236476906
+    },
+    {
+      "codigo": 10000365,
+      "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 105.0,
+      "cobertura": 42.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000365,
+      "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 21038.397782820695
+    },
+    {
+      "codigo": 10000365,
+      "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 420.0
+    },
+    {
+      "codigo": 10000365,
+      "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1362.0,
+      "cobertura": 20.741116751269033,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000365,
+      "producto": "PARACETAMOL + CODEINA 500 MG/30 MG COM",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 7961.396528208673
+    },
+    {
+      "codigo": 10000366,
+      "producto": "PARACETAMOL 1 G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 1643.0,
+      "cobertura": 43.23684210526316,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000366,
+      "producto": "PARACETAMOL 1 G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 396.0,
+      "cobertura": 81.93103448275862,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000366,
+      "producto": "PARACETAMOL 1 G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 80.0,
+      "cobertura": 7.111111111111111,
+      "sugerido": 120.4394667220273
+    },
+    {
+      "codigo": 10000366,
+      "producto": "PARACETAMOL 1 G INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 186.0,
+      "cobertura": 15.762711864406779,
+      "sugerido": 4.985408739128957
+    },
+    {
+      "codigo": 10000458,
+      "producto": "VANCOMICINA 500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 11184.0,
+      "cobertura": 86.12541254125412,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000458,
+      "producto": "VANCOMICINA 500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2475.0,
+      "cobertura": 83.29326923076923,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000458,
+      "producto": "VANCOMICINA 500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 3072.0,
+      "cobertura": 89.60000000000001,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000458,
+      "producto": "VANCOMICINA 500MG INY",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 3312.0,
+      "cobertura": 34.936708860759495,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000527,
+      "producto": "SOL GLUCOSADA HIPERTÓNICA AL 50%-1000CC",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 61.02511083508519
+    },
+    {
+      "codigo": 10000527,
+      "producto": "SOL GLUCOSADA HIPERTÓNICA AL 50%-1000CC",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 24.0,
+      "cobertura": 8.0,
+      "sugerido": 27.05914739039465
+    },
+    {
+      "codigo": 10000529,
+      "producto": "SOL GLUCOSADA HIPERTÓNICA 10% SC",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 437.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000530,
+      "producto": "SOLUCIÓN GLUCOSADA HIPERTÓNICA 33%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 56.0
+    },
+    {
+      "codigo": 10000531,
+      "producto": "SOL GLUCOSADA ISOTÓNICA 5% SA 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000531,
+      "producto": "SOL GLUCOSADA ISOTÓNICA 5% SA 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 80.55328994770272
+    },
+    {
+      "codigo": 10000532,
+      "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 110.0,
+      "cobertura": 2.2,
+      "sugerido": 651.5447872344489
+    },
+    {
+      "codigo": 10000532,
+      "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 84.0,
+      "cobertura": 16.0,
+      "sugerido": 39.17349021495285
+    },
+    {
+      "codigo": 10000533,
+      "producto": "SOL GLUCOSADA ISOTÓNICA 5% SA 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000533,
+      "producto": "SOL GLUCOSADA ISOTÓNICA 5% SA 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 10.659869843108185
+    },
+    {
+      "codigo": 10000534,
+      "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock crítico",
+      "stock": 120.0,
+      "cobertura": 2.0,
+      "sugerido": 964.1707508168138
+    },
+    {
+      "codigo": 10000534,
+      "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 63.0,
+      "cobertura": 12.6,
+      "sugerido": 62.342799875012446
+    },
+    {
+      "codigo": 10000535,
+      "producto": "SOLUCIÓN RINGER CON LACTATO SA SACHET",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 164.45445138390934
+    },
+    {
+      "codigo": 10000535,
+      "producto": "SOLUCIÓN RINGER CON LACTATO SA SACHET",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 582.732430280071
+    },
+    {
+      "codigo": 10000535,
+      "producto": "SOLUCIÓN RINGER CON LACTATO SA SACHET",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 47.20374728003241
+    },
+    {
+      "codigo": 10000535,
+      "producto": "SOLUCIÓN RINGER CON LACTATO SA SACHET",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 151.31676682013858
+    },
+    {
+      "codigo": 10000536,
+      "producto": "SOLUCIÓN RINGER CON LACTATO SC SACHET",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1344.0
+    },
+    {
+      "codigo": 10000536,
+      "producto": "SOLUCIÓN RINGER CON LACTATO SC SACHET",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2914.0,
+      "cobertura": 16.632420091324203,
+      "sugerido": 183.27027126666462
+    },
+    {
+      "codigo": 10000536,
+      "producto": "SOLUCIÓN RINGER CON LACTATO SC SACHET",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 729.0,
+      "cobertura": 32.094339622641506,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000538,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 313.073714262588
+    },
+    {
+      "codigo": 10000538,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 304.63115480113436
+    },
+    {
+      "codigo": 10000538,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 128.3330593841469
+    },
+    {
+      "codigo": 10000538,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 284.80920153828913
+    },
+    {
+      "codigo": 10000538,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 768.0123880975074
+    },
+    {
+      "codigo": 10000539,
+      "producto": "SOL SALINA ISOTÓNICA 0,90% SC 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 1311.9332906863456
+    },
+    {
+      "codigo": 10000539,
+      "producto": "SOL SALINA ISOTÓNICA 0,90% SC 1000ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 899.8411339564908
+    },
+    {
+      "codigo": 10000540,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 159.3782164618849
+    },
+    {
+      "codigo": 10000540,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000540,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 36.02445849933008
+    },
+    {
+      "codigo": 10000540,
+      "producto": "SOL SALINA ISOTÓNICA 0,9% SA 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 100.9148225018943
+    },
+    {
+      "codigo": 10000541,
+      "producto": "SOL SALINA ISOTÓNICA 0,90% SC 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 3909.1315799795993
+    },
+    {
+      "codigo": 10000541,
+      "producto": "SOL SALINA ISOTÓNICA 0,90% SC 500ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 70.0
+    },
+    {
+      "codigo": 10000543,
+      "producto": "SOLUCIÓN GLUCOSADA ISOTÓNICA 5% 250 ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock bajo",
+      "stock": 240.0,
+      "cobertura": 4.0,
+      "sugerido": 661.4072568117602
+    },
+    {
+      "codigo": 10000543,
+      "producto": "SOLUCIÓN GLUCOSADA ISOTÓNICA 5% 250 ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 356.0,
+      "cobertura": 16.394736842105264,
+      "sugerido": 11.841426842780038
+    },
+    {
+      "codigo": 10000546,
+      "producto": "SOLUCIÓN SALINA ISOTÓNICA 0,90% 100 ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 67.41893653032724
+    },
+    {
+      "codigo": 10000546,
+      "producto": "SOLUCIÓN SALINA ISOTÓNICA 0,90% 100 ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 321.87184793921347
+    },
+    {
+      "codigo": 10000562,
+      "producto": "ALCOHOL EN GEL 70%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 56000.0
+    },
+    {
+      "codigo": 10000562,
+      "producto": "ALCOHOL EN GEL 70%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 44741.75581523251
+    },
+    {
+      "codigo": 10000563,
+      "producto": "ALCOHOL RECTIFICADO AL 96%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 287389.3437113243
+    },
+    {
+      "codigo": 10000563,
+      "producto": "ALCOHOL RECTIFICADO AL 96%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000563,
+      "producto": "ALCOHOL RECTIFICADO AL 96%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 73394.43893914478
+    },
+    {
+      "codigo": 10000564,
+      "producto": "CLORHEXIDINA GLUCONATO 4%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 32926.088167011156
+    },
+    {
+      "codigo": 10000564,
+      "producto": "CLORHEXIDINA GLUCONATO 4%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Stock crítico",
+      "stock": 1813.0,
+      "cobertura": 0.6943699731903485,
+      "sugerido": 52736.03386101253
+    },
+    {
+      "codigo": 10000564,
+      "producto": "CLORHEXIDINA GLUCONATO 4%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000567,
+      "producto": "IODOPOVIDONA JABÓN LÍQUIDO 7,5 % A 8%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 171544.96474579998
+    },
+    {
+      "codigo": 10000568,
+      "producto": "IODOPOVIDONA SOLUCIÓN 7,5 % A 10%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000568,
+      "producto": "IODOPOVIDONA SOLUCIÓN 7,5 % A 10%",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 307000.0,
+      "cobertura": 30.24332578071126,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000585,
+      "producto": "GLUCOSAMINA + MELOXICAN 1500+15MG POL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 275.4631154801134
+    },
+    {
+      "codigo": 10000585,
+      "producto": "GLUCOSAMINA + MELOXICAN 1500+15MG POL",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 294.0
+    },
+    {
+      "codigo": 10000591,
+      "producto": "VANCOMICINA INY 1GR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 31.370946826516363
+    },
+    {
+      "codigo": 10000591,
+      "producto": "VANCOMICINA INY 1GR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 46.51473840531353
+    },
+    {
+      "codigo": 10000591,
+      "producto": "VANCOMICINA INY 1GR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000591,
+      "producto": "VANCOMICINA INY 1GR",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 47.50473311667956
+    },
+    {
+      "codigo": 10000640,
+      "producto": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 756.0,
+      "cobertura": 54.0,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000640,
+      "producto": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 270.0,
+      "cobertura": 85.9090909090909,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000640,
+      "producto": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 46.0,
+      "cobertura": 40.25,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000640,
+      "producto": "HEPARINA DE BAJO PESO MOLECUL 80MG/0,8ML",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 480.0,
+      "cobertura": 66.66666666666667,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000653,
+      "producto": "SOL GLUCOSADA HIPERTÓNICA AL 50%-20CC",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 720.0,
+      "cobertura": 12.0,
+      "sugerido": 120.0
+    },
+    {
+      "codigo": 10000653,
+      "producto": "SOL GLUCOSADA HIPERTÓNICA AL 50%-20CC",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 320.0,
+      "cobertura": Infinity,
+      "sugerido": 172.35829787559084
+    },
+    {
+      "codigo": 10000722,
+      "producto": "ALCOHOL AL 70%-SOLUCIÓN",
+      "tipo": "MEDICAMENTO",
+      "estado": "Sin existencia",
+      "stock": 0.0,
+      "cobertura": 0.0,
+      "sugerido": 107277.91007449025
+    },
+    {
+      "codigo": 10000740,
+      "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 16884.0,
+      "cobertura": 301.5,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000740,
+      "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 13.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000740,
+      "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 0.0,
+      "cobertura": Infinity,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000740,
+      "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 2381711.0,
+      "cobertura": 727.9809475292919,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000740,
+      "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 5121.0,
+      "cobertura": 115.07865168539325,
+      "sugerido": 0.0
+    },
+    {
+      "codigo": 10000740,
+      "producto": "DICLOFENAC POTASICO 75 MG CAPSULA",
+      "tipo": "MEDICAMENTO",
+      "estado": "Adecuado",
+      "stock": 4657394.0,
+      "cobertura": 3419.884401552502,
+      "sugerido": 0.0
+    }
+  ],
   "tendencia_general": {
     "fechas": [
       "15 Dec",
