@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fecha_generacion": "2026-03-13 17:03:02",
+    "fecha_generacion": "2026-03-13 17:28:17",
     "fecha_corte": "2026-03-11"
   },
   "resumen_general": [
@@ -128,7 +128,8 @@
       "cobertura": 0.0,
       "sugerido": 2630.8957446889767,
       "prob_quiebre": 0.9693155854302989,
-      "prioridad": 100128.57142857143
+      "prioridad": 100128.57142857143,
+      "esencial": false
     },
     {
       "codigo": 11000355,
@@ -142,7 +143,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 11001082,
@@ -156,7 +158,8 @@
       "cobertura": null,
       "sugerido": 261.1124184009723,
       "prob_quiebre": 0.5,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 11001083,
@@ -170,7 +173,8 @@
       "cobertura": 3.2,
       "sugerido": 717.6644973851364,
       "prob_quiebre": 0.9999997124976107,
-      "prioridad": 15.9375
+      "prioridad": 15.9375,
+      "esencial": false
     },
     {
       "codigo": 11001211,
@@ -184,7 +188,8 @@
       "cobertura": 0.0,
       "sugerido": 135756.15012977744,
       "prob_quiebre": 0.9999999422134562,
-      "prioridad": 7402285.100338108
+      "prioridad": 7402285.100338108,
+      "esencial": false
     },
     {
       "codigo": 11001212,
@@ -198,7 +203,8 @@
       "cobertura": 3.843,
       "sugerido": 27944.22995846885,
       "prob_quiebre": 0.9999940415372545,
-      "prioridad": 520.6869633099141
+      "prioridad": 520.6869633099141,
+      "esencial": false
     },
     {
       "codigo": 11001213,
@@ -212,7 +218,8 @@
       "cobertura": 8.239401496259351,
       "sugerido": 12863.813445666943,
       "prob_quiebre": 0.9098777787853612,
-      "prioridad": 121.79282687651332
+      "prioridad": 121.79282687651332,
+      "esencial": false
     },
     {
       "codigo": 11001214,
@@ -226,7 +233,8 @@
       "cobertura": 5.862447960033306,
       "sugerido": 18355.592526636272,
       "prob_quiebre": 0.9994682761796259,
-      "prioridad": 256.24960941938417
+      "prioridad": 256.24960941938417,
+      "esencial": false
     },
     {
       "codigo": 11001216,
@@ -240,7 +248,8 @@
       "cobertura": 0.2222222222222222,
       "sugerido": 771.5885299204738,
       "prob_quiebre": 0.9999999999913688,
-      "prioridad": 207.0
+      "prioridad": 207.0,
+      "esencial": false
     },
     {
       "codigo": 11001217,
@@ -254,7 +263,8 @@
       "cobertura": 0.0,
       "sugerido": 210.0,
       "prob_quiebre": 1.0,
-      "prioridad": 15100.535714285714
+      "prioridad": 15100.535714285714,
+      "esencial": false
     },
     {
       "codigo": 11001217,
@@ -268,7 +278,8 @@
       "cobertura": 309.64885496183206,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.10899442855734148
+      "prioridad": 0.10899442855734148,
+      "esencial": false
     },
     {
       "codigo": 11001298,
@@ -282,7 +293,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 11001300,
@@ -296,7 +308,8 @@
       "cobertura": 0.0,
       "sugerido": 792.1675735106535,
       "prob_quiebre": 0.9999996542515132,
-      "prioridad": 42550.39935064936
+      "prioridad": 42550.39935064936,
+      "esencial": false
     },
     {
       "codigo": 11001337,
@@ -310,7 +323,8 @@
       "cobertura": 215.21739130434784,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.8952188552188551
+      "prioridad": 0.8952188552188551,
+      "esencial": false
     },
     {
       "codigo": 11001337,
@@ -324,7 +338,8 @@
       "cobertura": 95.8,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.11482254697286012
+      "prioridad": 0.11482254697286012,
+      "esencial": false
     },
     {
       "codigo": 11001338,
@@ -338,7 +353,8 @@
       "cobertura": 24.418604651162788,
       "sugerido": 0.0,
       "prob_quiebre": 1.162210029781452e-05,
-      "prioridad": 12.61918367346939
+      "prioridad": 12.61918367346939,
+      "esencial": false
     },
     {
       "codigo": 11001338,
@@ -352,7 +368,8 @@
       "cobertura": 58.28571428571429,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.21732026143790847
+      "prioridad": 0.21732026143790847,
+      "esencial": false
     },
     {
       "codigo": 11001339,
@@ -366,7 +383,8 @@
       "cobertura": 71.05263157894737,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 2.688148148148148
+      "prioridad": 2.688148148148148,
+      "esencial": false
     },
     {
       "codigo": 11001339,
@@ -380,7 +398,8 @@
       "cobertura": 26.0,
       "sugerido": 0.0,
       "prob_quiebre": 5.471888497865507e-09,
-      "prioridad": 0.34615384615384615
+      "prioridad": 0.34615384615384615,
+      "esencial": false
     },
     {
       "codigo": 11001340,
@@ -394,7 +413,8 @@
       "cobertura": 70.75555555555556,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 3.1940954773869343
+      "prioridad": 3.1940954773869343,
+      "esencial": false
     },
     {
       "codigo": 11001340,
@@ -408,7 +428,8 @@
       "cobertura": 46.285714285714285,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.1728395061728395
+      "prioridad": 0.1728395061728395,
+      "esencial": false
     },
     {
       "codigo": 11001369,
@@ -422,7 +443,8 @@
       "cobertura": 15.677290836653386,
       "sugerido": 98.13111568391946,
       "prob_quiebre": 0.22375020465345663,
-      "prioridad": 3.2658703939008897
+      "prioridad": 3.2658703939008897,
+      "esencial": false
     },
     {
       "codigo": 11001369,
@@ -436,7 +458,8 @@
       "cobertura": 35.109375,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.2888931273443957
+      "prioridad": 0.2888931273443957,
+      "esencial": false
     },
     {
       "codigo": 11001369,
@@ -450,7 +473,8 @@
       "cobertura": 0.0,
       "sugerido": 140.0,
       "prob_quiebre": 1.0,
-      "prioridad": 10100.357142857143
+      "prioridad": 10100.357142857143,
+      "esencial": false
     },
     {
       "codigo": 11001370,
@@ -464,7 +488,8 @@
       "cobertura": 73.97435897435898,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.329844020797227
+      "prioridad": 0.329844020797227,
+      "esencial": false
     },
     {
       "codigo": 11001370,
@@ -478,7 +503,8 @@
       "cobertura": 0.0,
       "sugerido": 100.12394171212493,
       "prob_quiebre": 0.9999999999991545,
-      "prioridad": 5878.4047619047615
+      "prioridad": 5878.4047619047615,
+      "esencial": false
     },
     {
       "codigo": 11001372,
@@ -492,7 +518,8 @@
       "cobertura": 0.0,
       "sugerido": 168.0,
       "prob_quiebre": 1.0,
-      "prioridad": 12100.42857142857
+      "prioridad": 12100.42857142857,
+      "esencial": false
     },
     {
       "codigo": 11001372,
@@ -506,7 +533,8 @@
       "cobertura": 15.208469055374595,
       "sugerido": 212.14662922924947,
       "prob_quiebre": 0.3711576643311928,
-      "prioridad": 2.949484441452743
+      "prioridad": 2.949484441452743,
+      "esencial": false
     },
     {
       "codigo": 11001372,
@@ -520,7 +548,8 @@
       "cobertura": 61.764705882352935,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.10793650793650796
+      "prioridad": 0.10793650793650796,
+      "esencial": false
     },
     {
       "codigo": 11001372,
@@ -534,7 +563,8 @@
       "cobertura": 0.0,
       "sugerido": 140.0,
       "prob_quiebre": 1.0,
-      "prioridad": 10100.357142857143
+      "prioridad": 10100.357142857143,
+      "esencial": false
     },
     {
       "codigo": 11001375,
@@ -548,7 +578,8 @@
       "cobertura": 22.784702549575073,
       "sugerido": 0.0,
       "prob_quiebre": 9.221734487141475e-12,
-      "prioridad": 6.683682350224685
+      "prioridad": 6.683682350224685,
+      "esencial": false
     },
     {
       "codigo": 11001375,
@@ -562,7 +593,8 @@
       "cobertura": 0.0,
       "sugerido": 207.78345921736295,
       "prob_quiebre": 0.9999999462384851,
-      "prioridad": 11436.440476190477
+      "prioridad": 11436.440476190477,
+      "esencial": false
     },
     {
       "codigo": 11001375,
@@ -576,7 +608,8 @@
       "cobertura": 0.0,
       "sugerido": 140.0,
       "prob_quiebre": 1.0,
-      "prioridad": 10100.357142857143
+      "prioridad": 10100.357142857143,
+      "esencial": false
     },
     {
       "codigo": 11001415,
@@ -590,7 +623,8 @@
       "cobertura": 0.0,
       "sugerido": 700.0,
       "prob_quiebre": 1.0,
-      "prioridad": 50101.78571428572
+      "prioridad": 50101.78571428572,
+      "esencial": false
     },
     {
       "codigo": 11001415,
@@ -604,7 +638,8 @@
       "cobertura": 94.18181818181817,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 4.599007170435743
+      "prioridad": 4.599007170435743,
+      "esencial": false
     },
     {
       "codigo": 11001415,
@@ -618,7 +653,8 @@
       "cobertura": 58.666666666666664,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.47727272727272735
+      "prioridad": 0.47727272727272735,
+      "esencial": false
     },
     {
       "codigo": 11001420,
@@ -632,7 +668,8 @@
       "cobertura": 7.009242144177449,
       "sugerido": 5132.520351546775,
       "prob_quiebre": 0.9955655766409949,
-      "prioridad": 64.462508790436
+      "prioridad": 64.462508790436,
+      "esencial": false
     },
     {
       "codigo": 11001420,
@@ -646,7 +683,8 @@
       "cobertura": 264.45205479452056,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.05898989898989898
+      "prioridad": 0.05898989898989898,
+      "esencial": false
     },
     {
       "codigo": 11001421,
@@ -660,7 +698,8 @@
       "cobertura": 0.0,
       "sugerido": 3813.7075512529855,
       "prob_quiebre": 0.999999997302401,
-      "prioridad": 212737.5
+      "prioridad": 212737.5,
+      "esencial": false
     },
     {
       "codigo": 11001421,
@@ -674,7 +713,8 @@
       "cobertura": 0.0,
       "sugerido": 121.16676683542951,
       "prob_quiebre": 0.9999996507984381,
-      "prioridad": 6602.892857142857
+      "prioridad": 6602.892857142857,
+      "esencial": false
     },
     {
       "codigo": 11001422,
@@ -688,7 +728,8 @@
       "cobertura": 0.0,
       "sugerido": 1227.6644973851364,
       "prob_quiebre": 1.0,
-      "prioridad": 75110.71428571429
+      "prioridad": 75110.71428571429,
+      "esencial": false
     },
     {
       "codigo": 11001425,
@@ -702,7 +743,8 @@
       "cobertura": 0.0,
       "sugerido": 2902.679180610231,
       "prob_quiebre": 1.0,
-      "prioridad": 183497.61904761905
+      "prioridad": 183497.61904761905,
+      "esencial": false
     },
     {
       "codigo": 11001449,
@@ -716,7 +758,8 @@
       "cobertura": 1.9989479221462387,
       "sugerido": 7536.555902644928,
       "prob_quiebre": 0.9999998455333864,
-      "prioridad": 238.25032894736842
+      "prioridad": 238.25032894736842,
+      "esencial": false
     },
     {
       "codigo": 11001449,
@@ -730,7 +773,8 @@
       "cobertura": 84.6,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.13002364066193856
+      "prioridad": 0.13002364066193856,
+      "esencial": false
     },
     {
       "codigo": 11001455,
@@ -744,7 +788,8 @@
       "cobertura": 12.727272727272727,
       "sugerido": 694.9119030313832,
       "prob_quiebre": 0.710090904973973,
-      "prioridad": 10.882142857142856
+      "prioridad": 10.882142857142856,
+      "esencial": false
     },
     {
       "codigo": 11001456,
@@ -758,7 +803,8 @@
       "cobertura": 16.73913043478261,
       "sugerido": 145.0222279407826,
       "prob_quiebre": 0.059260834841993515,
-      "prioridad": 58.94656771799629
+      "prioridad": 58.94656771799629,
+      "esencial": false
     },
     {
       "codigo": 11001456,
@@ -772,7 +818,8 @@
       "cobertura": 0.0,
       "sugerido": 2178.188059162478,
       "prob_quiebre": 1.0,
-      "prioridad": 135252.6145941637
+      "prioridad": 135252.6145941637,
+      "esencial": false
     },
     {
       "codigo": 11001457,
@@ -786,7 +833,8 @@
       "cobertura": 103.30434782608697,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 3.7203984287317615
+      "prioridad": 3.7203984287317615,
+      "esencial": false
     },
     {
       "codigo": 11001457,
@@ -800,7 +848,8 @@
       "cobertura": 112.9346590909091,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.899382256864711
+      "prioridad": 0.899382256864711,
+      "esencial": false
     },
     {
       "codigo": 11001458,
@@ -814,7 +863,8 @@
       "cobertura": 0.0,
       "sugerido": 1400.0,
       "prob_quiebre": 1.0,
-      "prioridad": 100103.57142857143
+      "prioridad": 100103.57142857143,
+      "esencial": false
     },
     {
       "codigo": 11001458,
@@ -828,7 +878,8 @@
       "cobertura": 78.23076923076924,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 2.7823664372336934
+      "prioridad": 2.7823664372336934,
+      "esencial": false
     },
     {
       "codigo": 11001458,
@@ -842,7 +893,8 @@
       "cobertura": 57.071604938271605,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1.0312859244242822
+      "prioridad": 1.0312859244242822,
+      "esencial": false
     },
     {
       "codigo": 11001458,
@@ -856,7 +908,8 @@
       "cobertura": 0.0,
       "sugerido": 140.0,
       "prob_quiebre": 1.0,
-      "prioridad": 10100.357142857143
+      "prioridad": 10100.357142857143,
+      "esencial": false
     },
     {
       "codigo": 11001496,
@@ -870,7 +923,8 @@
       "cobertura": 0.0,
       "sugerido": 21066.923718451337,
       "prob_quiebre": 1.0,
-      "prioridad": 1291448.5185161263
+      "prioridad": 1291448.5185161263,
+      "esencial": false
     },
     {
       "codigo": 11001496,
@@ -884,7 +938,8 @@
       "cobertura": 180.18965517241378,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.9252156321336305
+      "prioridad": 0.9252156321336305,
+      "esencial": false
     },
     {
       "codigo": 11001496,
@@ -898,7 +953,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 11001496,
@@ -912,7 +968,8 @@
       "cobertura": 0.0,
       "sugerido": 1400.0,
       "prob_quiebre": 1.0,
-      "prioridad": 100103.57142857143
+      "prioridad": 100103.57142857143,
+      "esencial": false
     },
     {
       "codigo": 11001498,
@@ -926,7 +983,8 @@
       "cobertura": 0.0,
       "sugerido": 6389.054381440923,
       "prob_quiebre": 0.9999037429420535,
-      "prioridad": 317173.4523809524
+      "prioridad": 317173.4523809524,
+      "esencial": false
     },
     {
       "codigo": 11001498,
@@ -940,7 +998,8 @@
       "cobertura": 0.0,
       "sugerido": 1985.1651212089332,
       "prob_quiebre": 1.0,
-      "prioridad": 122648.27598249206
+      "prioridad": 122648.27598249206,
+      "esencial": false
     },
     {
       "codigo": 11001498,
@@ -954,7 +1013,8 @@
       "cobertura": 0.0,
       "sugerido": 1400.0,
       "prob_quiebre": 1.0,
-      "prioridad": 100107.14285714286
+      "prioridad": 100107.14285714286,
+      "esencial": false
     },
     {
       "codigo": 11001498,
@@ -968,7 +1028,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 11001499,
@@ -982,7 +1043,8 @@
       "cobertura": 113.58064516129032,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 10.9261573416643
+      "prioridad": 10.9261573416643,
+      "esencial": false
     },
     {
       "codigo": 11001499,
@@ -996,7 +1058,8 @@
       "cobertura": 266.36182902584494,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.5432996396050583
+      "prioridad": 0.5432996396050583,
+      "esencial": false
     },
     {
       "codigo": 11001499,
@@ -1010,7 +1073,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 11001502,
@@ -1024,7 +1088,8 @@
       "cobertura": 77.77777777777779,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 3.1536734693877544
+      "prioridad": 3.1536734693877544,
+      "esencial": false
     },
     {
       "codigo": 11001502,
@@ -1038,7 +1103,8 @@
       "cobertura": 574.992125984252,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.0332923813697258
+      "prioridad": 0.0332923813697258,
+      "esencial": false
     },
     {
       "codigo": 11003454,
@@ -1052,7 +1118,8 @@
       "cobertura": 0.0,
       "sugerido": 3195.8811218119263,
       "prob_quiebre": 0.9999999999999803,
-      "prioridad": 187633.0357142857
+      "prioridad": 187633.0357142857,
+      "esencial": false
     },
     {
       "codigo": 11003454,
@@ -1066,7 +1133,8 @@
       "cobertura": 0.0,
       "sugerido": 73.24189365303272,
       "prob_quiebre": 1.0,
-      "prioridad": 4850.857142857143
+      "prioridad": 4850.857142857143,
+      "esencial": false
     },
     {
       "codigo": 11003454,
@@ -1080,7 +1148,8 @@
       "cobertura": 0.0,
       "sugerido": 700.0,
       "prob_quiebre": 1.0,
-      "prioridad": 50101.78571428572
+      "prioridad": 50101.78571428572,
+      "esencial": false
     },
     {
       "codigo": 11003833,
@@ -1094,7 +1163,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000018,
@@ -1108,7 +1178,8 @@
       "cobertura": 27.45,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.5221615057680632
+      "prioridad": 0.5221615057680632,
+      "esencial": false
     },
     {
       "codigo": 10000018,
@@ -1122,7 +1193,8 @@
       "cobertura": 11.866666666666667,
       "sugerido": 40.43775000078077,
       "prob_quiebre": 0.8592434251724091,
-      "prioridad": 0.7162921348314607
+      "prioridad": 0.7162921348314607,
+      "esencial": false
     },
     {
       "codigo": 10000018,
@@ -1136,7 +1208,8 @@
       "cobertura": 20.666666666666668,
       "sugerido": 10.655380742972966,
       "prob_quiebre": 0.0685780694540743,
-      "prioridad": 0.7741935483870968
+      "prioridad": 0.7741935483870968,
+      "esencial": false
     },
     {
       "codigo": 10000018,
@@ -1150,7 +1223,8 @@
       "cobertura": 23.25,
       "sugerido": 0.0,
       "prob_quiebre": 0.00369234163101384,
-      "prioridad": 0.38709677419354843
+      "prioridad": 0.38709677419354843,
+      "esencial": false
     },
     {
       "codigo": 10000018,
@@ -1164,7 +1238,8 @@
       "cobertura": 84.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.03571428571428571
+      "prioridad": 0.03571428571428571,
+      "esencial": false
     },
     {
       "codigo": 10000036,
@@ -1178,7 +1253,8 @@
       "cobertura": 49.21212121212121,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.2119106263194933
+      "prioridad": 0.2119106263194933,
+      "esencial": false
     },
     {
       "codigo": 10000037,
@@ -1192,7 +1268,8 @@
       "cobertura": 40.65217391304348,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 3.419251336898396
+      "prioridad": 3.419251336898396,
+      "esencial": false
     },
     {
       "codigo": 10000037,
@@ -1206,7 +1283,8 @@
       "cobertura": 77.74193548387096,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1.0097510373443985
+      "prioridad": 1.0097510373443985,
+      "esencial": false
     },
     {
       "codigo": 10000037,
@@ -1220,7 +1298,8 @@
       "cobertura": 48.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.14583333333333331
+      "prioridad": 0.14583333333333331,
+      "esencial": false
     },
     {
       "codigo": 10000037,
@@ -1234,7 +1313,8 @@
       "cobertura": 212.22857142857143,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.66437802907916
+      "prioridad": 0.66437802907916,
+      "esencial": false
     },
     {
       "codigo": 10000038,
@@ -1248,7 +1328,8 @@
       "cobertura": 230.43629807692307,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.5201313502143345
+      "prioridad": 0.5201313502143345,
+      "esencial": false
     },
     {
       "codigo": 10000038,
@@ -1262,7 +1343,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 3.6143969413093835e-05,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000038,
@@ -1276,7 +1358,8 @@
       "cobertura": 130.9,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.21499508894466876
+      "prioridad": 0.21499508894466876,
+      "esencial": false
     },
     {
       "codigo": 10000038,
@@ -1290,7 +1373,8 @@
       "cobertura": 67.5068493150685,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.16929499072356216
+      "prioridad": 0.16929499072356216,
+      "esencial": false
     },
     {
       "codigo": 10000038,
@@ -1304,7 +1388,8 @@
       "cobertura": 0.0,
       "sugerido": 42.0,
       "prob_quiebre": 1.0,
-      "prioridad": 3100.1071428571427
+      "prioridad": 3100.1071428571427,
+      "esencial": false
     },
     {
       "codigo": 10000038,
@@ -1318,7 +1403,8 @@
       "cobertura": 65.28089887640449,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.5606540447504303
+      "prioridad": 0.5606540447504303,
+      "esencial": false
     },
     {
       "codigo": 10000038,
@@ -1332,7 +1418,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000040,
@@ -1346,7 +1433,8 @@
       "cobertura": 17.113286713286715,
       "sugerido": 0.0,
       "prob_quiebre": 0.03853810427612281,
-      "prioridad": 11.995691869425114
+      "prioridad": 11.995691869425114,
+      "esencial": false
     },
     {
       "codigo": 10000040,
@@ -1360,7 +1448,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000040,
@@ -1374,7 +1463,8 @@
       "cobertura": 27.599999999999998,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.15700483091787443
+      "prioridad": 0.15700483091787443,
+      "esencial": false
     },
     {
       "codigo": 10000040,
@@ -1388,7 +1478,8 @@
       "cobertura": 14.615384615384615,
       "sugerido": 1341.0246158614118,
       "prob_quiebre": 0.43350515290275493,
-      "prioridad": 16.96842105263158
+      "prioridad": 16.96842105263158,
+      "esencial": false
     },
     {
       "codigo": 10000052,
@@ -1402,7 +1493,8 @@
       "cobertura": 2.625,
       "sugerido": 187.19956614369397,
       "prob_quiebre": 0.999999999998897,
-      "prioridad": 5.4603174603174605
+      "prioridad": 5.4603174603174605,
+      "esencial": false
     },
     {
       "codigo": 10000052,
@@ -1416,7 +1508,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000052,
@@ -1430,7 +1523,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000093,
@@ -1444,7 +1538,8 @@
       "cobertura": 55.08196721311476,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.6509778911564624
+      "prioridad": 0.6509778911564624,
+      "esencial": false
     },
     {
       "codigo": 10000093,
@@ -1458,7 +1553,8 @@
       "cobertura": 19.125,
       "sugerido": 0.0,
       "prob_quiebre": 0.02481764457332636,
-      "prioridad": 0.47058823529411764
+      "prioridad": 0.47058823529411764,
+      "esencial": false
     },
     {
       "codigo": 10000093,
@@ -1472,7 +1568,8 @@
       "cobertura": 80.65217391304348,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.33831343858298035
+      "prioridad": 0.33831343858298035,
+      "esencial": false
     },
     {
       "codigo": 10000093,
@@ -1486,7 +1583,8 @@
       "cobertura": 237.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.012658227848101264
+      "prioridad": 0.012658227848101264,
+      "esencial": false
     },
     {
       "codigo": 10000093,
@@ -1500,7 +1598,8 @@
       "cobertura": 19.571428571428573,
       "sugerido": 25.390532386340738,
       "prob_quiebre": 0.10731907499735305,
-      "prioridad": 0.7664233576642334
+      "prioridad": 0.7664233576642334,
+      "esencial": false
     },
     {
       "codigo": 10000093,
@@ -1514,7 +1613,8 @@
       "cobertura": 93.39870689655172,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.7204137671867328
+      "prioridad": 0.7204137671867328,
+      "esencial": false
     },
     {
       "codigo": 10000138,
@@ -1528,7 +1628,8 @@
       "cobertura": 132.83437717466944,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1.552954277900973
+      "prioridad": 1.552954277900973,
+      "esencial": false
     },
     {
       "codigo": 10000138,
@@ -1542,7 +1643,8 @@
       "cobertura": 88.04819277108433,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1.5824667031563586
+      "prioridad": 1.5824667031563586,
+      "esencial": false
     },
     {
       "codigo": 10000138,
@@ -1556,7 +1658,8 @@
       "cobertura": 793.4686495176849,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 2.0916600393418268
+      "prioridad": 2.0916600393418268,
+      "esencial": false
     },
     {
       "codigo": 10000138,
@@ -1570,7 +1673,8 @@
       "cobertura": 16.972972972972972,
       "sugerido": 0.0,
       "prob_quiebre": 0.04068937300843367,
-      "prioridad": 7.688694267515924
+      "prioridad": 7.688694267515924,
+      "esencial": false
     },
     {
       "codigo": 10000138,
@@ -1584,7 +1688,8 @@
       "cobertura": 1618.2591293254663,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.5542110818994588
+      "prioridad": 0.5542110818994588,
+      "esencial": false
     },
     {
       "codigo": 10000139,
@@ -1598,7 +1703,8 @@
       "cobertura": 238.98089171974524,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.19188623210478217
+      "prioridad": 0.19188623210478217,
+      "esencial": false
     },
     {
       "codigo": 10000139,
@@ -1612,7 +1718,8 @@
       "cobertura": 81.3076923076923,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.14934450601432628
+      "prioridad": 0.14934450601432628,
+      "esencial": false
     },
     {
       "codigo": 10000139,
@@ -1626,7 +1733,8 @@
       "cobertura": 96.66666666666667,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.035172413793103444
+      "prioridad": 0.035172413793103444,
+      "esencial": false
     },
     {
       "codigo": 10000139,
@@ -1640,7 +1748,8 @@
       "cobertura": 21.333333333333332,
       "sugerido": 0.0,
       "prob_quiebre": 1.7714319355821573e-07,
-      "prioridad": 0.1875
+      "prioridad": 0.1875,
+      "esencial": false
     },
     {
       "codigo": 10000139,
@@ -1654,7 +1763,8 @@
       "cobertura": 120.88888888888889,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.15716911764705882
+      "prioridad": 0.15716911764705882,
+      "esencial": false
     },
     {
       "codigo": 10000139,
@@ -1668,7 +1778,8 @@
       "cobertura": 235.97041420118342,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.31117702478569104
+      "prioridad": 0.31117702478569104,
+      "esencial": false
     },
     {
       "codigo": 10000140,
@@ -1682,7 +1793,8 @@
       "cobertura": 0.0,
       "sugerido": 14.0,
       "prob_quiebre": 1.0,
-      "prioridad": 1000.0
+      "prioridad": 1000.0,
+      "esencial": false
     },
     {
       "codigo": 10000159,
@@ -1696,7 +1808,8 @@
       "cobertura": 2.3,
       "sugerido": 117.0,
       "prob_quiebre": 1.0,
-      "prioridad": 4.782608695652175
+      "prioridad": 4.782608695652175,
+      "esencial": false
     },
     {
       "codigo": 10000159,
@@ -1710,7 +1823,8 @@
       "cobertura": 2.1818181818181817,
       "sugerido": 163.38688220075827,
       "prob_quiebre": 0.9999999999246378,
-      "prioridad": 5.5
+      "prioridad": 5.5,
+      "esencial": false
     },
     {
       "codigo": 10000159,
@@ -1724,7 +1838,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 3.8135691940999195e-06,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000165,
@@ -1738,7 +1853,8 @@
       "cobertura": 333.09574468085106,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.04331658887565757
+      "prioridad": 0.04331658887565757,
+      "esencial": false
     },
     {
       "codigo": 10000165,
@@ -1752,7 +1868,8 @@
       "cobertura": 48.57142857142857,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 2.902941176470588
+      "prioridad": 2.902941176470588,
+      "esencial": false
     },
     {
       "codigo": 10000165,
@@ -1766,7 +1883,8 @@
       "cobertura": 60.8,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.078125
+      "prioridad": 0.078125,
+      "esencial": false
     },
     {
       "codigo": 10000165,
@@ -1780,7 +1898,8 @@
       "cobertura": 13.0,
       "sugerido": 2.0,
       "prob_quiebre": 1.0,
-      "prioridad": 0.23076923076923078
+      "prioridad": 0.23076923076923078,
+      "esencial": false
     },
     {
       "codigo": 10000165,
@@ -1794,7 +1913,8 @@
       "cobertura": 166.032,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 11.299026693649417
+      "prioridad": 11.299026693649417,
+      "esencial": false
     },
     {
       "codigo": 10000165,
@@ -1808,7 +1928,8 @@
       "cobertura": 0.0,
       "sugerido": 760.5562092004861,
       "prob_quiebre": 0.999999999999999,
-      "prioridad": 45103.21428571428
+      "prioridad": 45103.21428571428,
+      "esencial": false
     },
     {
       "codigo": 10000165,
@@ -1822,7 +1943,8 @@
       "cobertura": 395.6521739130435,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.014153846153846152
+      "prioridad": 0.014153846153846152,
+      "esencial": false
     },
     {
       "codigo": 10000165,
@@ -1836,7 +1958,8 @@
       "cobertura": 313.57894736842104,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.10417366006489875
+      "prioridad": 0.10417366006489875,
+      "esencial": false
     },
     {
       "codigo": 10000166,
@@ -1850,7 +1973,8 @@
       "cobertura": 621.8029739776952,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.06341007212677915
+      "prioridad": 0.06341007212677915,
+      "esencial": false
     },
     {
       "codigo": 10000166,
@@ -1864,7 +1988,8 @@
       "cobertura": 394.72222222222223,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.04162058912234845
+      "prioridad": 0.04162058912234845,
+      "esencial": false
     },
     {
       "codigo": 10000166,
@@ -1878,7 +2003,8 @@
       "cobertura": 140.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.024999999999999998
+      "prioridad": 0.024999999999999998,
+      "esencial": false
     },
     {
       "codigo": 10000166,
@@ -1892,7 +2018,8 @@
       "cobertura": 113.18181818181817,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.028273092369477917
+      "prioridad": 0.028273092369477917,
+      "esencial": false
     },
     {
       "codigo": 10000166,
@@ -1906,7 +2033,8 @@
       "cobertura": 123.84615384615385,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.053061224489795916
+      "prioridad": 0.053061224489795916,
+      "esencial": false
     },
     {
       "codigo": 10000169,
@@ -1920,7 +2048,8 @@
       "cobertura": 1.0,
       "sugerido": 477.0374728003241,
       "prob_quiebre": 0.9999999999999148,
-      "prioridad": 31.0
+      "prioridad": 31.0,
+      "esencial": false
     },
     {
       "codigo": 10000169,
@@ -1934,7 +2063,8 @@
       "cobertura": 101.25,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1.1950617283950618
+      "prioridad": 1.1950617283950618,
+      "esencial": false
     },
     {
       "codigo": 10000169,
@@ -1948,7 +2078,8 @@
       "cobertura": 369.6775244299674,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.35861371008651416
+      "prioridad": 0.35861371008651416,
+      "esencial": false
     },
     {
       "codigo": 10000209,
@@ -1962,7 +2093,8 @@
       "cobertura": 0.0,
       "sugerido": 602.0977177834416,
       "prob_quiebre": 0.9999999999999927,
-      "prioridad": 35549.28571428571
+      "prioridad": 35549.28571428571,
+      "esencial": false
     },
     {
       "codigo": 10000209,
@@ -1976,7 +2108,8 @@
       "cobertura": 0.0,
       "sugerido": 716.5879532938715,
       "prob_quiebre": 1.0,
-      "prioridad": 45261.28571428572
+      "prioridad": 45261.28571428572,
+      "esencial": false
     },
     {
       "codigo": 10000209,
@@ -1990,7 +2123,8 @@
       "cobertura": 0.0,
       "sugerido": 1577.7686721133991,
       "prob_quiebre": 1.0,
-      "prioridad": 97568.5
+      "prioridad": 97568.5,
+      "esencial": false
     },
     {
       "codigo": 10000209,
@@ -2004,7 +2138,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000209,
@@ -2018,7 +2153,8 @@
       "cobertura": 0.0,
       "sugerido": 94.76381048520246,
       "prob_quiebre": 1.0,
-      "prioridad": 5901.571428571428
+      "prioridad": 5901.571428571428,
+      "esencial": false
     },
     {
       "codigo": 10000210,
@@ -2032,7 +2168,8 @@
       "cobertura": 74.0,
       "sugerido": 0.0,
       "prob_quiebre": 1.8318679906315083e-14,
-      "prioridad": 0.10810810810810811
+      "prioridad": 0.10810810810810811,
+      "esencial": false
     },
     {
       "codigo": 10000210,
@@ -2046,7 +2183,8 @@
       "cobertura": 11.333333333333334,
       "sugerido": 289.3556876618013,
       "prob_quiebre": 0.7351746649733288,
-      "prioridad": 2.7352941176470584
+      "prioridad": 2.7352941176470584,
+      "esencial": false
     },
     {
       "codigo": 10000210,
@@ -2060,7 +2198,8 @@
       "cobertura": 16.0,
       "sugerido": 3.8540769626994624,
       "prob_quiebre": 0.28707453639858094,
-      "prioridad": 0.125
+      "prioridad": 0.125,
+      "esencial": false
     },
     {
       "codigo": 10000210,
@@ -2074,7 +2213,8 @@
       "cobertura": 292.2979797979798,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.6808120950323974
+      "prioridad": 0.6808120950323974,
+      "esencial": false
     },
     {
       "codigo": 10000210,
@@ -2088,7 +2228,8 @@
       "cobertura": 0.0,
       "sugerido": 420.0,
       "prob_quiebre": 1.0,
-      "prioridad": 30101.071428571428
+      "prioridad": 30101.071428571428,
+      "esencial": false
     },
     {
       "codigo": 10000210,
@@ -2102,7 +2243,8 @@
       "cobertura": 87.89473684210526,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.054610778443113774
+      "prioridad": 0.054610778443113774,
+      "esencial": false
     },
     {
       "codigo": 10000210,
@@ -2116,7 +2258,8 @@
       "cobertura": 16.17142857142857,
       "sugerido": 72.65461791460302,
       "prob_quiebre": 0.20019216620301838,
-      "prioridad": 2.226148409893993
+      "prioridad": 2.226148409893993,
+      "esencial": false
     },
     {
       "codigo": 10000221,
@@ -2130,7 +2273,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000221,
@@ -2144,7 +2288,8 @@
       "cobertura": 654.3982102908278,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 4.880601891373951
+      "prioridad": 4.880601891373951,
+      "esencial": false
     },
     {
       "codigo": 10000221,
@@ -2158,7 +2303,8 @@
       "cobertura": 1793.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.01728945900725042
+      "prioridad": 0.01728945900725042,
+      "esencial": false
     },
     {
       "codigo": 10000221,
@@ -2172,7 +2318,8 @@
       "cobertura": 0.0,
       "sugerido": 666.5986984310819,
       "prob_quiebre": 1.0,
-      "prioridad": 40104.28571428572
+      "prioridad": 40104.28571428572,
+      "esencial": false
     },
     {
       "codigo": 10000222,
@@ -2186,7 +2333,8 @@
       "cobertura": 0.0,
       "sugerido": 31.55328994770273,
       "prob_quiebre": 1.0,
-      "prioridad": 2100.3571428571427
+      "prioridad": 2100.3571428571427,
+      "esencial": false
     },
     {
       "codigo": 10000222,
@@ -2200,7 +2348,8 @@
       "cobertura": 0.0,
       "sugerido": 56.0,
       "prob_quiebre": 1.0,
-      "prioridad": 4100.142857142857
+      "prioridad": 4100.142857142857,
+      "esencial": false
     },
     {
       "codigo": 10000223,
@@ -2214,7 +2363,8 @@
       "cobertura": 145.9230769230769,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.019579787634611042
+      "prioridad": 0.019579787634611042,
+      "esencial": false
     },
     {
       "codigo": 10000223,
@@ -2228,7 +2378,8 @@
       "cobertura": 86.625,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.042328042328042326
+      "prioridad": 0.042328042328042326,
+      "esencial": false
     },
     {
       "codigo": 10000223,
@@ -2242,7 +2393,8 @@
       "cobertura": 127.39999999999999,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.10876878223817
+      "prioridad": 0.10876878223817,
+      "esencial": false
     },
     {
       "codigo": 10000224,
@@ -2256,7 +2408,8 @@
       "cobertura": 0.0,
       "sugerido": 42.0,
       "prob_quiebre": 1.0,
-      "prioridad": 3100.1071428571427
+      "prioridad": 3100.1071428571427,
+      "esencial": false
     },
     {
       "codigo": 10000226,
@@ -2270,7 +2423,8 @@
       "cobertura": 120.56050955414014,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.38036619973433156
+      "prioridad": 0.38036619973433156,
+      "esencial": false
     },
     {
       "codigo": 10000226,
@@ -2284,7 +2438,8 @@
       "cobertura": 367.8181818181818,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.02408022032342349
+      "prioridad": 0.02408022032342349,
+      "esencial": false
     },
     {
       "codigo": 10000226,
@@ -2298,7 +2453,8 @@
       "cobertura": 173.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.057803468208092484
+      "prioridad": 0.057803468208092484,
+      "esencial": false
     },
     {
       "codigo": 10000226,
@@ -2312,7 +2468,8 @@
       "cobertura": 237.40808823529412,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.23335346496322104
+      "prioridad": 0.23335346496322104,
+      "esencial": false
     },
     {
       "codigo": 10000226,
@@ -2326,7 +2483,8 @@
       "cobertura": 1.6470588235294117,
       "sugerido": 160.73495086224275,
       "prob_quiebre": 0.9990283613480274,
-      "prioridad": 5.767857142857143
+      "prioridad": 5.767857142857143,
+      "esencial": false
     },
     {
       "codigo": 10000228,
@@ -2340,7 +2498,8 @@
       "cobertura": 659.2727272727273,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.04203766448664408
+      "prioridad": 0.04203766448664408,
+      "esencial": false
     },
     {
       "codigo": 10000228,
@@ -2354,7 +2513,8 @@
       "cobertura": 260.4,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.025784507351327632
+      "prioridad": 0.025784507351327632,
+      "esencial": false
     },
     {
       "codigo": 10000228,
@@ -2368,7 +2528,8 @@
       "cobertura": 123.55813953488371,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.10752601435831251
+      "prioridad": 0.10752601435831251,
+      "esencial": false
     },
     {
       "codigo": 10000228,
@@ -2382,7 +2543,8 @@
       "cobertura": 0.0,
       "sugerido": 14.0,
       "prob_quiebre": 1.0,
-      "prioridad": 1100.0357142857142
+      "prioridad": 1100.0357142857142,
+      "esencial": false
     },
     {
       "codigo": 10000228,
@@ -2396,7 +2558,8 @@
       "cobertura": 290.0763358778626,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.09376842105263157
+      "prioridad": 0.09376842105263157,
+      "esencial": false
     },
     {
       "codigo": 10000228,
@@ -2410,7 +2573,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000229,
@@ -2424,7 +2588,8 @@
       "cobertura": 208.88636363636365,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.03487884110232059
+      "prioridad": 0.03487884110232059,
+      "esencial": false
     },
     {
       "codigo": 10000229,
@@ -2438,7 +2603,8 @@
       "cobertura": 26.666666666666668,
       "sugerido": 193.37896172493083,
       "prob_quiebre": 0.4163348489977037,
-      "prioridad": 0.121875
+      "prioridad": 0.121875,
+      "esencial": false
     },
     {
       "codigo": 10000229,
@@ -2452,7 +2618,8 @@
       "cobertura": 70.9090909090909,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.09166666666666667
+      "prioridad": 0.09166666666666667,
+      "esencial": false
     },
     {
       "codigo": 10000229,
@@ -2466,7 +2633,8 @@
       "cobertura": 14.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.14285714285714285
+      "prioridad": 0.14285714285714285,
+      "esencial": false
     },
     {
       "codigo": 10000270,
@@ -2480,7 +2648,8 @@
       "cobertura": 295.3174767321613,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.47116363949246726
+      "prioridad": 0.47116363949246726,
+      "esencial": false
     },
     {
       "codigo": 10000270,
@@ -2494,7 +2663,8 @@
       "cobertura": 28.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.10714285714285714
+      "prioridad": 0.10714285714285714,
+      "esencial": false
     },
     {
       "codigo": 10000270,
@@ -2508,7 +2678,8 @@
       "cobertura": 79.10404624277456,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.32506915809802184
+      "prioridad": 0.32506915809802184,
+      "esencial": false
     },
     {
       "codigo": 10000270,
@@ -2522,7 +2693,8 @@
       "cobertura": 221.45454545454547,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.032899366643209006
+      "prioridad": 0.032899366643209006,
+      "esencial": false
     },
     {
       "codigo": 10000270,
@@ -2536,7 +2708,8 @@
       "cobertura": 0.0,
       "sugerido": 1928.1418930862503,
       "prob_quiebre": 1.0,
-      "prioridad": 127103.68421052632
+      "prioridad": 127103.68421052632,
+      "esencial": false
     },
     {
       "codigo": 10000270,
@@ -2550,7 +2723,8 @@
       "cobertura": 0.4748603351955308,
       "sugerido": 1244.9546361844841,
       "prob_quiebre": 0.9999999957872292,
-      "prioridad": 152.88705882352937
+      "prioridad": 152.88705882352937,
+      "esencial": false
     },
     {
       "codigo": 10000297,
@@ -2564,7 +2738,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000297,
@@ -2578,7 +2753,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000299,
@@ -2592,7 +2768,8 @@
       "cobertura": 333.551912568306,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.08137521063471259
+      "prioridad": 0.08137521063471259,
+      "esencial": false
     },
     {
       "codigo": 10000299,
@@ -2606,7 +2783,8 @@
       "cobertura": 0.0,
       "sugerido": 98.21315979081092,
       "prob_quiebre": 1.0,
-      "prioridad": 6100.785714285715
+      "prioridad": 6100.785714285715,
+      "esencial": false
     },
     {
       "codigo": 10000299,
@@ -2620,7 +2798,8 @@
       "cobertura": 308.57142857142856,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.01080246913580247
+      "prioridad": 0.01080246913580247,
+      "esencial": false
     },
     {
       "codigo": 10000299,
@@ -2634,7 +2813,8 @@
       "cobertura": 966.6666666666666,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.002896551724137931
+      "prioridad": 0.002896551724137931,
+      "esencial": false
     },
     {
       "codigo": 10000332,
@@ -2648,7 +2828,8 @@
       "cobertura": 0.0,
       "sugerido": 87.17815914673199,
       "prob_quiebre": 1.0,
-      "prioridad": 6101.142857142857
+      "prioridad": 6101.142857142857,
+      "esencial": false
     },
     {
       "codigo": 10000332,
@@ -2662,7 +2843,8 @@
       "cobertura": 0.0,
       "sugerido": 26.504733116679557,
       "prob_quiebre": 0.9999999998251269,
-      "prioridad": 1600.2857142857142
+      "prioridad": 1600.2857142857142,
+      "esencial": false
     },
     {
       "codigo": 10000332,
@@ -2676,7 +2858,8 @@
       "cobertura": 0.0,
       "sugerido": 100.36608694695974,
       "prob_quiebre": 1.0,
-      "prioridad": 6101.785714285715
+      "prioridad": 6101.785714285715,
+      "esencial": false
     },
     {
       "codigo": 10000333,
@@ -2690,7 +2873,8 @@
       "cobertura": 154.1193181818182,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.16962738643844633
+      "prioridad": 0.16962738643844633,
+      "esencial": false
     },
     {
       "codigo": 10000333,
@@ -2704,7 +2888,8 @@
       "cobertura": 196.07843137254903,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.05711999999999999
+      "prioridad": 0.05711999999999999,
+      "esencial": false
     },
     {
       "codigo": 10000333,
@@ -2718,7 +2903,8 @@
       "cobertura": 6.25531914893617,
       "sugerido": 421.38618342482255,
       "prob_quiebre": 0.9999986445021228,
-      "prioridad": 6.6000971817298355
+      "prioridad": 6.6000971817298355,
+      "esencial": false
     },
     {
       "codigo": 10000333,
@@ -2732,7 +2918,8 @@
       "cobertura": 250.5,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.12375249500998003
+      "prioridad": 0.12375249500998003,
+      "esencial": false
     },
     {
       "codigo": 10000333,
@@ -2746,7 +2933,8 @@
       "cobertura": 56.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.07142857142857142
+      "prioridad": 0.07142857142857142,
+      "esencial": false
     },
     {
       "codigo": 10000340,
@@ -2760,7 +2948,8 @@
       "cobertura": 23.818181818181817,
       "sugerido": 0.0,
       "prob_quiebre": 0.0006703205586147121,
-      "prioridad": 0.5038167938931297
+      "prioridad": 0.5038167938931297,
+      "esencial": false
     },
     {
       "codigo": 10000340,
@@ -2774,7 +2963,8 @@
       "cobertura": 29.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.010318779121986088,
-      "prioridad": 0.10344827586206896
+      "prioridad": 0.10344827586206896,
+      "esencial": false
     },
     {
       "codigo": 10000340,
@@ -2788,7 +2978,8 @@
       "cobertura": 70.625,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.1047787610619469
+      "prioridad": 0.1047787610619469,
+      "esencial": false
     },
     {
       "codigo": 10000342,
@@ -2802,7 +2993,8 @@
       "cobertura": 3.9784946236559136,
       "sugerido": 271.0897556008063,
       "prob_quiebre": 0.9998528583983033,
-      "prioridad": 4.926486486486487
+      "prioridad": 4.926486486486487,
+      "esencial": false
     },
     {
       "codigo": 10000342,
@@ -2816,7 +3008,8 @@
       "cobertura": 119.92518703241896,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.48601728901167446
+      "prioridad": 0.48601728901167446,
+      "esencial": false
     },
     {
       "codigo": 10000342,
@@ -2830,7 +3023,8 @@
       "cobertura": 48.25065274151436,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 2.288644094001237
+      "prioridad": 2.288644094001237,
+      "esencial": false
     },
     {
       "codigo": 10000363,
@@ -2844,7 +3038,8 @@
       "cobertura": 212.92307692307693,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.12680635838150286
+      "prioridad": 0.12680635838150286,
+      "esencial": false
     },
     {
       "codigo": 10000363,
@@ -2858,7 +3053,8 @@
       "cobertura": 39.5,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.0759493670886076
+      "prioridad": 0.0759493670886076,
+      "esencial": false
     },
     {
       "codigo": 10000364,
@@ -2872,7 +3068,8 @@
       "cobertura": 58.83507306889353,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 2.3431116112614943
+      "prioridad": 2.3431116112614943,
+      "esencial": false
     },
     {
       "codigo": 10000364,
@@ -2886,7 +3083,8 @@
       "cobertura": 177.30927835051546,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.7871637055310526
+      "prioridad": 0.7871637055310526,
+      "esencial": false
     },
     {
       "codigo": 10000364,
@@ -2900,7 +3098,8 @@
       "cobertura": 11.875,
       "sugerido": 31.07085278826338,
       "prob_quiebre": 0.7892647262624202,
-      "prioridad": 0.4884210526315789
+      "prioridad": 0.4884210526315789,
+      "esencial": false
     },
     {
       "codigo": 10000364,
@@ -2914,7 +3113,8 @@
       "cobertura": 122.90697674418605,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.15807541559670224
+      "prioridad": 0.15807541559670224,
+      "esencial": false
     },
     {
       "codigo": 10000364,
@@ -2928,7 +3128,8 @@
       "cobertura": 105.23273339835092,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 17.873082572259854
+      "prioridad": 17.873082572259854,
+      "esencial": false
     },
     {
       "codigo": 10000364,
@@ -2942,7 +3143,8 @@
       "cobertura": 152.19757365684575,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1.9021328201507666
+      "prioridad": 1.9021328201507666,
+      "esencial": false
     },
     {
       "codigo": 10000364,
@@ -2956,7 +3158,8 @@
       "cobertura": 610.0757045875334,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 2.278171598058986
+      "prioridad": 2.278171598058986,
+      "esencial": false
     },
     {
       "codigo": 10000365,
@@ -2970,7 +3173,8 @@
       "cobertura": 56.64658634538153,
       "sugerido": 0.0,
       "prob_quiebre": 3.0894398150849156e-11,
-      "prioridad": 0.6456069276345774
+      "prioridad": 0.6456069276345774,
+      "esencial": false
     },
     {
       "codigo": 10000365,
@@ -2984,7 +3188,8 @@
       "cobertura": 6.0,
       "sugerido": 490.09234352755084,
       "prob_quiebre": 0.9999999999998592,
-      "prioridad": 8.5
+      "prioridad": 8.5,
+      "esencial": false
     },
     {
       "codigo": 10000365,
@@ -2998,7 +3203,8 @@
       "cobertura": 4.3076923076923075,
       "sugerido": 71.1885236476906,
       "prob_quiebre": 0.9999998813917773,
-      "prioridad": 1.5255102040816326
+      "prioridad": 1.5255102040816326,
+      "esencial": false
     },
     {
       "codigo": 10000365,
@@ -3012,7 +3218,8 @@
       "cobertura": 42.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.08333333333333333
+      "prioridad": 0.08333333333333333,
+      "esencial": false
     },
     {
       "codigo": 10000365,
@@ -3026,7 +3233,8 @@
       "cobertura": 0.0,
       "sugerido": 21038.397782820695,
       "prob_quiebre": 0.9999975578401774,
-      "prioridad": 1105133.5452115496
+      "prioridad": 1105133.5452115496,
+      "esencial": false
     },
     {
       "codigo": 10000365,
@@ -3040,7 +3248,8 @@
       "cobertura": 0.0,
       "sugerido": 420.0,
       "prob_quiebre": 1.0,
-      "prioridad": 30101.071428571428
+      "prioridad": 30101.071428571428,
+      "esencial": false
     },
     {
       "codigo": 10000365,
@@ -3054,7 +3263,8 @@
       "cobertura": 20.741116751269033,
       "sugerido": 0.0,
       "prob_quiebre": 0.0057775907429875595,
-      "prioridad": 3.214227443302334
+      "prioridad": 3.214227443302334,
+      "esencial": false
     },
     {
       "codigo": 10000365,
@@ -3068,7 +3278,8 @@
       "cobertura": 0.0,
       "sugerido": 7961.396528208673,
       "prob_quiebre": 0.991693763195664,
-      "prioridad": 337161.00000000006
+      "prioridad": 337161.00000000006,
+      "esencial": false
     },
     {
       "codigo": 10000366,
@@ -3082,7 +3293,8 @@
       "cobertura": 43.23684210526316,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.9020085209981741
+      "prioridad": 0.9020085209981741,
+      "esencial": false
     },
     {
       "codigo": 10000366,
@@ -3096,7 +3308,8 @@
       "cobertura": 81.93103448275862,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.07119809203142537
+      "prioridad": 0.07119809203142537,
+      "esencial": false
     },
     {
       "codigo": 10000366,
@@ -3110,7 +3323,8 @@
       "cobertura": 7.111111111111111,
       "sugerido": 120.4394667220273,
       "prob_quiebre": 0.9985048874993276,
-      "prioridad": 1.72265625
+      "prioridad": 1.72265625,
+      "esencial": false
     },
     {
       "codigo": 10000366,
@@ -3124,7 +3338,8 @@
       "cobertura": 15.762711864406779,
       "sugerido": 4.985408739128957,
       "prob_quiebre": 0.09228181048428341,
-      "prioridad": 0.8120430107526883
+      "prioridad": 0.8120430107526883,
+      "esencial": false
     },
     {
       "codigo": 10000458,
@@ -3138,7 +3353,8 @@
       "cobertura": 86.12541254125412,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1.5193789962336866
+      "prioridad": 1.5193789962336866,
+      "esencial": false
     },
     {
       "codigo": 10000458,
@@ -3152,7 +3368,8 @@
       "cobertura": 83.29326923076923,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.3687487116058545
+      "prioridad": 0.3687487116058545,
+      "esencial": false
     },
     {
       "codigo": 10000458,
@@ -3166,7 +3383,8 @@
       "cobertura": 89.60000000000001,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.393813775510204
+      "prioridad": 0.393813775510204,
+      "esencial": false
     },
     {
       "codigo": 10000458,
@@ -3180,7 +3398,8 @@
       "cobertura": 34.936708860759495,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 2.742101449275362
+      "prioridad": 2.742101449275362,
+      "esencial": false
     },
     {
       "codigo": 10000527,
@@ -3194,7 +3413,8 @@
       "cobertura": 0.0,
       "sugerido": 61.02511083508519,
       "prob_quiebre": 1.0,
-      "prioridad": 4100.428571428572
+      "prioridad": 4100.428571428572,
+      "esencial": false
     },
     {
       "codigo": 10000527,
@@ -3208,7 +3428,8 @@
       "cobertura": 8.0,
       "sugerido": 27.05914739039465,
       "prob_quiebre": 0.9994588855678708,
-      "prioridad": 0.5
+      "prioridad": 0.5,
+      "esencial": false
     },
     {
       "codigo": 10000529,
@@ -3222,7 +3443,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000530,
@@ -3236,7 +3458,8 @@
       "cobertura": 0.0,
       "sugerido": 56.0,
       "prob_quiebre": 1.0,
-      "prioridad": 4100.142857142857
+      "prioridad": 4100.142857142857,
+      "esencial": false
     },
     {
       "codigo": 10000531,
@@ -3250,7 +3473,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000531,
@@ -3264,7 +3488,8 @@
       "cobertura": 0.0,
       "sugerido": 80.55328994770272,
       "prob_quiebre": 1.0,
-      "prioridad": 5600.785714285715
+      "prioridad": 5600.785714285715,
+      "esencial": false
     },
     {
       "codigo": 10000532,
@@ -3278,7 +3503,8 @@
       "cobertura": 2.2,
       "sugerido": 651.5447872344489,
       "prob_quiebre": 1.0,
-      "prioridad": 23.18181818181818
+      "prioridad": 23.18181818181818,
+      "esencial": false
     },
     {
       "codigo": 10000532,
@@ -3292,7 +3518,8 @@
       "cobertura": 16.0,
       "sugerido": 39.17349021495285,
       "prob_quiebre": 0.3640365999953853,
-      "prioridad": 0.390625
+      "prioridad": 0.390625,
+      "esencial": false
     },
     {
       "codigo": 10000533,
@@ -3306,7 +3533,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000533,
@@ -3320,7 +3548,8 @@
       "cobertura": null,
       "sugerido": 10.659869843108185,
       "prob_quiebre": 0.5,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000534,
@@ -3334,7 +3563,8 @@
       "cobertura": 2.0,
       "sugerido": 964.1707508168138,
       "prob_quiebre": 0.9999993835392881,
-      "prioridad": 30.5
+      "prioridad": 30.5,
+      "esencial": false
     },
     {
       "codigo": 10000534,
@@ -3348,7 +3578,8 @@
       "cobertura": 12.6,
       "sugerido": 62.342799875012446,
       "prob_quiebre": 0.5824043724912638,
-      "prioridad": 0.47619047619047616
+      "prioridad": 0.47619047619047616,
+      "esencial": false
     },
     {
       "codigo": 10000535,
@@ -3362,7 +3593,8 @@
       "cobertura": 0.0,
       "sugerido": 164.45445138390934,
       "prob_quiebre": 0.9999999997285823,
-      "prioridad": 9389.928571428572
+      "prioridad": 9389.928571428572,
+      "esencial": false
     },
     {
       "codigo": 10000535,
@@ -3376,7 +3608,8 @@
       "cobertura": 0.0,
       "sugerido": 582.732430280071,
       "prob_quiebre": 0.9874532459009597,
-      "prioridad": 24114.071428571428
+      "prioridad": 24114.071428571428,
+      "esencial": false
     },
     {
       "codigo": 10000535,
@@ -3390,7 +3623,8 @@
       "cobertura": 0.0,
       "sugerido": 47.20374728003241,
       "prob_quiebre": 0.9999999999998278,
-      "prioridad": 2850.5714285714284
+      "prioridad": 2850.5714285714284,
+      "esencial": false
     },
     {
       "codigo": 10000535,
@@ -3404,7 +3638,8 @@
       "cobertura": 0.0,
       "sugerido": 151.31676682013858,
       "prob_quiebre": 0.9999986044622029,
-      "prioridad": 8103.392857142857
+      "prioridad": 8103.392857142857,
+      "esencial": false
     },
     {
       "codigo": 10000536,
@@ -3418,7 +3653,8 @@
       "cobertura": 0.0,
       "sugerido": 1344.0,
       "prob_quiebre": 1.0,
-      "prioridad": 96103.42857142857
+      "prioridad": 96103.42857142857,
+      "esencial": false
     },
     {
       "codigo": 10000536,
@@ -3432,7 +3668,8 @@
       "cobertura": 16.632420091324203,
       "sugerido": 183.27027126666462,
       "prob_quiebre": 0.11957763146076295,
-      "prioridad": 10.5937680164722
+      "prioridad": 10.5937680164722,
+      "esencial": false
     },
     {
       "codigo": 10000536,
@@ -3446,7 +3683,8 @@
       "cobertura": 32.094339622641506,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.7388930880994374
+      "prioridad": 0.7388930880994374,
+      "esencial": false
     },
     {
       "codigo": 10000538,
@@ -3460,7 +3698,8 @@
       "cobertura": 0.0,
       "sugerido": 313.073714262588,
       "prob_quiebre": 0.9999947896596226,
-      "prioridad": 16395.214285714283
+      "prioridad": 16395.214285714283,
+      "esencial": false
     },
     {
       "codigo": 10000538,
@@ -3474,7 +3713,8 @@
       "cobertura": null,
       "sugerido": 304.63115480113436,
       "prob_quiebre": 0.5,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000538,
@@ -3488,7 +3728,8 @@
       "cobertura": 0.0,
       "sugerido": 128.3330593841469,
       "prob_quiebre": 0.9999999999989684,
-      "prioridad": 7531.892857142857
+      "prioridad": 7531.892857142857,
+      "esencial": false
     },
     {
       "codigo": 10000538,
@@ -3502,7 +3743,8 @@
       "cobertura": 0.0,
       "sugerido": 284.80920153828913,
       "prob_quiebre": 0.9999980565170675,
-      "prioridad": 15105.464285714286
+      "prioridad": 15105.464285714286,
+      "esencial": false
     },
     {
       "codigo": 10000538,
@@ -3516,7 +3758,8 @@
       "cobertura": 0.0,
       "sugerido": 768.0123880975074,
       "prob_quiebre": 1.0,
-      "prioridad": 50514.75
+      "prioridad": 50514.75,
+      "esencial": false
     },
     {
       "codigo": 10000539,
@@ -3530,7 +3773,8 @@
       "cobertura": 0.0,
       "sugerido": 1311.9332906863456,
       "prob_quiebre": 0.9752431478801324,
-      "prioridad": 51178.857142857145
+      "prioridad": 51178.857142857145,
+      "esencial": false
     },
     {
       "codigo": 10000539,
@@ -3544,7 +3788,8 @@
       "cobertura": 0.0,
       "sugerido": 899.8411339564908,
       "prob_quiebre": 1.0,
-      "prioridad": 55266.03571428572
+      "prioridad": 55266.03571428572,
+      "esencial": false
     },
     {
       "codigo": 10000540,
@@ -3558,7 +3803,8 @@
       "cobertura": 0.0,
       "sugerido": 159.3782164618849,
       "prob_quiebre": 0.9996533545275554,
-      "prioridad": 7770.309523809524
+      "prioridad": 7770.309523809524,
+      "esencial": false
     },
     {
       "codigo": 10000540,
@@ -3572,7 +3818,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000540,
@@ -3586,7 +3833,8 @@
       "cobertura": 0.0,
       "sugerido": 36.02445849933008,
       "prob_quiebre": 0.9999999952505056,
-      "prioridad": 2100.3214285714284
+      "prioridad": 2100.3214285714284,
+      "esencial": false
     },
     {
       "codigo": 10000540,
@@ -3600,7 +3848,8 @@
       "cobertura": 0.0,
       "sugerido": 100.9148225018943,
       "prob_quiebre": 0.9999999999999999,
-      "prioridad": 6102.25
+      "prioridad": 6102.25,
+      "esencial": false
     },
     {
       "codigo": 10000541,
@@ -3614,7 +3863,8 @@
       "cobertura": 0.0,
       "sugerido": 3909.1315799795993,
       "prob_quiebre": 0.9999999999956124,
-      "prioridad": 225132.85714285713
+      "prioridad": 225132.85714285713,
+      "esencial": false
     },
     {
       "codigo": 10000541,
@@ -3628,7 +3878,8 @@
       "cobertura": 0.0,
       "sugerido": 70.0,
       "prob_quiebre": 1.0,
-      "prioridad": 5100.357142857143
+      "prioridad": 5100.357142857143,
+      "esencial": false
     },
     {
       "codigo": 10000543,
@@ -3642,7 +3893,8 @@
       "cobertura": 4.0,
       "sugerido": 661.4072568117602,
       "prob_quiebre": 1.0,
-      "prioridad": 15.25
+      "prioridad": 15.25,
+      "esencial": false
     },
     {
       "codigo": 10000543,
@@ -3656,7 +3908,8 @@
       "cobertura": 16.394736842105264,
       "sugerido": 11.841426842780038,
       "prob_quiebre": 0.09016118617286994,
-      "prioridad": 1.3854620499885348
+      "prioridad": 1.3854620499885348,
+      "esencial": false
     },
     {
       "codigo": 10000546,
@@ -3670,7 +3923,8 @@
       "cobertura": null,
       "sugerido": 67.41893653032724,
       "prob_quiebre": 0.5,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000546,
@@ -3684,7 +3938,8 @@
       "cobertura": 0.0,
       "sugerido": 321.87184793921347,
       "prob_quiebre": 1.0,
-      "prioridad": 19304.535714285714
+      "prioridad": 19304.535714285714,
+      "esencial": false
     },
     {
       "codigo": 10000562,
@@ -3698,7 +3953,8 @@
       "cobertura": 0.0,
       "sugerido": 56000.0,
       "prob_quiebre": 1.0,
-      "prioridad": 4000242.8571428573
+      "prioridad": 4000242.8571428573,
+      "esencial": false
     },
     {
       "codigo": 10000562,
@@ -3712,7 +3968,8 @@
       "cobertura": 0.0,
       "sugerido": 44741.75581523251,
       "prob_quiebre": 0.9761758874076126,
-      "prioridad": 1747474.0028592907
+      "prioridad": 1747474.0028592907,
+      "esencial": false
     },
     {
       "codigo": 10000563,
@@ -3726,7 +3983,8 @@
       "cobertura": 0.0,
       "sugerido": 287389.3437113243,
       "prob_quiebre": 0.8822438312798639,
-      "prioridad": 8607857.82142857
+      "prioridad": 8607857.82142857,
+      "esencial": false
     },
     {
       "codigo": 10000563,
@@ -3740,7 +3998,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000563,
@@ -3754,7 +4013,8 @@
       "cobertura": 0.0,
       "sugerido": 73394.43893914478,
       "prob_quiebre": 0.9999999406460319,
-      "prioridad": 4000242.964285714
+      "prioridad": 4000242.964285714,
+      "esencial": false
     },
     {
       "codigo": 10000564,
@@ -3768,7 +4028,8 @@
       "cobertura": 0.0,
       "sugerido": 32926.088167011156,
       "prob_quiebre": 0.9851185352628302,
-      "prioridad": 1338910.0952380954
+      "prioridad": 1338910.0952380954,
+      "esencial": false
     },
     {
       "codigo": 10000564,
@@ -3782,7 +4043,8 @@
       "cobertura": 0.6943699731903485,
       "sugerido": 52736.03386101253,
       "prob_quiebre": 0.999252197608482,
-      "prioridad": 3761.6833976833977
+      "prioridad": 3761.6833976833977,
+      "esencial": false
     },
     {
       "codigo": 10000564,
@@ -3796,7 +4058,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000567,
@@ -3810,7 +4073,8 @@
       "cobertura": 0.0,
       "sugerido": 171544.96474579998,
       "prob_quiebre": 0.9999999940891827,
-      "prioridad": 9514131.591991572
+      "prioridad": 9514131.591991572,
+      "esencial": false
     },
     {
       "codigo": 10000568,
@@ -3824,7 +4088,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000568,
@@ -3838,7 +4103,8 @@
       "cobertura": 30.24332578071126,
       "sugerido": 0.0,
       "prob_quiebre": 2.1768917446429725e-08,
-      "prioridad": 335.6773680781759
+      "prioridad": 335.6773680781759,
+      "esencial": false
     },
     {
       "codigo": 10000585,
@@ -3852,7 +4118,8 @@
       "cobertura": 0.0,
       "sugerido": 275.4631154801134,
       "prob_quiebre": 1.0,
-      "prioridad": 17601.25
+      "prioridad": 17601.25,
+      "esencial": false
     },
     {
       "codigo": 10000585,
@@ -3866,7 +4133,8 @@
       "cobertura": 0.0,
       "sugerido": 294.0,
       "prob_quiebre": 1.0,
-      "prioridad": 21101.5
+      "prioridad": 21101.5,
+      "esencial": false
     },
     {
       "codigo": 10000591,
@@ -3880,7 +4148,8 @@
       "cobertura": 0.0,
       "sugerido": 31.370946826516363,
       "prob_quiebre": 1.0,
-      "prioridad": 2100.285714285714
+      "prioridad": 2100.285714285714,
+      "esencial": false
     },
     {
       "codigo": 10000591,
@@ -3894,7 +4163,8 @@
       "cobertura": 0.0,
       "sugerido": 46.51473840531353,
       "prob_quiebre": 1.0,
-      "prioridad": 2934.011904761905
+      "prioridad": 2934.011904761905,
+      "esencial": false
     },
     {
       "codigo": 10000591,
@@ -3908,7 +4178,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000591,
@@ -3922,7 +4193,8 @@
       "cobertura": 0.0,
       "sugerido": 47.50473311667956,
       "prob_quiebre": 1.0,
-      "prioridad": 3100.4285714285716
+      "prioridad": 3100.4285714285716,
+      "esencial": false
     },
     {
       "codigo": 10000640,
@@ -3936,7 +4208,8 @@
       "cobertura": 54.0,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.2777777777777778
+      "prioridad": 0.2777777777777778,
+      "esencial": false
     },
     {
       "codigo": 10000640,
@@ -3950,7 +4223,8 @@
       "cobertura": 85.9090909090909,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.048223733938019646
+      "prioridad": 0.048223733938019646,
+      "esencial": false
     },
     {
       "codigo": 10000640,
@@ -3964,7 +4238,8 @@
       "cobertura": 40.25,
       "sugerido": 0.0,
       "prob_quiebre": 1.3877787807814457e-14,
-      "prioridad": 0.05323868677905944
+      "prioridad": 0.05323868677905944,
+      "esencial": false
     },
     {
       "codigo": 10000640,
@@ -3978,7 +4253,8 @@
       "cobertura": 66.66666666666667,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.12299999999999998
+      "prioridad": 0.12299999999999998,
+      "esencial": false
     },
     {
       "codigo": 10000653,
@@ -3992,7 +4268,8 @@
       "cobertura": 12.0,
       "sugerido": 120.0,
       "prob_quiebre": 1.0,
-      "prioridad": 5.083333333333333
+      "prioridad": 5.083333333333333,
+      "esencial": false
     },
     {
       "codigo": 10000653,
@@ -4006,7 +4283,8 @@
       "cobertura": null,
       "sugerido": 172.35829787559084,
       "prob_quiebre": 0.14252470370130643,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000722,
@@ -4020,7 +4298,8 @@
       "cobertura": 0.0,
       "sugerido": 107277.91007449025,
       "prob_quiebre": 0.9998796871784936,
-      "prioridad": 5297714.928571429
+      "prioridad": 5297714.928571429,
+      "esencial": false
     },
     {
       "codigo": 10000740,
@@ -4034,7 +4313,8 @@
       "cobertura": 301.5,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.1890547263681592
+      "prioridad": 0.1890547263681592,
+      "esencial": false
     },
     {
       "codigo": 10000740,
@@ -4048,7 +4328,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000740,
@@ -4062,7 +4343,8 @@
       "cobertura": null,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 1e-06
+      "prioridad": 1e-06,
+      "esencial": false
     },
     {
       "codigo": 10000740,
@@ -4076,7 +4358,8 @@
       "cobertura": 727.9809475292919,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 4.495538898062965
+      "prioridad": 4.495538898062965,
+      "esencial": false
     },
     {
       "codigo": 10000740,
@@ -4090,7 +4373,8 @@
       "cobertura": 115.07865168539325,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.3953817613747315
+      "prioridad": 0.3953817613747315,
+      "esencial": false
     },
     {
       "codigo": 10000740,
@@ -4104,7 +4388,8 @@
       "cobertura": 3419.884401552502,
       "sugerido": 0.0,
       "prob_quiebre": 0.0,
-      "prioridad": 0.39850971051490974
+      "prioridad": 0.39850971051490974,
+      "esencial": false
     }
   ],
   "tendencia_medicamentos": {

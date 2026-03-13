@@ -276,16 +276,34 @@ document.addEventListener('DOMContentLoaded', () => {
         window.vadSortCol = 'producto';
         window.vadSortAsc = true;
         
-        // Essential items local memory
+        // Essential items local memory & Database Seed
         window.esencialesMeds = new Set();
+        let wasMemoryEmpty = false;
+        
         try {
-            const esencialesStr = localStorage.getItem('esenciales_hospital') || '[]';
-            const parsed = JSON.parse(esencialesStr);
-            if (Array.isArray(parsed)) {
-                parsed.forEach(c => window.esencialesMeds.add(String(c)));
+            const esencialesStr = localStorage.getItem('esenciales_hospital');
+            if (!esencialesStr) wasMemoryEmpty = true;
+            else {
+                const parsed = JSON.parse(esencialesStr);
+                if (Array.isArray(parsed) && parsed.length > 0) {
+                    parsed.forEach(c => window.esencialesMeds.add(String(c)));
+                } else { 
+                    wasMemoryEmpty = true;
+                }
             }
         } catch (e) {
+            wasMemoryEmpty = true;
             console.warn('LocalStorage unavailable for essential memory');
+        }
+
+        // Auto-seed from backend if memory is empty
+        if (wasMemoryEmpty && fullInventory && fullInventory.length > 0) {
+            fullInventory.forEach(item => {
+                if(item.esencial === true && item.codigo) {
+                    window.esencialesMeds.add(String(item.codigo));
+                }
+            });
+            try { localStorage.setItem('esenciales_hospital', JSON.stringify([...window.esencialesMeds])); } catch(e){}
         }
 
         // Toggler via Event Delegation
