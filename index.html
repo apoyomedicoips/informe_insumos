@@ -94,6 +94,10 @@
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
                         Inventario Detallado
                     </a>
+                    <a href="#vademecum" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-slate-800/50 text-slate-300 transition-colors tab-link" data-target="dashboard-vademecum">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                        Vademécum Completo
+                    </a>
                 </nav>
             </div>
             <div class="p-4 border-t border-slate-700/50">
@@ -177,6 +181,31 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <!-- Projections Section -->
+                <h2 class="text-2xl font-bold text-white mb-6 pt-4 border-t border-slate-700/50">Proyecciones Críticas (Histórico 30 días + 7 Proyectado)</h2>
+                <div class="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-8" id="projections-container">
+                    <div class="glass-panel p-6 rounded-xl relative">
+                        <div class="absolute top-0 right-0 p-4 opacity-10"><span class="w-4 h-4 rounded-full bg-red-500 block animate-pulse"></span></div>
+                        <h3 id="med-proy-1-title" class="text-md font-semibold text-red-400 mb-2 truncate">Medicamento Crítico 1</h3>
+                        <div class="h-60 w-full relative"><canvas id="med-proy-1"></canvas></div>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl relative">
+                        <div class="absolute top-0 right-0 p-4 opacity-10"><span class="w-4 h-4 rounded-full bg-red-500 block animate-pulse"></span></div>
+                        <h3 id="med-proy-2-title" class="text-md font-semibold text-red-400 mb-2 truncate">Medicamento Crítico 2</h3>
+                        <div class="h-60 w-full relative"><canvas id="med-proy-2"></canvas></div>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl relative">
+                        <div class="absolute top-0 right-0 p-4 opacity-10"><span class="w-4 h-4 rounded-full bg-orange-500 block animate-pulse"></span></div>
+                        <h3 id="ins-proy-1-title" class="text-md font-semibold text-orange-400 mb-2 truncate">Insumo Crítico 1</h3>
+                        <div class="h-60 w-full relative"><canvas id="ins-proy-1"></canvas></div>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl relative">
+                        <div class="absolute top-0 right-0 p-4 opacity-10"><span class="w-4 h-4 rounded-full bg-orange-500 block animate-pulse"></span></div>
+                        <h3 id="ins-proy-2-title" class="text-md font-semibold text-orange-400 mb-2 truncate">Insumo Crítico 2</h3>
+                        <div class="h-60 w-full relative"><canvas id="ins-proy-2"></canvas></div>
                     </div>
                 </div>
 
@@ -274,6 +303,40 @@
                     &copy; 2026 Apoyo Médico IPS. Tablero interactivo derivado de datos transaccionales SAP.
                 </footer>
             </div> <!-- End Dashboard Full Inventory Section -->
+
+            <!-- Dashboard Vademecum Section -->
+            <div id="dashboard-vademecum" class="hidden flex-1 overflow-y-auto p-6 scroll-smooth">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4">
+                    <h2 class="text-2xl font-bold text-white">Vademécum Institucional (Catálogo Base)</h2>
+                    <input type="text" id="vademecum-search" placeholder="Buscar medicamento o insumo..." class="w-full md:w-80 bg-slate-800/50 border border-slate-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors">
+                </div>
+                
+                <div class="glass-panel rounded-xl flex flex-col overflow-hidden mb-8">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm text-left text-slate-300">
+                            <thead class="text-xs text-slate-400 uppercase bg-slate-800/80">
+                                <tr>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortVad('codigo')">Código ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortVad('producto')">Descripción del Producto ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortVad('tipo')">Clase ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortVad('estado')">Categoría ↕</th>
+                                    <th class="px-4 py-4 cursor-pointer hover:text-white" onclick="sortVad('unidad')">Unidad Base ↕</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-vademecum" class="divide-y divide-slate-700/50">
+                                <!-- JS fill -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="vademecum-info" class="p-4 border-t border-slate-700/50 text-slate-400 text-sm flex justify-between items-center bg-slate-900/50">
+                        <span>Mostrando registros...</span>
+                    </div>
+                </div>
+                <!-- Footer -->
+                <footer class="mt-8 py-6 border-t border-slate-700/50 text-center text-slate-500 text-sm">
+                    &copy; 2026 Apoyo Médico IPS. Tablero interactivo derivado de datos transaccionales SAP.
+                </footer>
+            </div> <!-- End Dashboard Vademecum Section -->
         </main>
     </div>
 

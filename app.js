@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const targetId = link.getAttribute('data-target');
                 if(!targetId) return;
                 
-                // Highlight active link visually (optional logic, kept simple)
+                // Highlight active link visually
                 tabLinks.forEach(l => {
                     l.classList.remove('bg-blue-500/10', 'text-blue-400');
                     l.classList.add('hover:bg-slate-800/50', 'text-slate-300');
@@ -286,9 +286,141 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Toggle views
                 document.getElementById('dashboard-main').classList.add('hidden');
                 document.getElementById('dashboard-inventario').classList.add('hidden');
+                const vadEl = document.getElementById('dashboard-vademecum');
+                if(vadEl) vadEl.classList.add('hidden');
+                
                 document.getElementById(targetId).classList.remove('hidden');
             });
         });
+
+        // 8. Vademecum Datatable Logic
+        const vadTable = document.getElementById('table-vademecum');
+        const vadSearchInput = document.getElementById('vademecum-search');
+        window.vadSortCol = 'producto';
+        window.vadSortAsc = true;
+
+        const renderVademecum = (filteredData) => {
+            if(!vadTable) return;
+            vadTable.innerHTML = filteredData.map(item => {
+                const prod = item.producto ? String(item.producto) : 'N/A';
+                return `
+                <tr class="hover:bg-slate-700/30 transition-colors border-b border-slate-700/30 font-medium">
+                    <td class="px-4 py-3 font-mono text-xs text-slate-400">${item.codigo}</td>
+                    <td class="px-4 py-3 text-slate-200">${prod}</td>
+                    <td class="px-4 py-3 text-slate-400 text-xs">${item.tipo || ''}</td>
+                    <td class="px-4 py-3 text-slate-400 text-xs">${item.estado || ''}</td>
+                    <td class="px-4 py-3 text-slate-400 text-xs">${item.unidad || 'UND'}</td>
+                </tr>`;
+            }).join('');
+            const vadInfo = document.getElementById('vademecum-info');
+            if(vadInfo) vadInfo.innerText = `Mostrando ${filteredData.length} ítems en catálogo`;
+        };
+
+        const applyVadFiltersAndSort = () => {
+            let term = vadSearchInput ? vadSearchInput.value.toLowerCase() : '';
+            let filtered = fullInventory.filter(i => {
+                const name = i.producto ? String(i.producto).toLowerCase() : '';
+                const code = i.codigo ? String(i.codigo).toLowerCase() : '';
+                return name.includes(term) || code.includes(term);
+            });
+
+            filtered.sort((a,b) => {
+                let valA = a[window.vadSortCol] ?? '';
+                let valB = b[window.vadSortCol] ?? '';
+                if(typeof valA === 'string') valA = valA.toLowerCase();
+                if(typeof valB === 'string') valB = valB.toLowerCase();
+                if(valA < valB) return window.vadSortAsc ? -1 : 1;
+                if(valA > valB) return window.vadSortAsc ? 1 : -1;
+                return 0;
+            });
+            renderVademecum(filtered);
+        };
+
+        window.sortVad = (col) => {
+            if(window.vadSortCol === col) window.vadSortAsc = !window.vadSortAsc;
+            else { window.vadSortCol = col; window.vadSortAsc = true; }
+            applyVadFiltersAndSort();
+        };
+
+        if(vadSearchInput) vadSearchInput.addEventListener('input', applyVadFiltersAndSort);
+        applyVadFiltersAndSort(); 
+
+        // 9. Individual Critical Projections Charts
+        const renderProjectionChart = (canvasId, titleId, itemData, colorPoint, colorArea) => {
+            if(!itemData || !document.getElementById(canvasId)) return;
+            const titleEl = document.getElementById(titleId);
+            if(titleEl) titleEl.innerText = itemData.nombre;
+            
+            const ctx = document.getElementById(canvasId).getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: itemData.fechas.concat(itemData.fechas_proy),
+                    datasets: [
+                        {
+                            label: 'Límite Superior (Incertidumbre)',
+                            data: Array(itemData.fechas.length - 1).fill(null).concat([itemData.dispensado[itemData.dispensado.length-1]]).concat(itemData.incierto_alto),
+                            borderColor: 'transparent',
+                            backgroundColor: colorArea,
+                            fill: '+1',
+                            pointRadius: 0,
+                            tension: 0
+                        },
+                        {
+                            label: 'Límite Inferior',
+                            data: Array(itemData.fechas.length - 1).fill(null).concat([itemData.dispensado[itemData.dispensado.length-1]]).concat(itemData.incierto_bajo),
+                            borderColor: 'transparent',
+                            backgroundColor: 'transparent',
+                            fill: false,
+                            pointRadius: 0,
+                            tension: 0
+                        },
+                        {
+                            label: 'Proyección (Media Móvil)',
+                            data: Array(itemData.fechas.length - 1).fill(null).concat([itemData.dispensado[itemData.dispensado.length-1]]).concat(itemData.proyectado),
+                            borderColor: colorPoint,
+                            borderWidth: 2,
+                            borderDash: [5, 5],
+                            tension: 0.1,
+                            pointBackgroundColor: '#1e293b',
+                            pointRadius: 3
+                        },
+                        {
+                            label: 'Consumo Histórico',
+                            data: itemData.dispensado.concat(Array(itemData.fechas_proy.length).fill(null)),
+                            borderColor: colorPoint,
+                            backgroundColor: 'transparent',
+                            borderWidth: 2,
+                            tension: 0.1,
+                            pointBackgroundColor: '#1e293b',
+                            pointRadius: 3
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: { mode: 'index', intersect: false },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: { mode: 'index', intersect: false }
+                    },
+                    scales: {
+                        x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { maxTicksLimit: 7 } },
+                        y: { beginAtZero: true, grid: { color: 'rgba(255,255,255,0.05)' } }
+                    }
+                }
+            });
+        };
+
+        if (data.top_criticos_chart && data.top_criticos_chart.medicamentos) {
+            renderProjectionChart('med-proy-1', 'med-proy-1-title', data.top_criticos_chart.medicamentos[0], '#f87171', 'rgba(248, 113, 113, 0.2)');
+            renderProjectionChart('med-proy-2', 'med-proy-2-title', data.top_criticos_chart.medicamentos[1], '#f87171', 'rgba(248, 113, 113, 0.2)');
+        }
+        if (data.top_criticos_chart && data.top_criticos_chart.insumos) {
+            renderProjectionChart('ins-proy-1', 'ins-proy-1-title', data.top_criticos_chart.insumos[0], '#fb923c', 'rgba(251, 146, 60, 0.2)');
+            renderProjectionChart('ins-proy-2', 'ins-proy-2-title', data.top_criticos_chart.insumos[1], '#fb923c', 'rgba(251, 146, 60, 0.2)');
+        }
 
     }
 
