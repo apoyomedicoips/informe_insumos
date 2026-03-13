@@ -69,53 +69,43 @@ document.addEventListener('DOMContentLoaded', () => {
         let totalIns = 0; let valIns = 0;
         
         data.resumen_general.forEach(r => {
-            if(r.tipo === 'Medicamento') { totalMeds++; valMeds += r.stock_total || 0; }
-            if(r.tipo === 'Insumo') { totalIns++; valIns += r.stock_total || 0; }
+            if(r.tipo.toUpperCase() === 'MEDICAMENTO') { totalMeds++; valMeds += r.stock_total || 0; }
+            if(r.tipo.toUpperCase() === 'INSUMO') { totalIns++; valIns += r.stock_total || 0; }
         });
 
-        const kpiHtml = `
-            <div class="glass-panel p-6 rounded-xl border-l-4 border-blue-500">
-                <p class="text-slate-400 text-sm font-semibold mb-1 uppercase tracking-wider">Medicamentos Monitorizados</p>
-                <h3 class="text-3xl font-bold text-white">${totalMeds}</h3>
-                <p class="text-emerald-400 text-xs mt-2">Inventario Base Activo</p>
-            </div>
-            <div class="glass-panel p-6 rounded-xl border-l-4 border-teal-500">
-                <p class="text-slate-400 text-sm font-semibold mb-1 uppercase tracking-wider">Insumos Monitorizados</p>
-                <h3 class="text-3xl font-bold text-white">${totalIns}</h3>
-                <p class="text-emerald-400 text-xs mt-2">Inventario Base Activo</p>
-            </div>
-            <div class="glass-panel p-6 rounded-xl border-l-4 border-red-500 relative overflow-hidden">
-                <div class="absolute top-0 right-0 p-4 opacity-10 pulse-critical"><svg class="w-16 h-16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg></div>
-                <p class="text-slate-400 text-sm font-semibold mb-1 uppercase tracking-wider">Meds Riesgo Crítico</p>
-                <h3 class="text-3xl font-bold text-red-400">${data.alertas_criticas.medicamentos.length}</h3>
-                <p class="text-red-400/80 text-xs mt-2 relative z-10">Requieren acción inmediata</p>
-            </div>
-            <div class="glass-panel p-6 rounded-xl border-l-4 border-orange-500 relative overflow-hidden">
-                <div class="absolute top-0 right-0 p-4 opacity-10"><svg class="w-16 h-16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg></div>
-                <p class="text-slate-400 text-sm font-semibold mb-1 uppercase tracking-wider">Insumos Riesgo Crítico</p>
-                <h3 class="text-3xl font-bold text-orange-400">${data.alertas_criticas.insumos.length}</h3>
-                <p class="text-orange-400/80 text-xs mt-2 relative z-10">Vigilancia estricta recomendada</p>
-            </div>
-        `;
-        document.getElementById('kpi-container').innerHTML = kpiHtml;
+        const medsCriticos = data.alertas_criticas.medicamentos ? data.alertas_criticas.medicamentos.length : 0;
+        const ins_criticos = data.alertas_criticas.insumos ? data.alertas_criticas.insumos.length : 0;
+
+        const kpiMeds = document.getElementById('kpi-meds');
+        if(kpiMeds) kpiMeds.innerText = totalMeds;
+        
+        const kpiIns = document.getElementById('kpi-insumos');
+        if(kpiIns) kpiIns.innerText = totalIns;
+        
+        const kpiMedsCrit = document.getElementById('kpi-meds-crit');
+        if(kpiMedsCrit) kpiMedsCrit.innerText = medsCriticos;
+        
+        const kpiInsCrit = document.getElementById('kpi-insumos-crit');
+        if(kpiInsCrit) kpiInsCrit.innerText = ins_criticos;
 
         // 3. Populate Tables
         const renderRow = (item, type) => {
             const cobClass = item.cobertura < 2 ? 'text-red-400 font-bold' : 'text-orange-300';
+            const prodName = item.producto ? String(item.producto) : 'Ítem sin descripción';
             return `
             <tr class="hover:bg-slate-700/30 transition-colors">
                 <td class="px-4 py-3 font-mono text-xs text-slate-400">${item.codigo}</td>
                 <td class="px-4 py-3 font-medium text-slate-200">
-                    <div class="truncate max-w-[200px] lg:max-w-xs" title="${item.producto}">
-                        ${item.producto.substring(0,40)}...
+                    <div class="truncate max-w-[200px] lg:max-w-xs" title="${prodName}">
+                        ${prodName.substring(0,40)}${prodName.length > 40 ? '...' : ''}
                     </div>
                 </td>
-                <td class="px-4 py-3 text-right ${cobClass}">${item.cobertura} d</td>
+                <td class="px-4 py-3 text-right ${cobClass}">${item.cobertura !== null ? Number(item.cobertura).toFixed(1) : 'N/A'} d</td>
             </tr>`;
         };
 
-        document.getElementById('table-meds-criticos').innerHTML = data.alertas_criticas.medicamentos.map(m => renderRow(m, 'M')).join('');
-        document.getElementById('table-ins-criticos').innerHTML = data.alertas_criticas.insumos.map(i => renderRow(i, 'I')).join('');
+        document.getElementById('table-meds-criticos').innerHTML = (data.alertas_criticas.medicamentos||[]).map(m => renderRow(m, 'M')).join('');
+        document.getElementById('table-ins-criticos').innerHTML = (data.alertas_criticas.insumos||[]).map(i => renderRow(i, 'I')).join('');
 
         // 4. Main Chart
         const ctx = document.getElementById('mainTrendChart').getContext('2d');
@@ -193,35 +183,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         // 5. Build small Quick Metrics dynamically
-        const qmContainer = document.getElementById('quick-metrics');
-        let avgDisp = data.tendencia_general.dispensado.slice(-4).reduce((a,b)=>a+b,0) / 4;
-        let avgRec = data.tendencia_general.recetado.slice(-4).reduce((a,b)=>a+b,0) / 4;
-        let satisfaccion = Math.round((avgDisp/avgRec)*100) || 0;
-        
-        qmContainer.innerHTML = `
-            <div class="p-4 bg-slate-800/50 rounded-lg border border-slate-700/50 flex justify-between items-center">
-                <span class="text-slate-300 text-sm">Satisfacción (Últ. Mes)</span>
-                <span class="text-xl font-bold ${satisfaccion < 80 ? 'text-orange-400' : 'text-emerald-400'}">${satisfaccion}%</span>
-            </div>
-            <div class="p-4 bg-slate-800/50 rounded-lg border border-slate-700/50 flex justify-between items-center">
-                <span class="text-slate-300 text-sm">Prom. Dispensado Semanal</span>
-                <span class="text-xl font-bold text-blue-400">${Math.round(avgDisp).toLocaleString()} u</span>
-            </div>
-            <div class="p-4 bg-slate-800/50 rounded-lg border border-slate-700/50 flex mt-4 flex-col gap-2 relative overflow-hidden">
-                <span class="text-slate-300 text-sm font-semibold mb-2">Estado del Sistema</span>
-                <div class="w-full bg-slate-700 rounded-full h-2.5 mb-1 hidden">
-                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
-                </div>
-                <div class="flex items-center gap-2 text-emerald-400 text-sm">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                    Data Sincronizada y Limpia
-                </div>
-                <div class="flex items-center gap-2 text-emerald-400 text-sm">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                    Módulo Predictivo ONLINE
-                </div>
-            </div>
-        `;
+        if (data.tendencia_general.dispensado.length >= 4) {
+            let avgDisp = data.tendencia_general.dispensado.slice(-4).reduce((a,b)=>a+b,0) / 4;
+            let avgRec = data.tendencia_general.recetado.slice(-4).reduce((a,b)=>a+b,0) / 4;
+            let satisfaccion = avgRec > 0 ? Math.round((avgDisp/avgRec)*100) : 0;
+            
+            const qSat = document.getElementById('q-satisfaccion');
+            if(qSat) {
+                qSat.innerText = `${satisfaccion}%`;
+                qSat.className = `text-xl font-bold ${satisfaccion < 80 ? 'text-orange-400' : 'text-emerald-400'}`;
+            }
+            const qDisp = document.getElementById('q-dispensado');
+            if(qDisp) qDisp.innerText = `${Math.round(avgDisp).toLocaleString()} u`;
+        }
 
     }
 
