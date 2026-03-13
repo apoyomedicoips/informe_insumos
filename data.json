@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "fecha_generacion": "2026-03-13 14:30:34",
+    "fecha_corte": "2026-03-11"
+  },
+  "resumen_general": [
+    {
+      "tipo": "MEDICAMENTO",
+      "categoria": "Sin existencia",
+      "items": 53,
+      "recetado_prom": 37079.50238095238,
+      "dispensado_prom": 893.2857142857142,
+      "stock_total": 0.0,
+      "eventuales": 27
+    },
+    {
+      "tipo": "MEDICAMENTO",
+      "categoria": "Stock crítico",
+      "items": 5,
+      "recetado_prom": 2781.1,
+      "dispensado_prom": 186.07142857142858,
+      "stock_total": 2011.0,
+      "eventuales": 2
+    },
+    {
+      "tipo": "MEDICAMENTO",
+      "categoria": "Stock bajo",
+      "items": 9,
+      "recetado_prom": 258.79047619047617,
+      "dispensado_prom": 200.76190476190476,
+      "stock_total": 1082.0,
+      "eventuales": 3
+    },
+    {
+      "tipo": "MEDICAMENTO",
+      "categoria": "Adecuado",
+      "items": 148,
+      "recetado_prom": 30498.94761904762,
+      "dispensado_prom": 24261.10714285714,
+      "stock_total": 14231349.0,
+      "eventuales": 40
+    },
+    {
+      "tipo": "INSUMO",
+      "categoria": "Sin existencia",
+      "items": 26,
+      "recetado_prom": 10561.930952380952,
+      "dispensado_prom": 173.14285714285714,
+      "stock_total": 0.0,
+      "eventuales": 16
+    },
+    {
+      "tipo": "INSUMO",
+      "categoria": "Stock crítico",
+      "items": 2,
+      "recetado_prom": 520.25,
+      "dispensado_prom": 400.0,
+      "stock_total": 960.0,
+      "eventuales": 1
+    },
+    {
+      "tipo": "INSUMO",
+      "categoria": "Stock bajo",
+      "items": 3,
+      "recetado_prom": 3551.25,
+      "dispensado_prom": 3535.0,
+      "stock_total": 16647.0,
+      "eventuales": 3
+    },
+    {
+      "tipo": "INSUMO",
+      "categoria": "Adecuado",
+      "items": 39,
+      "recetado_prom": 6897.354761904762,
+      "dispensado_prom": 6024.833333333333,
+      "stock_total": 484067.0,
+      "eventuales": 10
+    }
+  ],
+  "alertas_criticas": {
+    "medicamentos": [
+      {
+        "producto": "CLORHEXIDINA GLUCONATO 4%",
+        "codigo": 10000564,
+        "farmacia": 2041.0,
+        "stock": 1813.0,
+        "cobertura": 0.6943699731903485,
+        "sugerencia": 52736.03386101253
+      },
+      {
+        "producto": "SOL GLUCOSADA ISOTÓNICA 5% SC 1000ML",
+        "codigo": 10000534,
+        "farmacia": 2041.0,
+        "stock": 120.0,
+        "cobertura": 2.0,
+        "sugerencia": 964.1707508168138
+      },
+      {
+        "producto": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
+        "codigo": 10000226,
+        "farmacia": 2189.0,
+        "stock": 14.0,
+        "cobertura": 1.6470588235294117,
+        "sugerencia": 160.73495086224275
+      }
+    ],
+    "insumos": [
+      {
+        "producto": "GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1/2",
+        "codigo": 11001449,
+        "farmacia": 2041.0,
+        "stock": 950.0,
+        "cobertura": 1.9989479221462387,
+        "sugerencia": 7536.555902644928
+      }
+    ]
+  },
+  "tendencia_general": {
+    "fechas": [
+      "15 Dec",
+      "22 Dec",
+      "29 Dec",
+      "05 Jan",
+      "12 Jan",
+      "19 Jan",
+      "26 Jan",
+      "02 Feb",
+      "09 Feb",
+      "16 Feb",
+      "23 Feb",
+      "02 Mar",
+      "09 Mar",
+      "16 Mar"
+    ],
+    "recetado": [
+      727308.72,
+      633111.0,
+      589702.0,
+      617157.0,
+      359409.0,
+      495271.0,
+      405320.0,
+      503787.0,
+      85985.0,
+      537096.0,
+      118267.0,
+      150820.0,
+      436714.0,
+      152957.0
+    ],
+    "dispensado": [
+      431031.72,
+      263853.0,
+      285856.0,
+      294355.0,
+      205650.0,
+      290207.0,
+      226478.0,
+      260571.0,
+      41313.0,
+      246176.0,
+      57779.0,
+      72612.0,
+      244574.0,
+      97350.0
+    ]
+  },
+  "top_criticos_chart": {
+    "medicamentos": [
+      {
+        "codigo": 10000564,
+        "nombre": "CLORHEXIDINA GLUCONATO 4%",
+        "fechas": [
+          "15 Dec",
+          "22 Dec",
+          "29 Dec",
+          "05 Jan",
+          "12 Jan",
+          "19 Jan",
+          "26 Jan",
+          "02 Feb",
+          "09 Feb",
+          "16 Feb",
+          "23 Feb",
+          "02 Mar",
+          "09 Mar",
+          "16 Mar"
+        ],
+        "recetado": [
+          20239.0,
+          226.0,
+          2242.0,
+          12535.0,
+          16186.0,
+          8292.0,
+          7201.0,
+          6268.0,
+          61.0,
+          32304.0,
+          70.0,
+          100.0,
+          4253.0,
+          9110.0
+        ],
+        "dispensado": [
+          125.0,
+          0.0,
+          0.0,
+          401.0,
+          118.0,
+          176.0,
+          121.0,
+          114.0,
+          36.0,
+          196.0,
+          49.0,
+          39.0,
+          150.0,
+          87.0
+        ]
+      },
+      {
+        "codigo": 10000534,
+        "nombre": "SOL GLUCOSADA ISOTÓNICA 5% SC 1000ML",
+        "fechas": [
+          "15 Dec",
+          "22 Dec",
+          "29 Dec",
+          "05 Jan",
+          "12 Jan",
+          "19 Jan",
+          "26 Jan",
+          "02 Feb",
+          "09 Feb",
+          "16 Feb",
+          "23 Feb",
+          "02 Mar",
+          "09 Mar",
+          "16 Mar"
+        ],
+        "recetado": [
+          1240.0,
+          140.0,
+          120.0,
+          280.0,
+          175.0,
+          297.0,
+          360.0,
+          175.0,
+          24.0,
+          145.0,
+          5.0,
+          80.0,
+          79.0,
+          5.0
+        ],
+        "dispensado": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          88.0,
+          85.0,
+          30.0,
+          170.0,
+          24.0,
+          144.0,
+          5.0,
+          46.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "codigo": 10000226,
+        "nombre": "HEPARINA DE BAJO PESO MOLECULAR 60MG INY",
+        "fechas": [
+          "15 Dec",
+          "22 Dec",
+          "29 Dec",
+          "05 Jan",
+          "12 Jan",
+          "19 Jan",
+          "26 Jan",
+          "02 Feb",
+          "09 Feb",
+          "16 Feb",
+          "23 Feb",
+          "02 Mar",
+          "09 Mar",
+          "16 Mar"
+        ],
+        "recetado": [
+          494.0,
+          539.0,
+          411.0,
+          675.0,
+          479.0,
+          508.0,
+          433.0,
+          592.0,
+          99.0,
+          711.0,
+          286.0,
+          393.0,
+          638.0,
+          183.0
+        ],
+        "dispensado": [
+          494.0,
+          539.0,
+          411.0,
+          627.0,
+          467.0,
+          508.0,
+          433.0,
+          577.0,
+          95.0,
+          652.0,
+          248.0,
+          351.0,
+          599.0,
+          176.0
+        ]
+      }
+    ],
+    "insumos": [
+      {
+        "codigo": 11001449,
+        "nombre": "GUANTE QUIRÚRGICO ESTÉRIL Nº 8 1/2",
+        "fechas": [
+          "15 Dec",
+          "22 Dec",
+          "29 Dec",
+          "05 Jan",
+          "12 Jan",
+          "19 Jan",
+          "26 Jan",
+          "02 Feb",
+          "09 Feb",
+          "16 Feb",
+          "23 Feb",
+          "02 Mar",
+          "09 Mar",
+          "16 Mar"
+        ],
+        "recetado": [
+          2350.0,
+          1075.0,
+          950.0,
+          1710.0,
+          938.0,
+          1248.0,
+          1000.0,
+          1810.0,
+          0.0,
+          2022.0,
+          200.0,
+          1700.0,
+          1938.0,
+          600.0
+        ],
+        "dispensado": [
+          1650.0,
+          875.0,
+          550.0,
+          1410.0,
+          720.0,
+          848.0,
+          1000.0,
+          1610.0,
+          0.0,
+          1620.0,
+          200.0,
+          500.0,
+          938.0,
+          350.0
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero Gerencial de Insumos Hospitalarios</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            min-height: 100vh;
+        }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+        }
+        .pulse-critical {
+            animation: pulse-red 2s infinite;
+        }
+        @keyframes pulse-red {
+            0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+        .hidden-auth { display: none !important; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Pantalla de Login -->
+    <div id="login-screen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900 bg-opacity-95 backdrop-blur-sm">
+        <div class="glass-panel p-8 rounded-2xl w-full max-w-md mx-4 transform transition-all">
+            <div class="text-center mb-8">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-500/20 text-blue-400 mb-4">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                </div>
+                <h2 class="text-3xl font-bold text-white mb-2">Acceso Seguro</h2>
+                <p class="text-slate-400">Portal de Mando Logístico Institucional</p>
+            </div>
+            
+            <form id="login-form" class="space-y-6">
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Usuario</label>
+                    <input type="text" id="username" class="w-full bg-slate-800/50 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors" placeholder="Ingrese su usuario">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Contraseña</label>
+                    <input type="password" id="password" class="w-full bg-slate-800/50 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors" placeholder="••••••••">
+                </div>
+                <div id="login-error" class="hidden text-red-400 text-sm text-center">Credenciales incorrectas. Intente nuevamente.</div>
+                <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold py-3 px-4 rounded-lg shadow-lg transform hover:-translate-y-0.5 transition-all">
+                    Ingresar al Tablero
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contenido del Dashboard -->
+    <div id="dashboard-content" class="hidden-auth flex h-screen overflow-hidden">
+        
+        <!-- Sidebar -->
+        <aside class="w-64 glass-panel border-r border-slate-700/50 hidden md:flex flex-col">
+            <div class="h-16 flex items-center px-6 border-b border-slate-700/50">
+                <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">Logística IPS</span>
+            </div>
+            <div class="flex-1 overflow-y-auto py-4">
+                <nav class="px-4 space-y-2">
+                    <a href="#" class="flex items-center gap-3 px-4 py-3 rounded-lg bg-blue-500/10 text-blue-400 font-medium">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+                        Vista General
+                    </a>
+                    <a href="#alertas" class="flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-slate-800/50 text-slate-300 transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        Alertas Críticas
+                    </a>
+                </nav>
+            </div>
+            <div class="p-4 border-t border-slate-700/50">
+                <p id="fecha-corte-text" class="text-xs text-slate-400 text-center">Actualizado: Cargando...</p>
+                <button id="btn-logout" class="mt-4 w-full px-4 py-2 mt-2 text-sm text-slate-300 hover:text-white border border-slate-600 hover:bg-slate-700 rounded transition-colors">Cerrar Sesión</button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 flex flex-col overflow-hidden relative">
+            <header class="h-16 glass-panel border-b border-slate-700/50 flex items-center justify-between px-6 z-10">
+                <h1 class="text-xl font-semibold text-white">Panel de Inteligencia de Inventarios</h1>
+                <div class="flex items-center gap-4">
+                    <span class="flex h-3 w-3 relative">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                    </span>
+                    <span class="text-sm font-medium text-emerald-400">Sistema Activo</span>
+                </div>
+            </header>
+
+            <div class="flex-1 overflow-y-auto p-6 scroll-smooth">
+                
+                <!-- KPI Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8" id="kpi-container">
+                    <!-- Dinámico por JS -->
+                    <div class="glass-panel p-6 rounded-xl animate-pulse"><div class="h-16 bg-slate-700 rounded"></div></div>
+                    <div class="glass-panel p-6 rounded-xl animate-pulse"><div class="h-16 bg-slate-700 rounded"></div></div>
+                    <div class="glass-panel p-6 rounded-xl animate-pulse"><div class="h-16 bg-slate-700 rounded"></div></div>
+                    <div class="glass-panel p-6 rounded-xl animate-pulse"><div class="h-16 bg-slate-700 rounded"></div></div>
+                </div>
+
+                <!-- Main Chart Area -->
+                <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 mb-8">
+                    <div class="xl:col-span-2 glass-panel p-6 rounded-xl">
+                        <div class="flex justify-between items-center mb-4">
+                            <h2 class="text-lg font-semibold text-white">Tendencia Global (Últimos 3 Meses)</h2>
+                        </div>
+                        <div class="h-80 w-full relative">
+                            <canvas id="mainTrendChart"></canvas>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-panel p-6 rounded-xl flex flex-col">
+                        <h2 class="text-lg font-semibold text-white mb-4">Métricas Rápidas</h2>
+                        <div class="flex-1 space-y-4" id="quick-metrics">
+                            <!-- JS fill -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tables Section -->
+                <h2 id="alertas" class="text-2xl font-bold text-white mb-6 pt-4 border-t border-slate-700/50">Monitoreo de Quiebres y Riesgos</h2>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Tabla Meds -->
+                    <div class="glass-panel rounded-xl flex flex-col overflow-hidden">
+                        <div class="px-6 py-4 border-b border-slate-700/50 bg-red-900/20">
+                            <h3 class="font-semibold text-red-400 flex items-center gap-2">
+                                <span class="pulse-critical w-2 h-2 rounded-full bg-red-500"></span>
+                                Top 20 Medicamentos Críticos
+                            </h3>
+                        </div>
+                        <div class="flex-1 overflow-auto max-h-[400px]">
+                            <table class="w-full text-sm text-left text-slate-300">
+                                <thead class="text-xs text-slate-400 uppercase bg-slate-800/80 sticky top-0">
+                                    <tr>
+                                        <th class="px-4 py-3">Código</th>
+                                        <th class="px-4 py-3">Producto</th>
+                                        <th class="px-4 py-3 text-right">Cobertura</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-meds-criticos" class="divide-y divide-slate-700/50">
+                                    <!-- JS Fill -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Tabla Ins -->
+                    <div class="glass-panel rounded-xl flex flex-col overflow-hidden">
+                        <div class="px-6 py-4 border-b border-slate-700/50 bg-orange-900/20">
+                            <h3 class="font-semibold text-orange-400 flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-orange-500"></span>
+                                Top 20 Insumos Críticos
+                            </h3>
+                        </div>
+                        <div class="flex-1 overflow-auto max-h-[400px]">
+                            <table class="w-full text-sm text-left text-slate-300">
+                                <thead class="text-xs text-slate-400 uppercase bg-slate-800/80 sticky top-0">
+                                    <tr>
+                                        <th class="px-4 py-3">Código</th>
+                                        <th class="px-4 py-3">Producto</th>
+                                        <th class="px-4 py-3 text-right">Cobertura</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-ins-criticos" class="divide-y divide-slate-700/50">
+                                    <!-- JS Fill -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <footer class="mt-12 py-6 border-t border-slate-700/50 text-center text-slate-500 text-sm">
+                    &copy; 2026 Apoyo Médico IPS. Tablero interactivo derivado de datos transaccionales SAP.
+                </footer>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts de Lógica y Gráficos -->
+    <script src="app.js"></script>
+</body>
+</html>
