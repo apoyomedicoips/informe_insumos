@@ -277,19 +277,35 @@ document.addEventListener('DOMContentLoaded', () => {
         window.vadSortAsc = true;
         
         // Essential items local memory
-        let esencialesStr = localStorage.getItem('esenciales_hospital') || '[]';
-        window.esencialesMeds = new Set(JSON.parse(esencialesStr));
-
-        window.toggleEsencial = (cod) => {
-            cod = String(cod);
-            if(window.esencialesMeds.has(cod)) {
-                window.esencialesMeds.delete(cod);
-            } else {
-                window.esencialesMeds.add(cod);
+        window.esencialesMeds = new Set();
+        try {
+            const esencialesStr = localStorage.getItem('esenciales_hospital') || '[]';
+            const parsed = JSON.parse(esencialesStr);
+            if (Array.isArray(parsed)) {
+                parsed.forEach(c => window.esencialesMeds.add(String(c)));
             }
-            localStorage.setItem('esenciales_hospital', JSON.stringify([...window.esencialesMeds]));
-            applyVadFiltersAndSort(); // Re-render table
-        };
+        } catch (e) {
+            console.warn('LocalStorage unavailable for essential memory');
+        }
+
+        // Toggler via Event Delegation
+        if (vadTable) {
+            vadTable.addEventListener('click', (e) => {
+                const btn = e.target.closest('.esencial-btn');
+                if (btn) {
+                    const cod = String(btn.getAttribute('data-cod'));
+                    if (window.esencialesMeds.has(cod)) {
+                        window.esencialesMeds.delete(cod);
+                    } else {
+                        window.esencialesMeds.add(cod);
+                    }
+                    try {
+                        localStorage.setItem('esenciales_hospital', JSON.stringify([...window.esencialesMeds]));
+                    } catch(err) {}
+                    applyVadFiltersAndSort(); // Re-render table
+                }
+            });
+        }
 
         const renderVademecum = (filteredData) => {
             if(!vadTable) return;
@@ -307,7 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <td class="px-4 py-3 text-slate-200">${prod}</td>
                     <td class="px-4 py-3 text-slate-400 text-xs">${item.tipo || ''}</td>
                     <td class="px-4 py-3 text-slate-400 text-xs">${item.estado || ''}</td>
-                    <td class="px-4 py-3 cursor-pointer transition-colors hover:scale-110 ${starColor}" onclick="toggleEsencial('${item.codigo}')" title="Marcar/Desmarcar como Esencial">${starIcon}</td>
+                    <td class="px-4 py-3 cursor-pointer transition-colors hover:scale-110 esencial-btn ${starColor}" data-cod="${item.codigo}" title="Marcar/Desmarcar como Esencial">${starIcon}</td>
                     <td class="px-4 py-3 text-slate-400 text-xs">${item.unidad || 'UND'}</td>
                 </tr>`;
             }).join('');
